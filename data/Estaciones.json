@@ -1,8 +1,10 @@
 {
     "San Pablo":{
         "post":{
-            "a2":{
-                "text":"Como estación terminal de la Línea 1 de la Red por el sector poniente, fue una de las estaciones iniciales del sistema, siendo inaugurada el 15 de septiembre de 1975. En enero de 2010 fue inaugurada la ampliación de la estación para poder hacer conexión con la Línea 5. La estación, actualmente cuenta con una superficie de 5200 m², los cuales se ubican bajo tierra (sector de Línea 5) y a ras de suelo (sector de Línea 1).<br>Hasta el año 2010, la estación presentaba un flujo moderado de pasajeros, ya que no existía ninguna atracción cercana más que pasajeros que iban desde ese sector hasta el centro de Santiago y viceversa. Sin embargo, con la puesta en marcha del plan Transantiago y la extensión de la Línea 5, el tráfico de pasajeros se ha multiplicado, especialmente en las horas punta, llevando incluso al colapso de la estación en varias ocasiones. La estación posee una afluencia diaria promedio de 34 803 pasajeros."
+            "a1":{
+                "a1":{
+                    "text":"Como estación terminal de la Línea 1 de la Red por el sector poniente, fue una de las estaciones iniciales del sistema, siendo inaugurada el 15 de septiembre de 1975. En enero de 2010 fue inaugurada la ampliación de la estación para poder hacer conexión con la Línea 5. La estación, actualmente cuenta con una superficie de 5200 m², los cuales se ubican bajo tierra (sector de Línea 5) y a ras de suelo (sector de Línea 1).<br>Hasta el año 2010, la estación presentaba un flujo moderado de pasajeros, ya que no existía ninguna atracción cercana más que pasajeros que iban desde ese sector hasta el centro de Santiago y viceversa. Sin embargo, con la puesta en marcha del plan Transantiago y la extensión de la Línea 5, el tráfico de pasajeros se ha multiplicado, especialmente en las horas punta, llevando incluso al colapso de la estación en varias ocasiones. La estación posee una afluencia diaria promedio de 34 803 pasajeros."
+                }
             }
         },
         "linea":["Linea_1","Linea_5"],
@@ -12,10 +14,12 @@
     "Neptuno":{
         "post":{
             "a1":{
-                "text":"Neptuno es una estación ferroviaria que forma parte de la red del Metro de Santiago de Chile. Está en una trinchera al aire libre, entre las estaciones San Pablo y Pajaritos de la Línea 1, en la comuna de Lo Prado. Debido a que se encuentran uno de los talleres de la red en la estación, es común ver trenes que salen o entran desde las cocheras para empezar a hacer servicio de pasajeros. "
-            },
-            "a2":{
-                "text":"Su nombre proviene de la Avenida Neptuno, que circula paralela al trazado del ferrocarril. El nombre de esta avenida recuerda a Neptuno, dios del mar según la mitología romana. En la época cuando el Metro de Santiago utilizaba iconografías para identificar sus estaciones, ésta aludía al dios latino a través de un tridente con dos peces."
+                "a1":{
+                    "text":"Neptuno es una estación ferroviaria que forma parte de la red del Metro de Santiago de Chile. Está en una trinchera al aire libre, entre las estaciones San Pablo y Pajaritos de la Línea 1, en la comuna de Lo Prado. Debido a que se encuentran uno de los talleres de la red en la estación, es común ver trenes que salen o entran desde las cocheras para empezar a hacer servicio de pasajeros. "
+                },
+                "a2":{
+                    "text":"Su nombre proviene de la Avenida Neptuno, que circula paralela al trazado del ferrocarril. El nombre de esta avenida recuerda a Neptuno, dios del mar según la mitología romana. En la época cuando el Metro de Santiago utilizaba iconografías para identificar sus estaciones, ésta aludía al dios latino a través de un tridente con dos peces."
+                }
             }
         },
         "linea":["Linea_1"],
@@ -37,17 +41,20 @@
     "Ecuador":{
         "post":{
             "a1":{
-                "text":"Ecuador es una estación ferroviaria subterránea que forma parte de la red del metro de Santiago de Chile; se encuentra entre las estaciones Las Rejas y San Alberto Hurtado de la línea 1, en la Alameda Bernardo O'Higgins a la altura del 4.600, comuna de Estación Central. Su nombre se debe a la proximidad con la Avenida Ecuador. "
+                "a1":{"text":"Ecuador es una estación ferroviaria subterránea que forma parte de la red del metro de Santiago de Chile; se encuentra entre las estaciones Las Rejas y San Alberto Hurtado de la línea 1, en la Alameda Bernardo O'Higgins a la altura del 4.600, comuna de Estación Central. Su nombre se debe a la proximidad con la Avenida Ecuador. "}
             },
             "a2":{
+                "a2":{
                 "title":"MetroArte"
-            },
-            "a3":{
-                "img":"Ecuador/ecuador1.jpg"
-            },
-            "a4":{
-                "text":"Autor: Niños Taller Teletón guiado por Jorge Artus<br>Fecha: 2008<br>Fue el primer niño símbolo de la Teletón y hoy es un pintor de un estilo muy definido y de una incansable capacidad de gestión. Fue Artus quien movilizó a todas las personas que fue necesario para conseguir un espacio en una estación de Metro para crear una obra. Cuando finalmente lo consiguió, desistió de su idea original y prefirió invitar a los niños del Taller de Arte de la Teletón a crear estos cuatro murales ubicados en la estación Ecuador, la que lleva precisamente hasta el Instituto de Rehabilitación Infantil de Santiago."
+                },
+                "a3":{
+                    "img":"Ecuador/ecuador1.jpg"
+                },
+                "a4":{
+                    "text":"Autor: Niños Taller Teletón guiado por Jorge Artus<br>Fecha: 2008<br>Fue el primer niño símbolo de la Teletón y hoy es un pintor de un estilo muy definido y de una incansable capacidad de gestión. Fue Artus quien movilizó a todas las personas que fue necesario para conseguir un espacio en una estación de Metro para crear una obra. Cuando finalmente lo consiguió, desistió de su idea original y prefirió invitar a los niños del Taller de Arte de la Teletón a crear estos cuatro murales ubicados en la estación Ecuador, la que lleva precisamente hasta el Instituto de Rehabilitación Infantil de Santiago."
+                }
             }
+            
         },
         "linea":["Linea_1"],
         "Ubicación":"Alameda con Purísima",
@@ -146,58 +153,149 @@
     "Tobalaba":{
         "post":{
             "a0":{
-                "text":"Tobalaba es una estación de combinación ferroviaria y terminal que forma parte de las líneas 1 y 4 de la red del metro de Santiago de Chile. Se encuentra por subterráneo entre las estaciones Los Leones y El Golf (L1) y antecede a la estación Cristóbal Colón (L4). La estación se ubica en el límite entre las comunas de Las Condes y Providencia. Es la estación con mayor flujo de pasajeros de toda la red, registrando alrededor de 23 millones en 2016 y más de 84.000 pasajeros diarios."
+                "a1":{
+                    "text":"Tobalaba es una estación de combinación ferroviaria y terminal que forma parte de las líneas 1 y 4 de la red del metro de Santiago de Chile. Se encuentra por subterráneo entre las estaciones Los Leones y El Golf (L1) y antecede a la estación Cristóbal Colón (L4). La estación se ubica en el límite entre las comunas de Las Condes y Providencia. Es la estación con mayor flujo de pasajeros de toda la red, registrando alrededor de 23 millones en 2016 y más de 84.000 pasajeros diarios."
+                }
             },
-            "a1":{
-                "title":"MUT"
+            "MUT":{
+                "a1":{
+                    "title":"MUT"
+                },
+                "a2":{
+                    "img":"mut/F1.jpg"
+                },
+                "a1.1.1":{
+                    "desc":"<strong>Fecha: </strong> 13 de Julio de 2023. <br> <strong>Dirección: </strong> Av. Apoquindo 2730, Santiago de Chile.<br><strong>Extención: </strong> 160.000 m2<br><br><strong>Territoria</strong><br><strong>Arquitectura Conceptual Fase 1: </strong> KPF.<br><strong>Desarrollo de proyecto: </strong>Mobil, Seggiario<br><strong>Diseño Conceptual: </strong>Tony Chil.<br><strong>Diseño Mercado: </strong>Ray Chen.<br><strong>Diseño: </strong>CQ(Agustín Quiroga).<br><strong>Paisajismo: </strong>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
+                },
+                "a1.1":{
+                    "text":"El proyecto arquitectónico, se sitúa en el emergente centro de negocios de Santiago, Chile, en la confluencia de las comunas de Las Condes y Providencia. Este ambicioso desarrollo, conocido como MUT, abarca la totalidad de la manzana conformada por Apoquindo, Encomenderos, Roger de Flor y el Bosque. Diseñado bajo un novedoso concepto de mercado, MUT fusiona gastronomía, cultura, oficinas y comercios en armonía con jardines, plazas y modos de transporte sostenibles. Su visión se orienta a anticipar el futuro de cómo experimentamos la ciudad, concebida como un campus urbano innovador."
+                },
+                "a4":{
+                    "img":"mut/F2.jpg"
+                },
+                "a3.1":{
+                    "subTitle":"3 ejes"
+                },
+                "a3":{
+                    "text":"El proyecto incorpora un sólido plan de sostenibilidad articulado en tres ejes fundamentales: plazas y áreas verdes, transporte limpio e innovaciones para el uso eficiente de los recursos naturales, incluyendo un programa de basura cero. Más de 20 mil metros cuadrados de áreas verdes, plazas y jardines se integran con oficinas y espacios interiores, destacando el Jardín del Mercado en el tercer piso como el epicentro del proyecto. Este jardín urbano albergará especies productivas y huertas estacionales, promoviendo el cultivo comunitario y contribuyendo a la absorción de 50 toneladas de CO2 al año."
+                },
+                "a5":{
+                    "text":"En línea con la pirámide invertida de movilidad, que prioriza al peatón y los modos no motorizados, MUT busca desincentivar el uso del automóvil y fomentar la caminata, la bicicleta y el transporte público. El peatón es el protagonista del espacio, con accesibilidad mejorada mediante galerías internas y una mezcla de usos concentrados en una sola manzana para facilitar la movilidad. Se reduce al mínimo la cantidad de estacionamientos de autos, dando lugar al Bici Hub más grande de Santiago, con espacio para 2000 bicicletas y servicios complementarios. Además, se amplía la Estación de Metro Tobalaba, priorizando la conexión subterránea y agregando tres nuevos accesos, todo en un esfuerzo por reducir las emisiones de CO2 y enfocarse en un diseño centrado en las personas, no en sus vehículos."
+                },
+                "a5.1":{
+                    "img":"mut/F3.jpg"
+                },
+                "a5.2":{
+                    "img":"mut/F4.jpg"
+                },
+                "a6":{
+                    "text":"Dentro del plan de sostenibilidad del proyecto, el equipo de MUT destaca el papel crucial de la tecnología para minimizar el impacto ambiental en términos de energía, agua y residuos. El 100% de la energía utilizada provendrá de fuentes renovables no convencionales como la eólica, hidráulica y solar. Para lograr ahorros energéticos significativos, se implementará la climatización geotérmica, aprovechando la temperatura de las aguas subterráneas sin consumirlas. Además, gracias a perforaciones estratégicas y entradas de luz, el 75% de los espacios interiores se beneficiarán de ventilación y luz natural, lo que se traduce en una reducción del consumo de energía del 32%."
+                },
+                "a7":{
+                    "text":"En relación con el agua, se prioriza la utilización de agua 100% reciclada o reutilizada para el riego de áreas verdes, almacenando aguas lluvia, capturando humedad ambiental y reciclando aguas grises. Este enfoque permite ahorrar 7 millones de litros de agua al año y reduce aproximadamente un 50% del consumo de agua potable sanitaria. En cuanto a los residuos, se implementa un programa de <strong>cero basura</strong>, basado en la valorización de residuos mediante reutilización, reciclaje y transformación. Un biodigestor transformará los residuos orgánicos en biogás, utilizado tanto para cocinar como fertilizante para los jardines, evitando que las 15 toneladas diarias de basura terminen en vertederos."
+                },
+                "a7.1":{
+                    "img":"mut/F5.jpg"
+                },
+                "a8":{
+                    "text":"En el marco de un Nuevo Urbanismo y una redefinición de cómo vivimos la ciudad, es crucial cuestionarnos la naturaleza de los proyectos arquitectónicos actuales y futuros. La propuesta innovadora de MUT en áreas verdes, movilidad y tecnología parece señalar el camino adecuado. Al centrarse en la sostenibilidad como medio para mejorar la experiencia urbana, el proyecto sugiere dónde deben estar las prioridades al diseñar la ciudad contemporánea. Existe un potencial significativo para replicar estos principios a mayor escala, desencadenando un desarrollo urbano sostenible."
+                },
+                "a9":{
+                    "img":"mut/F6.jpg"
+                },
+                "a10":{
+                    "subTitle":"Metro"
+                },
+                "a11":{
+                    "text":"Esta semana se inauguró la conexión entre el Museo de Transporte Urbano (MUT) y la estación Tobalaba, una importante intersección de las líneas 4 y 1 del metro con un tráfico considerable, alcanzando las 50 mil personas por hora en los horarios pico y recibiendo anualmente a 23 millones de usuarios. La nueva conexión no solo facilita el acceso directo al MUT, sino que también añade tres nuevos accesos a Tobalaba, contribuyendo a aliviar la congestión en la estación. El proyecto, impulsado por el interés del metro en promover la intermodalidad, incorpora 2 mil estacionamientos para bicicletas en el MUT, incentivando la combinación de medios de transporte. Además, se planea extender esta iniciativa a todas las estaciones de la línea de metro en el próximo año. La conexión también incluirá espacios para exhibiciones culturales y vitrinas para artistas, con una inversión total de US$ 17 millones."
+                }
             },
-            "a2":{
-                "img":"mut/F1.jpg"
+            "Costanera":{
+                "a1":{
+                    "title":"Gran Torre Santiago"
+                },
+                "a2":{
+                    "desc":"<strong>Fecha: </strong>2013<br><strong>Altura: </strong>300m<br><strong>Área: </strong> 107.125 m2<br><strong>Dirección: </strong>Av. Andrés Bello 2425, 7510689 Providencia, Región Metropolitana<br><br><strong>Arquitecto: </strong>Cesar Pelli, Watt Internacional y Alemparte Barreda Arquitectos. <br><strong>Ingeniero: </strong>Thornton y Tomasetti.<br><strong>Ingeniero estructural: </strong>René Lagos y Asociados Ing. Civiles Ltda.<br><strong>Constructora: </strong>Salfa Corp."
+                },
+                "a3":{
+                    "text":"La Gran Torre Santiago, originalmente conocida como Torre Gran Costanera, forma parte del Costanera Center, un complejo que aspira a convertirse en una mini ciudad, construyendo en los 47.000m² de terreno disponibles un centro comercial y otras tres torres en las que se ubicarán principalmente oficinas, pero también supermercados, tiendas, restaurantes, 2 hoteles cinco estrellas, estacionamiento, un helipuerto, un parque en altura, un centro médico y espacios de ocio."
+                },
+                "a4":{
+                    "text":"El complejo estará formado en el momento de su finalización por cuatro edificios de altura y uno más bajo, 6 plantas, que alberga el centro comercial. La más pequeña de las torres con una altura de 109m, otras dos torres alcanzarán los 160 y 165m respectivamente y el elemento más notable del proyecto, la Gran Torre Santiago, diseño del arquitecto César Pelli, asociado con los arquitectos chilenos Alemparte Barreda Arquitectos y la empresa canadiense Watt Internacional, que alcanza los 300m y sigue la línea utilizada por el arquitecto en el diseño de la Torre de Cristal y las 2 Torres Shanghai IFC. Esta torre se ha convertido en la más alta de Sudamérica y segunda del hemisferio sur detrás de la Torre Q1 en Australia, siendo su inauguración oficial prevista, después de numerosas postergaciones, para el 2014 pese a que el edificio quedó terminado en el 2013."
+                },
+                "a5":{
+                    "subTitle":"Concepto"
+                },
+                "a6":{
+                    "text":"Para ser visto delante de las montañas y convertirse en parte de la ciudad, la forma de la torre es simple y clara. Elevándose desde la esquina noroeste del complejo, próximo al Río Mapocho, las 64 plantas de la torre revestida de vidrio tiene una ligera forma cónica, forma delgada que culmina con una escultórica corona de celosía. Es una forma fuerte, capaz de convertirse en un punto de referencia.<br><br>Se trata de un edificio del siglo XXI , tanto a nivel técnico como estético. Está diseñado con sistemas estructurales modernos que revisten de arte la construcción y sistemas mecánicos con capacidad de respuesta al medio ambiente."
+                },
+                "a7":{
+                    "subTitle":"Estructura"
+                },
+                "a8":{
+                    "text":"La Gran Torre fue construida para resistir terremotos. Chile, ubicado en el Anillo de Fuego del Pacífico, es especialmente propenso a los terremotos de gran alcance. El edificio aguantó con gran éxito el terremoto de 8,8ºRichter que devastó gran parte del centro y sur de Chile en 2010, sin sufrir daños estructurales. En la parte superior de la torre, los vientos con velocidades de 122km/hora provocan una oscilación de 35cm. La torre se mueve en el eje contrario a la dirección del viento."
+                },
+                "a9":{
+                    "text":"En el interior desarrolla un sistema estructural de planta libre abrazando un corazón de hormigón armado cuyas losas están rodeadas con pilares perimetrales y donde se concentran los servicios del edificio. Sus foques de revestimiento exterior se componen principalmente de vidrio con revestimientos de alto rendimiento que permiten vistas sin ningún tipo de obstáculos desde el suelo hasta el techo, con sombreados solares inteligentes y marcos de aluminio. Muchas características hacen que el edificio sea catalogado como «verde», desde la elección de los materiales, su diseño de fachada exterior y sus sistemas mecánicos y eléctricos."
+                },
+                "a10":{
+                    "subTitle":"Materiales"
+                },
+                "a11":{
+                    "text":"Los principales materiales utilizados en su construcción han sido acero, vidrio, aluminio y hormigón. Aproximadamente fueron necesarios 72.000 metros cúbicos de hormigón y 20.150 toneladas de acero para la gran estructura."
+                },
+                "a12":{
+                    "subTitle":"Planta de hormigón"
+                },
+                "a13":{
+                    "text":"Se instaló in situ una planta de hormigón que produjo 360m3 de hormigón diarios, abaratando costos y evitando los inconvenientes que provocan en las calles los camiones cuba que transportan dicho material. Es la primera vez que se bombea hormigón a 300m de altura a través de una tubería de 25cm de diámetro."
+                },
+                "a14":{
+                    "subTitle":"Muro cortina"
+                },
+                "a15":{
+                    "text":"Los 50.000m2 del muro cortina que crea la piel que recubre la Gran Torre Santiago, tienen una alta eficacia térmica gracias a su estructura y cámara aislante interior, permitiendo una gran transparencia, entrada de luz natural y ahorro de energía eléctrica. En sud américa no existe hasta la fecha ninguna empresa con capacidad para fabricar esta cantidad de cristales, placas rectangulares, 1.5 x 3.3m, por lo que fue necesario encargarlas a China."
+                }
             },
-            "a1.1.1":{
-                "text":"<strong>Fecha: </strong> 13 de Julio de 2023. <br> <strong>Dirección: </strong> Av. Apoquindo 2730, Santiago de Chile.<br><strong>Extención: </strong> 160.000 m2<br><br><strong>Territoria</strong><br><strong>Arquitectura Conceptual Fase 1: </strong> KPF.<br><strong>Desarrollo de proyecto: </strong>Mobil, Seggiario<br><strong>Diseño Conceptual: </strong>Tony Chil.<br><strong>Diseño Mercado: </strong>Ray Chen.<br><strong>Diseño: </strong>CQ(Agustín Quiroga).<br><strong>Paisajismo: </strong>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
+            "Parque Titanium":{
+                "a1":{
+                    "title":"Parque Titanium"
+                },
+                "a2":{
+                    "desc":"<strong>Fecha: </strong>2014<br><strong>Dirección: </strong>Av. Costanera Andrés Bello 2782, Las Condes<br><strong>Área: </strong>137.585 m2<br><br><strong>Arquitecto: </strong> Abraham Senerman L.<br><strong>Jefe proyecto: </strong>Andrés Weil P.<br><strong>Equipo Desarrollo: </strong>Pablo Aceituno, Pablo Bañados, David Butelman, Rodrigo Chamorro, Vicente Faúndez, Pedro Gil, Juan Francisco Piccardo, José Scacci y Omar Zeballos <br><strong>Ingeniero estructural: </strong> Alfonso Larraín V."
+                },
+                "a3":{
+                    "text":"Parque Titanium es un conjunto que persigue una arquitectura más eficiente en lo energético y amigable con el medio ambiente. El conjunto recupera un paño urbano decaído, delimitado por el lecho del río Mapocho y la Costanera Sur, para producir una renovación basada en la cooperación público-privada. El complejo, de tres edificios de veintitrés pisos cada uno, descansa sobre un parque público de cuatro hectáreas de extensión, cuyo paisajismo entra en conversación con el río. Las tres torres comparten además un piso zócalo destinado al comercio, sobre el cual se duplica el área de parque gracias a una superficie verde elevada, y bajo el cual se desarrollan cuatro subterráneos comunes a las tres torres, donde también se encuentra un centro de convenciones de gran escala. El conjunto se ha constituido como un modelo, debido a sus estrategias tanto activas como pasivas de buen comportamiento ambiental, entre las cuales figuran la utilización de energía geotérmica asociada a las napas del río, la habilitación de camarines que incentiva el uso de bicicletas en los trabajadores, una planificación de obra que consideró estrategias de prevención de la contaminación, una estructura que utiliza materiales locales (el acero, principalmente), y los interiores más eficientes en lo climático que un edificio normal. Todos estos aspectos aseguraron la certificación LEED Gold v3 de Parque Titanium."
+                },
+                "a4":{
+                    "subTitle":"Materiales"
+                },
+                "a5":{
+                    "text":"Los edificios están construidos principalmente en hormigón armado con un núcleo central rígido y un marco perimetral flexible de columnas circulares unidos por losas postensadas. El cristal es el material de cerramiento predominante en las fachadas, Low E, lo que permite controlar y disminuir el impacto en su interior de los RUV. Cada torre independiente, posee un núcleo de ascensores que distribuye eficientemente la circulación de los usuarios, dejando libre las áreas perimetrales, favoreciendo la iluminación natural de los espacios de oficinas."
+                },
+                "a6":{
+                    "subTitle":"Geotermia"
+                },
+                "a7":{
+                    "text":"La infiltración de aguas subterráneas del río Mapocho, se transformó en una gran oportunidad para el ahorro energético del complejo, ya que permitió proyectar el sistema de climatización utilizando la inercia térmica de la tierra almacenada en el agua subterránea, conocido como geotermia. Esta innovación, que recién se está aplicando en Chile, consiste en la utilización de la energía proveniente de las aguas ubicadas a nivel de los subterráneos, entre los 11 y 15 metros de profundidad, aguas que mantienen una temperatura promedio de 15ºc. Con ello, los edificios, tienen importantes ahorros en su operación."
+                }
             },
-            "a1.1":{
-                "text":"El proyecto arquitectónico, se sitúa en el emergente centro de negocios de Santiago, Chile, en la confluencia de las comunas de Las Condes y Providencia. Este ambicioso desarrollo, conocido como MUT, abarca la totalidad de la manzana conformada por Apoquindo, Encomenderos, Roger de Flor y el Bosque. Diseñado bajo un novedoso concepto de mercado, MUT fusiona gastronomía, cultura, oficinas y comercios en armonía con jardines, plazas y modos de transporte sostenibles. Su visión se orienta a anticipar el futuro de cómo experimentamos la ciudad, concebida como un campus urbano innovador."
-            },
-            "a4":{
-                "img":"mut/F2.jpg"
-            },
-            "a3.1":{
-                "subTitle":"3 ejes"
-            },
-            "a3":{
-                "text":"El proyecto incorpora un sólido plan de sostenibilidad articulado en tres ejes fundamentales: plazas y áreas verdes, transporte limpio e innovaciones para el uso eficiente de los recursos naturales, incluyendo un programa de basura cero. Más de 20 mil metros cuadrados de áreas verdes, plazas y jardines se integran con oficinas y espacios interiores, destacando el Jardín del Mercado en el tercer piso como el epicentro del proyecto. Este jardín urbano albergará especies productivas y huertas estacionales, promoviendo el cultivo comunitario y contribuyendo a la absorción de 50 toneladas de CO2 al año."
-            },
-            "a5":{
-                "text":"En línea con la pirámide invertida de movilidad, que prioriza al peatón y los modos no motorizados, MUT busca desincentivar el uso del automóvil y fomentar la caminata, la bicicleta y el transporte público. El peatón es el protagonista del espacio, con accesibilidad mejorada mediante galerías internas y una mezcla de usos concentrados en una sola manzana para facilitar la movilidad. Se reduce al mínimo la cantidad de estacionamientos de autos, dando lugar al Bici Hub más grande de Santiago, con espacio para 2000 bicicletas y servicios complementarios. Además, se amplía la Estación de Metro Tobalaba, priorizando la conexión subterránea y agregando tres nuevos accesos, todo en un esfuerzo por reducir las emisiones de CO2 y enfocarse en un diseño centrado en las personas, no en sus vehículos."
-            },
-            "a5.1":{
-                "img":"mut/F3.jpg"
-            },
-            "a5.2":{
-                "img":"mut/F4.jpg"
-            },
-            "a6":{
-                "text":"Dentro del plan de sostenibilidad del proyecto, el equipo de MUT destaca el papel crucial de la tecnología para minimizar el impacto ambiental en términos de energía, agua y residuos. El 100% de la energía utilizada provendrá de fuentes renovables no convencionales como la eólica, hidráulica y solar. Para lograr ahorros energéticos significativos, se implementará la climatización geotérmica, aprovechando la temperatura de las aguas subterráneas sin consumirlas. Además, gracias a perforaciones estratégicas y entradas de luz, el 75% de los espacios interiores se beneficiarán de ventilación y luz natural, lo que se traduce en una reducción del consumo de energía del 32%."
-            },
-            "a7":{
-                "text":"En relación con el agua, se prioriza la utilización de agua 100% reciclada o reutilizada para el riego de áreas verdes, almacenando aguas lluvia, capturando humedad ambiental y reciclando aguas grises. Este enfoque permite ahorrar 7 millones de litros de agua al año y reduce aproximadamente un 50% del consumo de agua potable sanitaria. En cuanto a los residuos, se implementa un programa de <strong>cero basura</strong>, basado en la valorización de residuos mediante reutilización, reciclaje y transformación. Un biodigestor transformará los residuos orgánicos en biogás, utilizado tanto para cocinar como fertilizante para los jardines, evitando que las 15 toneladas diarias de basura terminen en vertederos."
-            },
-            "a7.1":{
-                "img":"mut/F5.jpg"
-            },
-            "a8":{
-                "text":"En el marco de un Nuevo Urbanismo y una redefinición de cómo vivimos la ciudad, es crucial cuestionarnos la naturaleza de los proyectos arquitectónicos actuales y futuros. La propuesta innovadora de MUT en áreas verdes, movilidad y tecnología parece señalar el camino adecuado. Al centrarse en la sostenibilidad como medio para mejorar la experiencia urbana, el proyecto sugiere dónde deben estar las prioridades al diseñar la ciudad contemporánea. Existe un potencial significativo para replicar estos principios a mayor escala, desencadenando un desarrollo urbano sostenible."
-            },
-            "a9":{
-                "img":"mut/F6.jpg"
-            },
-            "a10":{
-                "subTitle":"Metro"
-            },
-            "a11":{
-                "text":"Esta semana se inauguró la conexión entre el Museo de Transporte Urbano (MUT) y la estación Tobalaba, una importante intersección de las líneas 4 y 1 del metro con un tráfico considerable, alcanzando las 50 mil personas por hora en los horarios pico y recibiendo anualmente a 23 millones de usuarios. La nueva conexión no solo facilita el acceso directo al MUT, sino que también añade tres nuevos accesos a Tobalaba, contribuyendo a aliviar la congestión en la estación. El proyecto, impulsado por el interés del metro en promover la intermodalidad, incorpora 2 mil estacionamientos para bicicletas en el MUT, incentivando la combinación de medios de transporte. Además, se planea extender esta iniciativa a todas las estaciones de la línea de metro en el próximo año. La conexión también incluirá espacios para exhibiciones culturales y vitrinas para artistas, con una inversión total de US$ 17 millones."
+            "parqueBicentenario":{
+                "a1":{
+                    "title":"Parque Bicentenario"
+                },
+                "a2":{
+                    "desc":"<strong>Fecha: </strong>2007-2014.<br><strong>Dirección: </strong>Av. Bicentenario 3236, Vitacura, Región Metropolitana.<br><strong>Área: </strong>27 hectaréas<br><br><strong>Arquitecto: </strong>Teodoro Fernández Larrañaga."
+                },
+                "a3":{
+                    "text":"En 2023 un novedoso proyecto comenzó a tomar forma en el parque. Se trata de la implementación del bosque urbano, que involucra 7 hectáreas, en las que se plantaron mil 460 árboles que nos ayudarán a mitigar los efectos del cambio climático."
+                },
+                "a4":{
+                    "text":"Un 80% de estos árboles son nativos, entre los que se encuentran algarrobos, guayacanes, quillay, espinos y huinganes. Estos árboles vienen a complementar a los árboles existentes plantados en el proyecto original del parque. Además, acompañan al río Mapocho como corredor biológico urbano."
+                },
+                "a5":{
+                    "text":"El bosque se encuentra sobre el talud del parque y es acompañado por un sendero con miradores y estares con vistas únicas a la cordillera, el río Mapocho, cerros aledaños, y el parque."
+                }
             }
         },
         "linea":["Linea_1","Linea_4"],

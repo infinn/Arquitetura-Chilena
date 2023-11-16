@@ -63,16 +63,67 @@ function cambioPost(){
 
     /* vvv crea comuna y ubicacion vvv */
     let div = document.createElement("div");
-    div.innerHTML = '<div class="cincuenta"><p>Comuna: '+comuna+'</p></div><div class="cincuenta"><p>Ubicación: '+ubicacion+'</p></div>';
+    div.innerHTML = '<div id="contenedorBajada"><div class="cincuenta"><p>Comuna: '+comuna+'</p></div><div class="cincuenta"><p>Ubicación: '+ubicacion+'</p></div></div>';
     div.setAttribute("id","descripcion");
     padrePost.appendChild(div);
 
     let KeysPost = Object.keys(estacionDatos["post"]);
     let i = 0;
 
+    while (i < keyPost.length){
+        let sec = Object.keys(estacionDatos["post"][KeysPost[i]]);
+        console.log(sec);
+        let e = 0;
+        let post = document.createElement("article");
+        while (e < sec.length){
+            tipo = Object.keys(estacionDatos["post"][KeysPost[i]][sec[e]]);
+            console.log(tipo[0]);
+            if(tipo[0] == "text"){
+                let articulo = document.createElement("div");
+                articulo.innerHTML = '<p>'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</p>';
+                articulo.setAttribute("id","text");
+                post.appendChild(articulo);
+                e += 1;
+            }  else if(tipo[0] == "title"){
+                let articulo = document.createElement("div");
+                articulo.innerHTML = '<h2 id="title">'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</h2>';
+                articulo.setAttribute("id","title");
+                post.appendChild(articulo);
+                e += 1;
+            }   else if(tipo[0] == "img"){
+                let articulo = document.createElement("div");
+                articulo.innerHTML = '<img src="fotos/'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'">';
+                articulo.setAttribute("id","img");
+                post.appendChild(articulo);
+                e += 1;
+            }  else if(tipo[0] == "subTitle"){
+                let articulo = document.createElement("div");
+                articulo.innerHTML = '<h2>'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</h2>';
+                articulo.setAttribute("id","subTitle");
+                post.appendChild(articulo);
+                e += 1;
+            }   else if(tipo[0] == "desc"){
+                let articulo = document.createElement("div");
+                articulo.innerHTML = '<p id="desc">'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</p>';
+                articulo.setAttribute("id","text");
+                post.appendChild(articulo);
+                e += 1;
+            } else {
+                e += 1;
+            };
+        };
+        padrePost.appendChild(post);
+        i += 1;
+    }
+
+    /* 
     while (i < KeysPost.length){
-        let tipo = Object.keys(estacionDatos["post"][KeysPost[i]]); /* para saber el tipo -> tipo[0] */
-        console.log(tipo[0]);
+        let sec = Object.keys(estacionDatos["post"][KeysPost[i]]);  para saber el tipo -> tipo[0] 
+        console.log(sec[0]);
+        let e = 0;
+        while (e < sec[e]){
+            e += 1;
+        };
         if(tipo[0] == "text"){
             let articulo = document.createElement("div");
             articulo.innerHTML = '<p>'+estacionDatos["post"][KeysPost[i]][tipo[0]]+'</p>';
@@ -101,4 +152,5 @@ function cambioPost(){
             i += 1;
         };
     };
+        */
 };
