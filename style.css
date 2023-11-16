@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.maps{
+    display: flex;
+}
+select{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    margin: 1rem;
+}
+img{
+    width: 100%;
+}
+#content{
+    width: 60%;
+    padding: 1rem;
+}
+#top{
+    display: flex;
+    color: white;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+#titulo{
+    display: flex;
+    width: 40%;
+    position: sticky;
+    top: 0;
+}
+#mapaDiv{
+    width: 49%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+#mapaDiv #Comunas{
+    fill: none;
+    stroke: white;
+    stroke-width: 0.5px;
+}
+#mapaDiv #lineas{
+    stroke: white;
+    stroke-width: 3px;
+    fill: none;
+}
+#mapaDiv #lineas path:hover{
+    stroke-width: 7px;
+}
+#title{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.cincuenta{
+    width: 50%;
+}
+#descripcion{
+    display: flex;
+    font-size: 0.7rem;
+}
+#text{
+    justify-content: right;
+    width: 50%;
+}
+@media screen and (max-width: 800px){
+    #mapaDiv{
+        display: none;
+    }
+    #content{
+        width: 100%;
+    }
+    .maps hr{
+        display: none;
+    }
+}

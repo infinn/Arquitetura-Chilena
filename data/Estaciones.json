@@ -1,0 +1,243 @@
+{
+    "San Pablo":{
+        "post":{
+            "a2":{
+                "text":"Como estación terminal de la Línea 1 de la Red por el sector poniente, fue una de las estaciones iniciales del sistema, siendo inaugurada el 15 de septiembre de 1975. En enero de 2010 fue inaugurada la ampliación de la estación para poder hacer conexión con la Línea 5. La estación, actualmente cuenta con una superficie de 5200 m², los cuales se ubican bajo tierra (sector de Línea 5) y a ras de suelo (sector de Línea 1).<br>Hasta el año 2010, la estación presentaba un flujo moderado de pasajeros, ya que no existía ninguna atracción cercana más que pasajeros que iban desde ese sector hasta el centro de Santiago y viceversa. Sin embargo, con la puesta en marcha del plan Transantiago y la extensión de la Línea 5, el tráfico de pasajeros se ha multiplicado, especialmente en las horas punta, llevando incluso al colapso de la estación en varias ocasiones. La estación posee una afluencia diaria promedio de 34 803 pasajeros."
+            }
+        },
+        "linea":["Linea_1","Linea_5"],
+        "Ubicación":"Av. Neptuno con Reina Maud",
+        "Comuna":"Lo Prado"
+    },
+    "Neptuno":{
+        "post":{
+            "a1":{
+                "text":"Neptuno es una estación ferroviaria que forma parte de la red del Metro de Santiago de Chile. Está en una trinchera al aire libre, entre las estaciones San Pablo y Pajaritos de la Línea 1, en la comuna de Lo Prado. Debido a que se encuentran uno de los talleres de la red en la estación, es común ver trenes que salen o entran desde las cocheras para empezar a hacer servicio de pasajeros. "
+            },
+            "a2":{
+                "text":"Su nombre proviene de la Avenida Neptuno, que circula paralela al trazado del ferrocarril. El nombre de esta avenida recuerda a Neptuno, dios del mar según la mitología romana. En la época cuando el Metro de Santiago utilizaba iconografías para identificar sus estaciones, ésta aludía al dios latino a través de un tridente con dos peces."
+            }
+        },
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Neptuno con Av. Dorsal ",
+        "Comuna":"Lo Prado"
+    },
+    "Pajaritos":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. General Óscar Bonilla con Santa Marta",
+        "Comuna":"Lo Prado"
+    },
+    "Las Rejas":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Av. Las Rejas",
+        "Comuna":"Lo Prado y Estación Central"
+    },
+    "Ecuador":{
+        "post":{
+            "a1":{
+                "text":"Ecuador es una estación ferroviaria subterránea que forma parte de la red del metro de Santiago de Chile; se encuentra entre las estaciones Las Rejas y San Alberto Hurtado de la línea 1, en la Alameda Bernardo O'Higgins a la altura del 4.600, comuna de Estación Central. Su nombre se debe a la proximidad con la Avenida Ecuador. "
+            },
+            "a2":{
+                "title":"MetroArte"
+            },
+            "a3":{
+                "img":"Ecuador/ecuador1.jpg"
+            },
+            "a4":{
+                "text":"Autor: Niños Taller Teletón guiado por Jorge Artus<br>Fecha: 2008<br>Fue el primer niño símbolo de la Teletón y hoy es un pintor de un estilo muy definido y de una incansable capacidad de gestión. Fue Artus quien movilizó a todas las personas que fue necesario para conseguir un espacio en una estación de Metro para crear una obra. Cuando finalmente lo consiguió, desistió de su idea original y prefirió invitar a los niños del Taller de Arte de la Teletón a crear estos cuatro murales ubicados en la estación Ecuador, la que lleva precisamente hasta el Instituto de Rehabilitación Infantil de Santiago."
+            }
+        },
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Purísima",
+        "Comuna":"Estación Central"
+    },
+    "San Alberto Hurtado":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Toro Mazotte",
+        "Comuna":"Estación Central"
+    },
+    "Universidad de Santiago":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Jotabeche",
+        "Comuna":"Estación Central"
+    },
+    "Estacion Central":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Av. Matucana",
+        "Comuna":"Estación Central"
+    },
+    "Union Latinoamericana":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Unión Latinoamericana",
+        "Comuna":"Santiago"
+    },
+    "República":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Av. Ricardo Cumming",
+        "Comuna":"Santiago"
+    },
+    "Los Héroes":{
+        "post":{},
+        "linea":["Linea_1","Linea_2"],
+        "Ubicación":"Alameda con Ejército Libertador",
+        "Comuna":"Santiago"
+    },
+    "La Moneda":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Amunátegui",
+        "Comuna":"Santiago"
+    },
+    "Universidad de Chile":{
+        "post":{},
+        "linea":["Linea_1","Linea_3"],
+        "Ubicación":"Alameda con Paseo Ahumada",
+        "Comuna":"Santiago"
+    },
+    "Santa Lucía":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con San Isidro",
+        "Comuna":"Santiago"
+    },
+    "Universidad Católica":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Alameda con Av. Portugal",
+        "Comuna":"Santiago"
+    },
+    "Baquedano":{
+        "post":{},
+        "linea":["Linea_1","Linea_5"],
+        "Ubicación":"Alameda con Av. Vicuña Mackenna",
+        "Comuna":"Santiago"
+    },
+    "Salvador":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Providencia con Av. Eliodoro Yáñez",
+        "Comuna":"Providencia"
+    },
+    "Manuel Montt":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Nueva Providencia con Av. Manuel Montt",
+        "Comuna":"Providencia"
+    },
+    "Pedro de Valdivia":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Nueva Providencia con Marchant Pereira",
+        "Comuna":"Providencia"
+    },
+    "Los Leones":{
+        "post":{},
+        "linea":["Linea_1","Linea_6"],
+        "Ubicación":"Av. Nueva Providencia con Av. Ricardo Lyon",
+        "Comuna":"Providencia"
+    },
+    "Tobalaba":{
+        "post":{
+            "a0":{
+                "text":"Tobalaba es una estación de combinación ferroviaria y terminal que forma parte de las líneas 1 y 4 de la red del metro de Santiago de Chile. Se encuentra por subterráneo entre las estaciones Los Leones y El Golf (L1) y antecede a la estación Cristóbal Colón (L4). La estación se ubica en el límite entre las comunas de Las Condes y Providencia. Es la estación con mayor flujo de pasajeros de toda la red, registrando alrededor de 23 millones en 2016 y más de 84.000 pasajeros diarios."
+            },
+            "a1":{
+                "title":"MUT"
+            },
+            "a2":{
+                "img":"mut/F1.jpg"
+            },
+            "a1.1.1":{
+                "text":"<strong>Fecha: </strong> 13 de Julio de 2023. <br> <strong>Dirección: </strong> Av. Apoquindo 2730, Santiago de Chile.<br><strong>Extención: </strong> 160.000 m2<br><br><strong>Territoria</strong><br><strong>Arquitectura Conceptual Fase 1: </strong> KPF.<br><strong>Desarrollo de proyecto: </strong>Mobil, Seggiario<br><strong>Diseño Conceptual: </strong>Tony Chil.<br><strong>Diseño Mercado: </strong>Ray Chen.<br><strong>Diseño: </strong>CQ(Agustín Quiroga).<br><strong>Paisajismo: </strong>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
+            },
+            "a1.1":{
+                "text":"El proyecto arquitectónico, se sitúa en el emergente centro de negocios de Santiago, Chile, en la confluencia de las comunas de Las Condes y Providencia. Este ambicioso desarrollo, conocido como MUT, abarca la totalidad de la manzana conformada por Apoquindo, Encomenderos, Roger de Flor y el Bosque. Diseñado bajo un novedoso concepto de mercado, MUT fusiona gastronomía, cultura, oficinas y comercios en armonía con jardines, plazas y modos de transporte sostenibles. Su visión se orienta a anticipar el futuro de cómo experimentamos la ciudad, concebida como un campus urbano innovador."
+            },
+            "a4":{
+                "img":"mut/F2.jpg"
+            },
+            "a3.1":{
+                "subTitle":"3 ejes"
+            },
+            "a3":{
+                "text":"El proyecto incorpora un sólido plan de sostenibilidad articulado en tres ejes fundamentales: plazas y áreas verdes, transporte limpio e innovaciones para el uso eficiente de los recursos naturales, incluyendo un programa de basura cero. Más de 20 mil metros cuadrados de áreas verdes, plazas y jardines se integran con oficinas y espacios interiores, destacando el Jardín del Mercado en el tercer piso como el epicentro del proyecto. Este jardín urbano albergará especies productivas y huertas estacionales, promoviendo el cultivo comunitario y contribuyendo a la absorción de 50 toneladas de CO2 al año."
+            },
+            "a5":{
+                "text":"En línea con la pirámide invertida de movilidad, que prioriza al peatón y los modos no motorizados, MUT busca desincentivar el uso del automóvil y fomentar la caminata, la bicicleta y el transporte público. El peatón es el protagonista del espacio, con accesibilidad mejorada mediante galerías internas y una mezcla de usos concentrados en una sola manzana para facilitar la movilidad. Se reduce al mínimo la cantidad de estacionamientos de autos, dando lugar al Bici Hub más grande de Santiago, con espacio para 2000 bicicletas y servicios complementarios. Además, se amplía la Estación de Metro Tobalaba, priorizando la conexión subterránea y agregando tres nuevos accesos, todo en un esfuerzo por reducir las emisiones de CO2 y enfocarse en un diseño centrado en las personas, no en sus vehículos."
+            },
+            "a5.1":{
+                "img":"mut/F3.jpg"
+            },
+            "a5.2":{
+                "img":"mut/F4.jpg"
+            },
+            "a6":{
+                "text":"Dentro del plan de sostenibilidad del proyecto, el equipo de MUT destaca el papel crucial de la tecnología para minimizar el impacto ambiental en términos de energía, agua y residuos. El 100% de la energía utilizada provendrá de fuentes renovables no convencionales como la eólica, hidráulica y solar. Para lograr ahorros energéticos significativos, se implementará la climatización geotérmica, aprovechando la temperatura de las aguas subterráneas sin consumirlas. Además, gracias a perforaciones estratégicas y entradas de luz, el 75% de los espacios interiores se beneficiarán de ventilación y luz natural, lo que se traduce en una reducción del consumo de energía del 32%."
+            },
+            "a7":{
+                "text":"En relación con el agua, se prioriza la utilización de agua 100% reciclada o reutilizada para el riego de áreas verdes, almacenando aguas lluvia, capturando humedad ambiental y reciclando aguas grises. Este enfoque permite ahorrar 7 millones de litros de agua al año y reduce aproximadamente un 50% del consumo de agua potable sanitaria. En cuanto a los residuos, se implementa un programa de <strong>cero basura</strong>, basado en la valorización de residuos mediante reutilización, reciclaje y transformación. Un biodigestor transformará los residuos orgánicos en biogás, utilizado tanto para cocinar como fertilizante para los jardines, evitando que las 15 toneladas diarias de basura terminen en vertederos."
+            },
+            "a7.1":{
+                "img":"mut/F5.jpg"
+            },
+            "a8":{
+                "text":"En el marco de un Nuevo Urbanismo y una redefinición de cómo vivimos la ciudad, es crucial cuestionarnos la naturaleza de los proyectos arquitectónicos actuales y futuros. La propuesta innovadora de MUT en áreas verdes, movilidad y tecnología parece señalar el camino adecuado. Al centrarse en la sostenibilidad como medio para mejorar la experiencia urbana, el proyecto sugiere dónde deben estar las prioridades al diseñar la ciudad contemporánea. Existe un potencial significativo para replicar estos principios a mayor escala, desencadenando un desarrollo urbano sostenible."
+            },
+            "a9":{
+                "img":"mut/F6.jpg"
+            },
+            "a10":{
+                "subTitle":"Metro"
+            },
+            "a11":{
+                "text":"Esta semana se inauguró la conexión entre el Museo de Transporte Urbano (MUT) y la estación Tobalaba, una importante intersección de las líneas 4 y 1 del metro con un tráfico considerable, alcanzando las 50 mil personas por hora en los horarios pico y recibiendo anualmente a 23 millones de usuarios. La nueva conexión no solo facilita el acceso directo al MUT, sino que también añade tres nuevos accesos a Tobalaba, contribuyendo a aliviar la congestión en la estación. El proyecto, impulsado por el interés del metro en promover la intermodalidad, incorpora 2 mil estacionamientos para bicicletas en el MUT, incentivando la combinación de medios de transporte. Además, se planea extender esta iniciativa a todas las estaciones de la línea de metro en el próximo año. La conexión también incluirá espacios para exhibiciones culturales y vitrinas para artistas, con una inversión total de US$ 17 millones."
+            }
+        },
+        "linea":["Linea_1","Linea_4"],
+        "Ubicación":"Av. Providencia con Luis Tayer Ojeda",
+        "Comuna":"Providencia"
+    },
+    "El Golf":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Apoquindo con El Regidor",
+        "Comuna":"Las Condes"
+    },
+    "Alcántara":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Apoquindo con Av. Alcántara",
+        "Comuna":"Las Condes"
+    },
+    "Escuela Militar":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Apoquindo con Av. Américo Vespucio",
+        "Comuna":"Las Condes"
+    },
+    "Manquehue":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Apoquindo con Rosario Norte",
+        "Comuna":"Las Condes"
+    },
+    "Hernando de Magallanes":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Apoquindo con Hernando de Magallanes",
+        "Comuna":"Las Condes"
+    },
+    "Los Dominicos":{
+        "post":{},
+        "linea":["Linea_1"],
+        "Ubicación":"Av. Apoquindo con Patagonia y Camino El Alba",
+        "Comuna":"Las Condes"
+    }
+}
