@@ -1,4 +1,5 @@
 let JsonDatos;
+var check = true;
 
 const lol = new XMLHttpRequest();
 lol.open("GET", "data/estaciones.json", true);
@@ -7,18 +8,23 @@ lol.onreadystatechange = function(){
     if(this.readyState == 4 && this.status == 200){
         let datos = JSON.parse(this.responseText);
         JsonDatos = datos;
-        setEstaciones("Linea_1");
+        setEstaciones();
     }
 };
-function setEstaciones(linea){
+function setEstaciones(){
     let keyPost = Object.keys(JsonDatos);
 
     var i = 0;
     var select = document.getElementById("Estacion");
-    var deleteOptions = document.querySelectorAll('#Estacion option');
+    /*
     deleteOptions.forEach(o => o.remove());
+    */
+    var opDefault = document.createElement("option");
+    opDefault.text = "Estacion";
+    opDefault.value = "default";
+    select.add(opDefault);
     while(i < keyPost.length){
-        if(JsonDatos[keyPost[i]]["linea"].indexOf(linea) == -1){
+        if(JsonDatos[keyPost[i]]["status"] == 0){
             i += 1;
         } else{
             var nuevaOpcion = document.createElement("option");
@@ -45,6 +51,11 @@ function deletePost(){
 }
 function cambioPost(){
     deletePost();
+    
+    if(check){
+        document.getElementById("Estacion").remove("default");
+        check = false;
+    };
     const padrePost = document.getElementById("post");
 
     let estacion = document.getElementById("Estacion").value;
@@ -59,25 +70,30 @@ function cambioPost(){
     console.log(comuna, ubicacion)
     let divNombre = document.createElement("div");
     divNombre.innerHTML = '<h1 id="title">'+keyPost[posicion]+'</h1>';
+    divNombre.setAttribute("id","titleMain")
     padrePost.appendChild(divNombre);
 
     /* vvv crea comuna y ubicacion vvv */
     let div = document.createElement("div");
-    div.innerHTML = '<div id="contenedorBajada"><div class="cincuenta"><p>Comuna: '+comuna+'</p></div><div class="cincuenta"><p>Ubicación: '+ubicacion+'</p></div></div>';
+    div.innerHTML = '<div id="contenedorBajada"><div class="cincuenta"><p>Comuna: '+comuna+'</p></div><div class="cincuenta"><p id="derecha">Ubicación: '+ubicacion+'</p></div></div>';
     div.setAttribute("id","descripcion");
     padrePost.appendChild(div);
 
     let KeysPost = Object.keys(estacionDatos["post"]);
     let i = 0;
-
+    document.getElementById("Estacion").scrollIntoView();
     while (i < keyPost.length){
         let sec = Object.keys(estacionDatos["post"][KeysPost[i]]);
         console.log(sec);
         let e = 0;
         let post = document.createElement("article");
+        /* 
+        let hr = document.createElement("hr");
+        post.appendChild(hr);
+        */
         while (e < sec.length){
             tipo = Object.keys(estacionDatos["post"][KeysPost[i]][sec[e]]);
-            console.log(tipo[0]);
+            
             if(tipo[0] == "text"){
                 let articulo = document.createElement("div");
                 articulo.innerHTML = '<p>'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</p>';
@@ -114,43 +130,6 @@ function cambioPost(){
         };
         padrePost.appendChild(post);
         i += 1;
-    }
-
-    /* 
-    while (i < KeysPost.length){
-        let sec = Object.keys(estacionDatos["post"][KeysPost[i]]);  para saber el tipo -> tipo[0] 
-        console.log(sec[0]);
-        let e = 0;
-        while (e < sec[e]){
-            e += 1;
-        };
-        if(tipo[0] == "text"){
-            let articulo = document.createElement("div");
-            articulo.innerHTML = '<p>'+estacionDatos["post"][KeysPost[i]][tipo[0]]+'</p>';
-            articulo.setAttribute("id","text");
-            padrePost.appendChild(articulo);
-            i += 1;
-        }  else if(tipo[0] == "title"){
-            let articulo = document.createElement("div");
-            articulo.innerHTML = '<h2 id="title">'+estacionDatos["post"][KeysPost[i]][tipo[0]]+'</h2>';
-            articulo.setAttribute("id","title");
-            padrePost.appendChild(articulo);
-            i += 1;
-        }   else if(tipo[0] == "img"){
-            let articulo = document.createElement("div");
-            articulo.innerHTML = '<img src="fotos/'+estacionDatos["post"][KeysPost[i]][tipo[0]]+'">';
-            articulo.setAttribute("id","img");
-            padrePost.appendChild(articulo);
-            i += 1;
-        }  else if(tipo[0] == "subTitle"){
-            let articulo = document.createElement("div");
-            articulo.innerHTML = '<h2 id="subTitle">'+estacionDatos["post"][KeysPost[i]][tipo[0]]+'</h2>';
-            articulo.setAttribute("id","subTitle");
-            padrePost.appendChild(articulo);
-            i += 1;
-        }   else{
-            i += 1;
-        };
     };
-        */
+    
 };

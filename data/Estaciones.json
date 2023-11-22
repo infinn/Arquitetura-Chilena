@@ -7,7 +7,7 @@
                 }
             }
         },
-        "linea":["Linea_1","Linea_5"],
+        "status":0,
         "Ubicación":"Av. Neptuno con Reina Maud",
         "Comuna":"Lo Prado"
     },
@@ -22,19 +22,19 @@
                 }
             }
         },
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Neptuno con Av. Dorsal ",
         "Comuna":"Lo Prado"
     },
     "Pajaritos":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. General Óscar Bonilla con Santa Marta",
         "Comuna":"Lo Prado"
     },
     "Las Rejas":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Alameda con Av. Las Rejas",
         "Comuna":"Lo Prado y Estación Central"
     },
@@ -56,97 +56,729 @@
             }
             
         },
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Alameda con Purísima",
         "Comuna":"Estación Central"
     },
     "San Alberto Hurtado":{
-        "post":{},
-        "linea":["Linea_1"],
+        "post":{
+            "a1":{
+                "a1":{
+                    "text":"San Alberto Hurtado es una estación ferroviaria que forma parte de la Línea 1 de la red del Metro de Santiago de Chile. Se encuentra subterránea, entre las estaciones Ecuador y Universidad de Santiago de la misma línea. Se ubica a una cuadra de la intersección de la Alameda del Libertador Bernardo O'Higgins con la calle Toro Mazotte, a pasos de la Avenida General Velasquez en la comuna de Estación Central. "
+                }
+            },
+            "diegoPortales":{
+                "a1":{
+                    "title":"Unidad Vecinal Portales"
+                },
+                "i1":{
+                    "img":"portales/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1968. <br> <b>Dirección: </b>9170459 Estación Central, Región Metropolitana.<br><br><b>Arquitectos: </b>BVCH (Bresciani, Valdés, Castillo, Huidobro)."
+                },
+                "a3":{
+                    "text":"En la década de los años 50, el contexto político y social en Chile impulsó al Estado a tomar decisiones económicas significativas debido al crecimiento de la población, con Santiago alcanzando los 2 millones de habitantes y el inicio de la migración campo-ciudad en busca de oportunidades laborales, dando lugar a la formación de las <em>poblaciones callampas</em> marcadas por la miseria económica y humana. En este periodo, surgió el anhelo generalizado por la adquisición de viviendas propias y una vida más digna."
+                },
+                "i2":{
+                    "img":"portales/F7.jpg"
+                },
+                "a3.1":{
+                    "text":"En 1954, la Universidad de Chile vendió terrenos limítrofes con la Quinta Normal, dividiendo el espacio entre tres sociedades EMPART. Una de ellas, encomendó el proyecto a la oficina de Bresciani, Valdés, Castillo, Huidobro (BVCH), la cual propuso una visión unitaria para todo el terreno y asumió la responsabilidad exclusiva en colaboración con las otras dos sociedades EMPART. Hasta entonces, la arquitectura en Chile se apoyaba en una visión nostálgica inspirada en construcciones de casas patronales de siglos anteriores, pero los cambios demográficos, políticos y económicos dieron lugar a nuevas propuestas arquitectónicas influidas por los recientes movimientos arquitectónicos internacionales."
+                },
+                "i3":{
+                    "img":"portales/F31.jpg"
+                },
+                "a4":{
+                    "subTitle":"Terreno"
+                },
+                "a5":{
+                    "text":"La ubicación del lugar, con un suave relieve, permitió desarrollar una propuesta arquitectónica que incluyó una circulación elevada entre los bloques, posibilitando la construcción de más pisos sin violar la Ley Pereira, que en ese momento limitaba las viviendas sociales a tres pisos desde el acceso principal. Los arquitectos, al notar la presencia de vegetación en el terreno, optaron por preservar la mayoría de ella y diseñar un recorrido a través de los árboles. La Unidad Vecinal Portales se concibió como un espacio que fomenta la vida comunitaria en áreas públicas, al tiempo que mantiene cierta privacidad y la sensación de vivienda unifamiliar."
+                },
+                "i4":{
+                    "img":"portales/F2.jpg"
+                },
+                "a6":{
+                    "text":"Desde el principio, el primer nivel de los bloques en la Unidad Vecinal Portales formó un zócalo de viviendas con acceso independiente desde el parque, y sus terrazas se extendieron más allá de la línea de la fachada del edificio, estableciendo así una relación horizontal con las áreas verdes. Inicialmente consideradas bienes de uso público, en 1970, la Municipalidad de Santiago las designó oficialmente como <em>Bienes Nacionales de Uso Público</em> en un intento por establecer una responsabilidad de mantenimiento. A pesar de que el espacio originalmente estaba destinado para construir viviendas particulares, la propuesta de la oficina de arquitectura buscó diferenciarse de lo que predominaba en la ciudad de Santiago hasta ese momento. La idea era preservar la mayor cantidad posible de áreas verdes y consolidar el espacio exterior como un parque público, utilizando solo el 20% de las 31 hectáreas disponibles para el proyecto."
+                },
+                "i5":{
+                    "img":"portales/F12.jpg"
+                },
+                "i6":{
+                    "img":"portales/F10.jpg"
+                },
+                "a7":{
+                    "text":"Fernando Castillo delineó el diseño de la Villa Portales en base a tres principios fundamentales. En primer lugar, propuso un cambio de escala en las estructuras del espacio cotidiano, alejándose de medidas abstractas determinadas por el bloque y considerando los anhelos, vida y relaciones humanas de los habitantes. Este enfoque buscaba diversificar las escalas espaciales para adaptarse a diferentes niveles urbanos. En segundo lugar, abogó por la ocupación del espacio verde como un capital social, contrarrestando la privatización del verde asociada a los lotes. El 80% del terreno se destinó a áreas verdes jerarquizadas en paisajes del valle, entorno de la Quinta Normal y encuentros cotidianos. El tercer principio abordó el control del acceso vehicular para favorecer al peatón y fomentar el encuentro ciudadano. En cuanto a la vivienda, se buscó proporcionar departamentos amplios y bien equipados, con la premisa de emancipar al hombre del trabajo en un entorno residencial de calidad."
+                },
+                "i7":{
+                    "img":"portales/F4.jpg"
+                },
+                "i14":{
+                    "img":"portales/F14.jpg"
+                },
+                "a8":{
+                    "subTitle":"Arquitectura"
+                },
+                "a11":{
+                    "text":"La configuración volumétrica del conjunto responde, en buena medida, a las condiciones naturales de la parcela. Se alcanza una armonía entre la escala de la arquitectura y la vegetación preexistente mediante la disposición de los bloques de apartamentos en las vías secundarias, donde se encuentran encinas de hasta 15m de altura. De este modo, las viviendas unifamiliares adosadas, de tan solo dos alturas,quedan en el interior de las manzanas, junto con árboles frutales de bajo porte. Además de la relación visual con el adyacente Parque Quinta Normal, situado al norte de la parcela, la disposición del proyecto incorpora la vista del paisaje omnipresente de la cordillera de los Andes desde todos los bloques, cerrando la parcela con las edificaciones de mayor altura al sur-oeste."
+                },
+                "i8":{
+                    "img":"portales/F8.jpg"
+                },
+                "i9":{
+                    "img":"portales/F9.jpg"
+                },
+                "i10":{
+                    "img":"portales/F3.jpg"
+                },
+                "a9":{
+                    "text":"La idea de una Unidad Vecinal humana que facilita la convivencia se refleja en todas las escalas, desde los espaciosos rellanos de los bloques hasta la gran plaza, lugar de reunión para la comunidad entera. El relieve de la parcela fue resuelto con pasos elevados entre bloques como los de la Ciudad-Pilotis de Le Corbusier. De este modo y mediante la incorporación de viviendas tipo dúplex, se logró construir más alturas de las que en principio permitía la ley de construcción de viviendas sociales, que establecía que no podía haber circulaciones horizontales por encima del tercer piso desde el acceso principal. Estas pasarelas se convertirían en el hilo conductor de los espacios de convivencia,que, pasando sobre las cubiertas de las viviendas unifamiliares, conservaban su privacidad y la de los zócalos de los bloques, que tenían acceso independiente y jardín. Aparecía con ello una nueva perspectiva peatonal de la ciudad jardín, cambiante y rica en relaciones visuales entre distintos niveles."
+                },
+                "i11":{
+                    "img":"portales/F11.jpg"
+                },
+                "i12":{
+                    "img":"portales/F5.jpg"
+                },
+                "i13":{
+                    "img":"portales/F6.jpg"
+                },
+                "a10":{
+                    "text":"Lamentablemente, la Unidad Vecinal quedó inacabada, pues la sociedad que la construyó no asumió la responsabilidad de ejecutar los equipamientos culturales y comerciales proyectados. Además, también se desentendió del mantenimiento del conjunto, por lo que éste se ha degradado hasta tal punto que las cubiertas planas ajardinadas de las viviendas unifamiliares han sido sustituidas por cubiertas a dos aguas que interrumpen las pasarelas que las atravesaban, quedando todo el sistema de circulaciones en altura inhabilitado."
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Alameda con Toro Mazotte",
         "Comuna":"Estación Central"
     },
     "Universidad de Santiago":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Alameda con Jotabeche",
         "Comuna":"Estación Central"
     },
     "Estacion Central":{
-        "post":{},
-        "linea":["Linea_1"],
+        "post":{
+            "a1":{
+                "a1":{
+                    "text":"Estación Central es una estación ferroviaria que forma parte de la red del Metro de Santiago de Chile. Se encuentra subterránea, entre las estaciones Universidad de Santiago y Unión Latinoamericana de la línea 1. Se ubica en la intersección de Avenida Matucana con la Alameda del Libertador Bernardo O'Higgins a la altura del 3300, en la comuna de Estación Central."
+                }
+            },
+            "MuseoMemoria":{
+                "a1":{
+                    "title":"Museo de la Memoria y los Derechos Humanos"
+                },
+                "i1":{
+                    "img":"museoMemoria/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>2009. <br> <b>Dirección: </b>Av. Matucana 501, 8500000 Santiago, Región Metropolitana.<br><b>Área: </b>10.900 m2<br><br><b>Arquitectos: </b>Mario Figueroa, Lucas Fehr y Carlos Dias."
+                },
+                "a4":{
+                    "text":"El proyecto tuvo su origen el 11 de junio de 2007, cuando el Ministerio de Obras Públicas llamó a un concurso nacional e internacional, que se adjudicó el equipo de arquitectos de Sao Paulo integrado por Mario Figueroa, Lucas Fehr y Carlos Dias. Con la forma de una manzana abierta, la estructura del Museo consigue una luminosidad natural que genera efectos inesperados. En su exterior se ubica la Plaza de la Memoria, concebida como un espacio destinado a ser el escenario de conciertos y manifestaciones culturales."
+                },
+                "i2":{
+                    "img":"museoMemoria/F5.jpg"
+                },
+                "i3":{
+                    "img":"museoMemoria/F3.jpg"
+                },
+                "a3":{
+                    "text":"En su propuesta para el Museo de la Memoria y los Derechos Humanos, los arquitectos conciben un espacio no lineal en el tiempo y universal en la transmisión de conocimientos. El diseño consiste en un paralelepípedo esbelto y rectangular que se apoya de manera apaisada, con su sección más delgada, en sentido Oriente-Poniente sobre una base que simbólicamente representa el fluir de la vida desde la Cordillera al Mar. Este enfoque busca resaltar el recorrido del soleamiento en Chile. El museo pretende crear diversas atmósferas y marcos físicos o mentales para invitar a la evocación y reflexión. Además, reconocen la importancia del espacio público, especialmente en el casco antiguo de Santiago Centro, proponiendo una nueva forma de componer el microespacio urbano utilizando los elementos Barra y Base."
+                },
+                "i4":{
+                    "img":"museoMemoria/F6.jpg"
+                },
+                "a7":{
+                    "subTitle":"Emplazamiento"
+                },
+                "a8":{
+                    "text":"El Museo de la Memoria se ubica en el Barrio Yungay situado en la comuna de Santiago que, desde su creación en 1839, albergó a artistas e intelectuales, teatros, colegios, iglesias y museos. Actualmente forma parte de un circuito cultural que articula a interesantes instituciones del sector."
+                },
+                "i5":{
+                    "img":"museoMemoria/F9.jpg"
+                },
+                "i6":{
+                    "img":"museoMemoria/F10.jpg"
+                },
+                "a5":{
+                    "subTitle":"Técnica y materialidad"
+                },
+                "a6":{
+                    "text":"La estructura de la Barra se presenta con total transparencia, destacando la sublime naturaleza de la memoria. Su materialidad etérea, como la piedra Magritte, se manifiesta como un túnel en un entramado metálico, sirviendo como la principal estructura. Cuatro pilares incorporados a las circulaciones verticales sostienen el cuerpo del edificio elevado, mientras que las cajas de exposición translúcidas, ubicadas sobre esta gran luz, garantizan una iluminación controlada. La materialidad refleja la riqueza natural y autóctona del territorio chileno, con un piso de mosaico que representa la tierra del país y revestimientos externos de cobre y carbón que narran la historia de la minería. El museo se asemeja a una piedra de cristal, donde el carbono esencial en la vida humana y la constitución de la naturaleza se entrelazan con la memoria efímera de los deseos de ir y venir, marcando direcciones en las miradas de los visitantes."
+                },
+                "i7":{
+                    "img":"museoMemoria/F2.jpg"
+                },
+                "i8":{
+                    "img":"museoMemoria/F4.jpg"
+                },
+                "i9":{
+                    "img":"museoMemoria/F7.jpg"
+                },
+                "i10":{
+                    "img":"museoMemoria/F8.jpg"
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Alameda con Av. Matucana",
         "Comuna":"Estación Central"
     },
     "Union Latinoamericana":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Alameda con Unión Latinoamericana",
         "Comuna":"Santiago"
     },
     "República":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Alameda con Av. Ricardo Cumming",
         "Comuna":"Santiago"
     },
     "Los Héroes":{
         "post":{},
-        "linea":["Linea_1","Linea_2"],
+        "status":0,
         "Ubicación":"Alameda con Ejército Libertador",
         "Comuna":"Santiago"
     },
     "La Moneda":{
-        "post":{},
-        "linea":["Linea_1"],
+        "post":{
+            "a0":{
+                "a1":{
+                    "text":"La Moneda es una estación ferroviaria subterránea de la línea 1 de la red del metro de Santiago de Chile ubicada entre Los Héroes y Universidad de Chile de la misma línea. Sus accesos están en la Alameda Bernardo O'Higgins a la altura del 1500 en la comuna de Santiago. "
+                },
+                "a2":{
+                    "text":"La estación posee una afluencia diaria promedio de 50 236 pasajeros y por su cercanía con el centro de Santiago, es muy usada por las personas para realizar trámites.La estación tiene cuatro accesos: dos en Alameda Bernardo O'Higgins (uno esquina Teatinos y otro esquina Amunátegui); además, uno en Lord Cochrane con Alameda y otro en Nataniel Cox, esquina Alameda.<br>La estación se encuentra en pleno barrio Cívico, en las cercanías del Palacio de La Moneda, edificio que le da el nombre a la estación. Las principales oficinas de diversos organismos gubernamenteles se ubican en las inmediaciones son el Instituto de Previsión Social, el Ministerio de Educación y las oficinas centrales de Metro S.A. Sobre la estación se ubica además el edificio central de Entel Chile junto a su torre de telecomunicaciones, uno de los símbolos de la capital chilena."
+                }
+            },
+            "moneda":{
+                "a1":{
+                    "title":"Palacio de La Moneda"
+                },
+                "a3":{
+                    "desc":"<b>Fecha: </b>1805. <br> <b>Dirección: </b>Moneda S/N, Santiago, Región Metropolitana.<br><b>Extención: </b> 18.720 m2<br><br><b>Arquitectos: </b>  Joaquín Toesca."
+                },
+                "a4":{
+                    "text":"El Palacio de la Moneda, originalmente construido a fines del siglo XVIII como la Casa de Moneda del Reino de Chile, se convirtió en 1845 en la sede del poder ejecutivo de la República de Chile. Ubicado en el centro histórico de Santiago, el edificio fue diseñado por el arquitecto Joaquín Toesca, quien incorporó un estilo neoclásico puro con influencias del dórico romano. Además de albergar las instalaciones de la Casa de Moneda, el diseño incluyó espacios para la residencia de la burocracia del reino. Con un carácter emblemático similar a templos y palacios, el Palacio de la Moneda transmitió majestuosidad a los edificios de la administración. La estructura, de dos pisos y composición rectilínea, destaca por patios que proporcionan solemnidad y luz natural. El diseño de Toesca incluyó un <em>eje magistral</em> que atravesaba el edificio de norte a sur, expresado en pórticos monumentales que creaban un efecto ilusionista de fuga. Este palacio histórico ha servido como la residencia y lugar de trabajo del Presidente(a) de la República y alberga importantes oficinas gubernamentales."
+                },
+                "a5":{
+                    "subTitle":"Arquitectura"
+                },
+                "a6":{
+                    "text":"Después de la restauración post golpe militar de 1973, el Palacio de la Moneda, de estilo neoclásico, recuperó gran parte de su estructura original. La fachada principal da hacia la calle Moneda, con vista a la plaza de la Constitución, donde se construyeron estacionamientos y oficinas, conocido popularmente como el <em>búnker</em>. En su interior, se destacan tres patios, siendo el principal el Patio de los Cañones, con antiguos cañones coloniales, y el renovado Patio de los Naranjos, utilizado para ceremonias presidenciales. Este último alberga esculturas notables, como <em>Tolomirotodomiro</em> de Roberto Matta. Además, durante el gobierno de Ricardo Lagos, se inició la unión del paseo Bulnes con la nueva plaza de la Ciudadanía, bajo la cual se encuentra el Centro Cultural Palacio de La Moneda, inaugurado en 2006."
+                },
+                "a7":{
+                    "subTitle":"Plaza de la Ciudadanía"
+                },
+                "a8":{
+                    "text":"Es parte del Barrio Cívico y limita con el Palacio de La Moneda al norte, la casa matriz del Banco del Estado de Chile al este, el Paseo Bulnes al sur y edificios gubernamentales a los lados. Este espacio homenajea a los ciudadanos chilenos y cuenta con dos espejos de agua en el sector norte, evocando un foso, junto con líneas de fuentes y estatuas de los presidentes Arturo Alessandri y Patricio Aylwin. En el centro, hay un área con césped intersectada por la Avenida Libertador General Bernardo O'Higgins, donde destaca un óvalo con el mástil que porta la Bandera Bicentenario. Hacia el sur, se encuentra el Altar de la Patria, con la cripta de Bernardo O'Higgins, un pequeño museo histórico y monumentos ecuestres a O'Higgins y José Miguel Carrera, rodeados por banderas nacionales y árboles. Además, bajo la plaza, se encuentra el Centro Cultural La Moneda y estacionamientos públicos."
+                }
+            },
+            "centroCultural":{
+                "a1":{
+                    "title":"Centro Cultural Palacio La Moneda"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>2005. <br> <b>Dirección: </b>Avenida Libertador Bernardo O Higgins, Santiago, Santiago Metropolitan Region, Chile.<br><br><b>arquitecto: </b>Undurraga Devés Arquitectos; Undurraga Devés Arquitectos."
+                },
+                "a3":{
+                    "text":"En el marco del Bicentenario de la República en 2005, se completó la construcción del Centro Cultural Palacio La Moneda en la zona sur del palacio, anteriormente dedicada a estacionamientos. Este centro, diseñado para preservar el protagonismo del palacio neoclásico, se sitúa subterráneamente a 6,5 metros de profundidad, evitando competir con el edificio histórico. La terraza urbana sobre el centro conecta los patios hundidos con las calles circundantes mediante rampas y escaleras, facilitando el flujo de actividades. Bajo la superficie, se accede a un espacio urbano cubierto único en la ciudad, con actividades comerciales y servicios. Desde un balcón circundante, se obtiene una vista privilegiada del patio central que enlaza las salas de exposiciones y el auditorio. Una rampa desciende hasta 14 metros, llevando a las salas de exposiciones concebidas como contenedores neutros para adaptarse a diversas solicitaciones museográficas. La presencia de vegetación y luz natural crea una atmósfera que permite a los visitantes desvincularse de la sensación subterránea del espacio."
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Alameda con Amunátegui",
         "Comuna":"Santiago"
     },
     "Universidad de Chile":{
-        "post":{},
+        "post":{
+            "a0":{
+                "a1":{
+                    "text":"Universidad de Chile es una estación ferroviaria que forma parte de la red del metro de Santiago en Chile. Se encuentra por subterráneo entre las estaciones Santa Lucía y La Moneda de la Línea 1 y entre las estaciones Plaza de Armas y Parque Almagro de la Línea 3. La estación se ubica en la comuna de Santiago. "
+                },
+                "a2":{
+                    "text":"Presenta un flujo altamente congestionado de pasajeros, debido a que se ubica en el punto más transitado de la ciudad de Santiago, por donde pasa diariamente más de un millón de personas. A pesar de esto y a diferencia de muchas otras estaciones de la red, no se han registrado notorias congestiones (que obliguen a cerrarla), lo que se explica por sus grandes dimensiones y múltiples accesos posibles. Se ubica exactamente bajo la intersección de la Alameda Bernardo O'Higgins con el paseo Ahumada por el norte, y con la calle Arturo Prat por el sur. "
+                }
+            },
+            "uchile":{
+                "a1":{
+                    "title":"Casa Central U. de Chile"
+                },
+                "i1":{
+                    "img":"uChile/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1872. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 1058, Santiago, Región Metropolitana.<br><br><b>Arquitectos: </b>Lucien Hénault(1857 - 1863) Fermín Vivaceta(1863 - 1872)."
+                },
+                "a3":{
+                    "text":"Tras la fundación de la Universidad de Chile en 1843, se necesitaba un edificio para albergar a las facultades y la rectoría. Manuel Montt, Ministro de Justicia, Culto e Instrucción Pública en ese momento, seleccionó el lugar junto a la desaparecida Iglesia de San Diego en la Alameda de Las Delicias para la construcción del Palacio de la Universidad. Aunque inicialmente la Universidad ocupó instalaciones frente al Instituto Nacional, diseñadas por Juan Herbage, posteriormente se optó por construir un edificio independiente con acceso principal hacia la Alameda, encargando la obra a Lucien Hénault."
+                },
+                "i2":{
+                    "img":"uChile/F2.jpg"
+                },
+                "a4":{
+                    "text":"La construcción del Palacio de la Universidad de Chile, finalizada en 1872, destaca por sus dos pisos que alcanzan los 26 metros de altura en las esquinas y en el acceso principal. La fachada simétrica, modulada por pilastras, presenta una marcada predominancia horizontal, con ventanas de arcos de medio punto en el primer nivel y rectangulares en el segundo, culminando en el escudo de la Universidad diseñado por Nicanor Plaza. El vestíbulo central da paso a dos escaleras que conducen al segundo piso. En el centro, se encuentra la entrada al Salón de Honor, rodeado de columnas dóricas en el primer nivel y compuestas en el segundo, unidas por arcos de medio punto. Los patios interiores laterales presentan una distribución similar con columnas dóricas en el primer piso y jónicas en el segundo. Inicialmente descubiertos, los patios fueron embaldosados y cubiertos con una estructura vidriada en 1907 durante un congreso científico importante."
+                },
+                "i3":{
+                    "img":"uChile/F3.jpg"
+                }
+            },
+            "catedral":{
+                "a1":{
+                    "title":"Catedral Metropolitana de Santiago"
+                },
+                "i1":{
+                    "img":"catedral/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1800. <br> <b>Dirección: </b>Pl. de Armas 498, 8320341 Santiago, Región Metropolitana.<br><br><b>Arquitectos: </b>Matías Vásquez de Acuña, Joaquín Toesca, Ignacio Cremonesi."
+                },
+                "a3":{
+                    "text":"Pedro de Valdivia, al refundar Santiago de Chile sobre un tambo inca, destinó el templo inca en la Plaza Mayor para la construcción de una iglesia. Durante la construcción, los servicios religiosos se celebraban en la puerta de la casa del gobernador. Se presume que inicialmente era una capilla de materiales ligeros. Entre 1566 y 1600, se construyó el primer templo catedralicio, más pequeño y decorado, con su fachada en la calle Catedral. Posteriormente, su acceso principal se trasladó a la <em>Puerta del Perdón</em>. En 1647, un terremoto destruyó la ciudad y la catedral, pero la nave central resistió. La catedral fue restaurada, pero en 1657 otro terremoto la dañó, requiriendo una segunda restauración entre 1662 y 1687, liderada por el obispo Gaspar de Villarroel."
+                },
+                "i2":{
+                    "img":"catedral/F6.jpg"
+                },
+                "a11":{
+                    "subTitle":"Arquitectura"
+                },
+                "a12":{
+                    "text":"La dirección de Toesca inicialmente optó por el uso de columnas, pilastras adosadas acanaladas y frontones circulares para las puertas de acceso de la Catedral de Santiago, rematadas por arcos de medio punto. Posteriormente, Eusebio Chelli unificó las fachadas de la Catedral y del templo de El Sagrario. En 1899, el arzobispo Mariano Casanova encargó al arquitecto italiano Ignacio Cremonesi remodelar la Catedral y el templo de El Sagrario. Cremonesi, siguiendo el estilo romano, añadió dos torres a la fachada de la Iglesia utilizando acero y hormigón armado. Realizó mejoras como la cobertura de muros de piedra con albañilería de cal y ladrillos, la ampliación de ventanas para vitrales, y la sustitución del artesonado de madera por una bóveda de cañón decorada con imágenes bíblicas, molduras y cornisas. La catedral fue declarada Monumento Histórico en 1951. En 2005 se remodelaron el altar mayor y la cripta arzobispal, y después del terremoto de 2010 se llevó a cabo una restauración completa, finalizada en 2015, que incluyó la recuperación de la fachada, renovación de la iluminación, instalación de miradores en ambas torres y reforzamientos estructurales con acero y fibra de carbono para mayor estabilidad."
+                },
+                "i3":{
+                    "img":"catedral/F4.jpg"
+                },
+                "a4":{
+                    "subTitle":"Nave central"
+                },
+                "a5":{
+                    "text":"En la nave central de la catedral, destaca el antiguo altar mayor con un ciborio de mármol que alberga un crucifijo, coronado por un águila y custodiado por ángeles, construido en Múnich en 1912. Este altar fue utilizado hasta los años 60-70, cuando durante el arzobispado del Cardenal Raúl Silva Henríquez se introdujo un altar móvil de madera para celebrar la Misa de cara al pueblo. Sin embargo, debido a su apariencia poco decorosa, se le colocó un frontal de plata de 3 metros de largo. En 2005-2006, se llevó a cabo una remodelación completa del presbiterio y la cripta arzobispal, reemplazando el altar móvil por uno fijo y destinando el frontal a la Capilla del Santísimo Sacramento. Además, se realizaron mejoras estructurales y se ubicaron elementos como un ambón con forma de águila, un crucifijo donado por el Papa Pío XI, asientos para el Cabildo Metropolitano, la cátedra del Arzobispo y un cuadro con el escudo de armas del Arzobispo en ejercicio."
+                },
+                "i4":{
+                    "img":"catedral/F5.jpg"
+                },
+                "a6":{
+                    "text":"En el centro del presbiterio de la catedral se encuentra un nuevo altar fijo de granito, custodiado por un crucifijo y seis candelabros de plata, requisitos para la Misa Pontifical. Detrás de este altar, se sitúa el antiguo altar mayor. Junto a este último, a la derecha, está el órgano de coro construido por los jesuitas alemanes en 1754, aún en uso. En la nave central, destacan los púlpitos de madera del siglo XIX. En el ábside, se encuentra el retablo mayor con una imagen de la Asunción de Nuestra Señora rodeada de ángeles, custodiada por las figuras del Apóstol Santiago y Santa Rosa de Lima. Bajo el retablo, un ventanal ilumina el ciborio con el crucifijo. A los pies, se encuentra una imagen de San Francisco Javier, y dos puertas conforman la sencilla fachada posterior hacia la calle Bandera. Además, en el coro sobre la puerta principal, se halla un gran órgano de tubos de la casa Flight & Son de Londres, aunque su capacidad sonora ha sido nula desde la década de 1980."
+                },
+                "a7":{
+                    "subTitle":"Nave derecha"
+                },
+                "a8":{
+                    "text":"En la nave derecha de la catedral, se destacan los sepulcros de prominentes figuras de la historia de Chile, incluyendo primeros obispos y miembros de la aristocracia criolla. Junto a la puerta derecha de la Plaza de Armas se encuentra un monumento neogótico de mármol blanco que alberga los corazones de los oficiales chilenos fallecidos en la Batalla de La Concepción en 1882, inaugurado en 1912. Cerca de la puerta de calle Catedral, hay una lápida de madera tallada en memoria de los hermanos Carrera (Javiera, Juan José, José Miguel y Luis Carrera), cuyas tumbas aún no se han ubicado dentro del edificio catedralicio. En esta nave también resaltan las tumbas de Monseñor José Antonio Martínez de Aldunate, obispo electo de Santiago y Vicepresidente de la Primera Junta Nacional de Gobierno, así como la de Monseñor Joaquín Larraín Gandarillas, fundador y primer rector de la Pontificia Universidad Católica de Chile, ubicada en un sarcófago de bronce."
+                },
+                "i5":{
+                    "img":"catedral/F3.jpg"
+                },
+                "a9":{
+                    "subTitle":"Nave izquierda"
+                },
+                "a10":{
+                    "text":"La nave izquierda de la catedral alberga el imponente monumento funerario del arzobispo Rafael Valentín Valdivieso, contenido en un sarcófago de mármol, y justo frente a él se encuentra el monumento funerario del arzobispo José Alejo Eyzaguirre. En ese mismo lado, cerca de la puerta de la sacristía, se encuentra un pequeño memorial en el lugar exacto donde el Padre Faustino Gazziero fue asesinado por un joven enfermo mental. En el centro de esta nave se destaca la Capilla del Santísimo Sacramento, con un altar cubierto por un ciborio de mármol, una custodia, ángeles, lámparas y un frontal de plata. Esta capilla fue el lugar de oración del Papa Juan Pablo II durante su visita al templo en 1987, así como del Papa Francisco en su visita en enero de 2018."
+                },
+                "i6":{
+                    "img":"catedral/F2.jpg"
+                }
+            },
+            "instituto":{
+                "a1":{
+                    "title":"Instituto Nacional General José Miguel Carrera"
+                },
+                "i1":{
+                    "img":"instituto/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1962. <br> <b>Dirección: </b>Arturo Prat 33, 8330109 Santiago, Región Metropolitana.<br><b>Área: </b> 40.000 m2<br><br><b>Arquitecto: </b> José Llambías Merchant."
+                },
+                "a3":{
+                    "text":"En 1959, el gobierno de Jorge Alessandri Rodriguez, antiguo alumno del Instituto Nacional, entrega los fondos para la construccion de un nuevo edificio para el colegio, el cual seria emplazado en el mismo lugar. Al año siguiente se llama a un concurso nacional de anteproyectos de arquitectura para la nueva edificacion. A la primera etapa se presentan mas de ciento treinta proyectos, quedando seleccionados cinco para ser desarrollados. Luego de aproximadamente un año de trabajo, se define al ganador: el arquitecto Jose Llambias Merchant se queda con el primer premio y su proyecto es llevado a cabo en 1962, para ser entregado, en sus dos primeras etapas, en 1963. Quedaba pendiente una tercera, que correspondía al programa publico del colegio, que seria compartido con la Universidad de Chile."
+                },
+                "i2":{
+                    "img":"instituto/F2.jpg"
+                },
+                "a4":{
+                    "text":"La propuesta original era un colegio compuesto por tres franjas programáticas. Un volumen, a lo largo de la primera manzana de Arturo Prat, contiene la totalidad del programa de gran escala y sus servicios: hall de acceso, la dirección y administración, la biblioteca, el teatro de Camara, el Aula Magna, los auditorios y los gimnasios. Este cuerpo se comunicaría con el exterior por el sector que unía la puerta del colegio con el acceso al Aula Magna. Esencialmente, se trataba de un programa para eventos especificos que pudiera operar independientemente del colegio, pero nunca seria terminado en su totalidad. Quedo pendiente el sector que debio haber acogido el Aula Magna, los dos auditorios y todos sus servicios. Este volumen sirve hoy de conector con el llamado “sector 2”, comprendido por dos barras de cinco pisos de altura que corren paralelas a la calle Alonso Ovalle, en el extremo sur del colegio; estas barras contienen aulas y laboratorios específicos en sus pisos superiores, y programa de servicio como casinos, camerinos, bodegas y departamentos en sus pisos inferiores, además de los gimnasios y las salas de arte y técnicas especiales. "
+                },
+                "i3":{
+                    "img":"instituto/F4.jpg"
+                },
+                "i4":{
+                    "img":"instituto/F5.jpg"
+                },
+                "a5":{
+                    "text":"La segunda franja, paralela a la “publica”, contiene al Patio de honor. Este es el lugar establecido para las ceremonias, celebraciones, partidos y recreos. La tercera franja corresponde a las aulas, organizadas en bloques independientes y paralelos entre si. Los tres primeros bloques, de menor tamaño, correspondían al que se llamaba primer ciclo. Hoy es conocido como “sector 1”. Estos cuerpos se encuentran unidos por un patio que corre bajo ellos, llamado “zocalo”, y por dos galerias, una que contiene programas de extension (salas tematicas) y constituye la fachada de San Diego, y otra que sirve de conector entre los bloques y las barras. Esta ultima galería, ademas, es parte del Patio de honor. "
+                },
+                "i5":{
+                    "img":"instituto/F3.jpg"
+                },
+                "i6":{
+                    "img":"instituto/F7.jpg"
+                }
+            },
+            "bolsa":{
+                "a1":{
+                    "title":"Edificio de la Bolsa de Comercio de Santiago"
+                },
+                "i1":{
+                    "img":"bolsa/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1917. <br> <b>Dirección: </b>La Bolsa 64, Santiago, Región Metropolitana.<br><br><b>Arquitecto: </b>Emile Jéquier."
+                },
+                "a3":{
+                    "text":"En 1913, gracias a un aumento de capital, la Bolsa de Comercio de Santiago decidió comprar unos terrenos que habían pertenecido al convento de las monjas agustinas, que habían decidido lotear dicha propiedad el año anterior. La obra del nuevo edificio se realizó en la esquina de las calles Bandera y Moneda, bajo las órdenes del arquitecto Emile Jéquier."
+                },
+                "a4":{
+                    "text":"Tras cuatro años de construcción, marcados por la dificultad de procurar que los materiales que fueron adquiridos en Europa llegaran al país debido al estallido de la Primera Guerra Mundial, fue inaugurado el 25 de diciembre de 1917 por el presidente Juan Luis Sanfuentes, y se convirtió en el primer edificio del barrio La Bolsa en ser terminado. Posteriormente, el terremoto de 1985 afectó a la edificación, por lo que ésta tuvo que ser restaurada."
+                },
+                "i2":{
+                    "img":"bolsa/F3.jpg"
+                },
+                "a5":{
+                    "text":"El arquitecto chileno Emilio Jéquier fue el responsable del edificio de La Bolsa de Comercio de Santiago, obra ejecutada por el ingeniero Roberto Torretti en terrenos que pertenecían a las Monjas Agustinas. Influenciado por sus estudios en Francia y por el ingeniero y arquitecto galo Gustave Eiffel, Jéquier inició la construcción del inmueble en 1913, pero recién se inau-guró el 25 de diciembre de 1917, debido a que sus materiales fueron adquiridos en Europa y su traslado a Chile se dificultó a causa de la Primera Guerra Mundial."
+                },
+                "i3":{
+                    "img":"bolsa/F2.jpg"
+                },
+                "a6":{
+                    "subTitle":"Materialidad"
+                },
+                "a7":{
+                    "text":"Respecto de su materialidad, tiene una estructura metálica que actúa como esqueleto, envuelto con ladrillo y hormigón, en tanto que la ornamentación exterior se hizo en base a mortero de cemento y malla de metal. También se utilizaron maderas como roble americano en sus puertas, en terminaciones interiores y en detalles como los mosaicos del primer piso."
+                }
+            },
+            "EdificioPlazadeArmas":{
+                "a1":{
+                    "title":"Edificio Plaza de Armas"
+                },
+                "i1":{
+                    "img":"ed/F1.jpg"
+                },
+                "a3":{
+                    "text":"En un comienzo, se contaba con un terreno de aproximadamente tres cuartos del que se usó finalmente. Sería un edificio de 12 pisos donde los 4 primeros, insertos en un volumen horizontal, estarían destinados a comercio, mientras que los niveles superiores, dispuestos en una torre vertical, serían destinados a vivienda."
+                },
+                "a4":{
+                    "text":"Los arquitectos decidieron jugar con la inserción de dos volúmenes en el sitio, haciendo que el edificio como total y a través de la disposición de estos volúmenes, respondiera a cada situación de un modo determinado, privilegiando el espacio en torno al volumen, siguiendo la lógica común del sistema de Torre-Placa del movimiento moderno. Esta decisión se adoptó ya que esta tipología modernista era la que mejor se adecuaba al sistema de manzanas pre-existentes. La torre aislada presentaba una esbeltez inédita, donde el espacio que giraba en torno a ella abría las vistas hacia el cielo y la geografía, renovando la imagen introvertida de la ciudad."
+                },
+                "i2":{
+                    "img":"ed/F4.jpg"
+                },
+                "i3":{
+                    "img":"ed/F2.jpg"
+                },
+                "a5":{
+                    "text":"La Torre contiene las unidades residenciales, estableciéndose como el sector privado de la obra, abriéndose a las vistas, e incorporando, por ser una torre aislada, soluciones para un mayor confort dentro de las viviendas, como ventilación cruzada e iluminación natural. Por otra parte la placa, un único gran bloque que solo limita con otras construcciones por su sección este, se encuentra el sistema de galerías, albergando el comercio y canalizando los flujos peatonales de la ciudad. Esta permite el acceso al interior del edificio sin un previo reconocimiento de él, integrándose a la red de galerías del centro, manteniendo fluidez y continuidad en sus recorridos. Es así como se logra delimitar la manzana y generar continuidad a nivel del peatón, permitiendo la liberación de los elementos en altura."
+                },
+                "i4":{
+                    "img":"ed/F5.jpg"
+                },
+                "i5":{
+                    "img":"ed/F6.jpg"
+                },
+                "i6":{
+                    "img":"ed/F3.jpg"
+                }
+            },
+            "metroArte":{
+                "a1":{
+                    "title":"Metro Arte"
+                }
+            }
+        },
         "linea":["Linea_1","Linea_3"],
         "Ubicación":"Alameda con Paseo Ahumada",
         "Comuna":"Santiago"
     },
     "Santa Lucía":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Alameda con San Isidro",
         "Comuna":"Santiago"
     },
     "Universidad Católica":{
-        "post":{},
-        "linea":["Linea_1"],
+        "post":{
+            "a0":{
+                "a1":{
+                    "text":"Universidad Católica es una estación ferroviaria subterránea de la línea 1 de la red del metro de Santiago de Chile, entre Santa Lucía y Baquedano de la misma línea. Se ubica en la Alameda Bernardo O'Higgins a la altura del 270, en la comuna de Santiago. "
+                },
+                "a2":{
+                    "text":"Su nombre se origina en que la estación se ubica justo bajo la casa central de la Pontificia Universidad Católica de Chile. Se simbolizaba anteriormente con la silueta de la estatua del Sagrado Corazón de Jesús, conocido simplemente como el Cristo, que corona la fachada de su casa central. "
+                }
+            },
+            "Gabriela Mistral":{
+                "a0":{
+                    "title":"Centro Cultural Gabriela Mistral"
+                },
+                "a0.1":{
+                    "img":"gabrielaMistral/F1.jpg"
+                },
+                "a1":{
+                    "desc":"<b>Fecha: </b>2008. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 227, 8320275 Santiago, Región Metropolitana.<br><br><b>Arquitectos: </b> Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño; Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño. <br><b>Área: </b> 44.000 m2"
+                },
+                "a3":{
+                    "text":"Este edificio ha desempeñado un papel destacado en un período reciente de nuestra historia, marcado por la polarización ideológica y la división social. Inicialmente construido como un símbolo del hombre nuevo durante el gobierno de Salvador Allende, después del golpe de estado se convirtió en la sede de gobierno del régimen de Pinochet, personificando el Poder Total. En las últimas tres décadas, el edificio ha permanecido enrejado, cerrado y custodiado debido a requisitos de seguridad, primero como sede de gobierno y luego como Ministerio de Defensa bajo cuatro administraciones. Esta historia ha llevado a que el edificio no sea apreciado ni por unos ni por otros, adquiriendo una biografía algo bipolar"
+                },
+                "a3.1":{
+                    "img":"gabrielaMistral/F7.jpg"
+                },
+                "a3.2":{
+                    "img":"gabrielaMistral/F2.jpg"
+                },
+                "a4":{
+                    "subTitle":"Urbanismo"
+                },
+                "a5":{
+                    "text":"Desde la perspectiva urbana, se abordó el desafío de revitalizar el edificio no desde su estructura, sino desde su entorno inmediato y la manzana que lo rodea, con la cual ha perdido conexión a lo largo de los años. La estrategia se centró en explorar las posibilidades de la manzana, sus construcciones y los potenciales espacios públicos. Se buscó redefinir las relaciones del lugar con su contexto, siguiendo la idea de Jean Nouvel de que un edificio contemporáneo debe realzar tanto su entorno como ser realzado por él. Desde el punto de vista técnico-expresivo, la propuesta simplifica las ideas arquitectónicas del proyecto original, reinterpretándolas de manera contemporánea para albergar un nuevo programa para el edificio. Se destacan cuatro ideas principales, todas fusionadas en el concepto de transparencia: la apertura hacia la ciudad con una amplia cubierta y volúmenes sueltos debajo, la creación de nuevos espacios públicos, la apertura del edificio a la comunidad mediante programas comunitarios y la legitimación del proyecto al involucrar a diversos agentes sociales en la configuración de un nuevo referente urbano. En resumen, la propuesta segmenta el gran trazo urbano original en tres edificios de menor escala, capaces de articular nuevos espacios públicos."
+                },
+                "a4.1":{
+                    "img":"gabrielaMistral/F8.jpg"
+                },
+                "a5.1":{
+                    "img":"gabrielaMistral/F9.jpg"
+                },
+                "a6":{
+                    "subTitle":"Diseño y Materialidad"
+                },
+                "a7":{
+                    "text":"El edificio destaca por el uso expresivo de cinco elementos de diseño, todos presentes en el edificio original: acero corten, hormigón armado a la vista, cristal, acero y madera. Estos materiales no son simplemente extraídos de un catálogo, sino que se llevan al límite de su expresividad. El acero corten, como nexo entre pasado, presente y futuro, se utiliza como revestimiento de fachada, cielo y pavimento, explorando diversas aplicaciones como perforado, liso, plegado y natural. Este revestimiento, predominante en las fachadas, se combina con el cristal de muros cortina y ventanas, siguiendo dos juegos básicos que revelan interiores fascinantes, como la Sala de Ensayo de Danza y la Sala de lectura de la Biblioteca. La aparición de cajas de cristal deforma la piel de acero corten, creando pliegues que alteran la forma en que la luz incide en las fachadas, generando una espontaneidad en el diseño. El pavimento, único en interiores y exteriores, presenta aplicaciones aleatorias de acero corten en franjas de 10 x 120 cm."
+                },
+                "a7.1":{
+                    "img":"gabrielaMistral/F6.jpg"
+                },
+                "a7.2":{
+                    "img":"gabrielaMistral/F4.jpg"
+                },
+                "a8":{
+                    "text":"Desde la perspectiva escenotécnica, el edificio presenta un equipamiento único en el país, incorporando todos los elementos necesarios para la ejecución adecuada de los espectáculos. La Sala de Danza-Teatro está equipada con puentes de iluminación, varas motorizadas para escenografía y puentes de luces de última tecnología. La Gran Sala de Audiencias para 2.000 personas cuenta con un complejo equipamiento escenotécnico que incluye cabinas de control, tres puentes de iluminación, telón cortafuego, varas motorizadas y manuales para escenografía e iluminación, así como espacios dedicados para su funcionamiento eficiente, como hombros laterales y la capilla. Además, el escenario cuenta con un sistema motorizado que permite cambiar la escenografía mecánicamente, facilitando la realización de diversos espectáculos con tiempos cortos de cambio entre actos. Esto, junto con salas de ensayo que replican las condiciones del escenario y su correspondiente equipamiento escenotécnico e de iluminación, hace que el recinto sea eficiente tanto en la administración como en la preparación de espectáculos."
+                },
+                "a9":{
+                    "img":"gabrielaMistral/F5.jpg"
+                },
+                "a10":{
+                    "img":"gabrielaMistral/F3.jpg"
+                }
+            },
+            "barrioLastarria":{
+                "a1":{
+                    "title":"Barrio Lastarria"
+                }
+            },
+            "iglesia":{
+                "a1":{
+                    "title":"Iglesia de San Francisco de Borja"
+                },
+                "a1.1":{
+                    "img":"iglesia/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1876. <br> <b>Dirección: </b>Carabineros de Chile 160, 8330016 Santiago, Región Metropolitana.<br><br><b>Arquitecto: </b> Hovender Henry (o G. Hovenden Henry) o constructores franceses."
+                },
+                "a3":{
+                    "text":"La iglesia de San Francisco de Borja, ex capilla o iglesia del Sagrado Corazón de Jesús del Hospital San Borja, es un templo católico neogótico de 1876 patrimonial, que está destinado al servicio religioso de Carabineros de Chile. Se encuentra en la calle Carabineros 160, detrás del monumento Gloria y victoria (escultor Héctor Román) y de la Alameda Bernardo O'Higgins a la altura del número 239. "
+                },
+                "a3.1":{
+                    "img":"iglesia/F2.jpg"
+                },
+                "a4":{
+                    "text":"La construcción de la Iglesia de San Borja fue ordenada por las Hijas de la Caridad junto al desaparecido Hospital San Borja en 1872, siendo inaugurada en 1876 como capilla del hospital. De estilo neogótico e inspirada en la Sainte Chapelle de París, la iglesia cuenta con 29 vitrales y roseta central encargados a Francia. Aunque existen discrepancias sobre su arquitecto, algunos atribuyen la obra al británico Hovenden Henry. La demolición planeada del hospital en 1967 provocó la movilización de religiosas, médicos y la escuela de Arquitectura de la Universidad de Chile, evitando la destrucción de la capilla. Tras gestiones de Carabineros de Chile, la iglesia fue traspasada a la institución en 1975 y rebautizada en 1982 en homenaje a Francisco de Borja. Conocida como la iglesia de los Carabineros, su recepción oficial ocurrió en 1976 en una ceremonia presidida por el entonces director institucional, general César Mendoza."
+                },
+                "a5":{
+                    "img":"iglesia/F3.jpg"
+                },
+                "a6":{
+                    "img":"iglesia/F4.jpg"
+                }
+            },
+            "metroArte":{
+                "a1":{
+                    "title":"Metro Arte"
+                },
+                "a2.1":{
+                    "img":"metroArte/universidadCatolica.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b> 2009. <br> <b>Autor: </b> Osvaldo Peña.<br><b>Técnica: </b> Escultura en acero"
+                },
+                "a3":{
+                    "text":"<em>¿Qué viaje hago yo en el Metro? Es un viajo corto, doméstico, diario, rutinario, repetido. Por eso hice un pasajero.</em><br> Para realizar la obra El Viaje, una escultura de metal oscuro, primero tuvo que tomar el lugar, tomar posesión de ese espacio, ocuparlo físicamente. Se desarrolló pensada para instalarse en Pedro de Valdivia, pero paradójicamente la obra tuvo su propio viaje hacia su destino definitivo: Universidad Católica en L1."
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Alameda con Av. Portugal",
         "Comuna":"Santiago"
     },
     "Baquedano":{
-        "post":{},
-        "linea":["Linea_1","Linea_5"],
+        "post":{
+            "a1":{
+                "a1":{
+                    "text":"Baquedano es una estación de combinación ferroviaria que forma parte de la red del metro de Santiago de Chile. Se encuentra por subterráneo entre las estaciones Salvador y Universidad Católica de la línea 1; y entre las estaciones Bellas Artes y Parque Bustamante de la línea 5. También será combinación con la futura línea 7 desde 2028. Se ubica en el límite entre las comunas de Santiago y Providencia, bajo la plaza Baquedano."
+                },
+                "a2":{
+                    "text":"La estación Baquedano se sitúa en la antigua zona de la estación Providencia, perteneciente al Ferrocarril del Llano de Maipo y el Ferrocarril de Circunvalación, aunque el entorno ferroviario fue eliminado entre las décadas de 1940 y 1950. La construcción de la estación fue parte del plan de extensión de la línea 1 del Metro de Santiago, inaugurada el 31 de marzo de 1977, que se extendía desde la estación Universidad de Chile hasta la estación Salvador. Durante esta construcción, la plaza Baquedano experimentó intervenciones significativas a tajo abierto, que incluyeron el traslado temporal de esculturas y estatuas. En una fase posterior, el 5 de abril de 1997, se inauguró el primer tramo de la línea 5, con Baquedano como estación terminal, con obras subterráneas que revelaron restos arqueológicos correspondientes al antiguo sistema de alcantarillado de Santiago en 1900."
+                }
+            },
+            "facultadDerechoUchile":{
+                "a1":{
+                    "title":"Facultad de Derecho U. de Chile"
+                },
+                "i1":{
+                    "img":"fDerechoUChile/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1938. <br> <b>Dirección: </b>Pío Nono 1, 7520421 Providencia, Región Metropolitana.<br><br><b>Arquitecto: </b>Juan Martínez Gutiérrez."
+                },
+                "a3":{
+                    "text":"A principios del siglo XX, los terrenos ocupados actualmente por la Facultad de Derecho de la Universidad de Chile albergaban un improvisado canódromo, un hipódromo más pequeño para carreras de perros. Sin embargo, la imagen de entonces contrasta con la imponente sede actual, diseñada por el arquitecto Juan Martínez Gutiérrez, quien ganó el concurso en 1934 para construir la nueva sede universitaria. Originalmente, se consideró ubicar la Facultad al oriente del edificio en la Alameda, por calle Arturo Prat, pero este plan fue descartado en favor del actual espacio más amplio, que tiene como fondo el cerro San Cristóbal y al frente el río Mapocho. Desde su construcción, la Facultad de Derecho ha sido la cuna de 17 presidentes, ministros, parlamentarios y numerosos personajes destacados en la historia nacional."
+                },
+                "i2":{
+                    "img":"fDerechoUChile/F5.jpg"
+                },
+                "a4":{
+                    "subTitle":"Arquitectura"
+                },
+                "a5":{
+                    "text":"El edificio de la Facultad de Derecho de la Universidad de Chile presenta un diálogo entre la arquitectura neoclásica historicista simplificada y la vanguardia expresada por la simplificación. Características neoclásicas, como machones de hormigón en lugar de pilares, zócalos, arcos de medio punto, remates y una escalinata monumental, coexisten con elementos modernos que reflejan la funcionalidad y uso interior del edificio. La escuela, ubicada en la ribera norte del río Mapocho, se destaca como un hito urbano que ha experimentado diversas intervenciones a lo largo del tiempo, incluyendo la ocupación de terrazas en el tercer nivel, la creación de la Biblioteca Central, la remodelación del Aula Magna y la construcción de un edificio para la Escuela de Postgrado de la Facultad."
+                },
+                "i3":{
+                    "img":"fDerechoUChile/F3.jpg"
+                },
+                "i4":{
+                    "img":"fDerechoUChile/F4.jpg"
+                },
+                "i5":{
+                    "img":"fDerechoUChile/F2.jpg"
+                }
+            },
+            "telefonica":{
+                "a1":{
+                    "title":"Torre Telefónica"
+                },
+                "i1":{
+                    "img":"telefonica/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1996. <br> <b>Dirección: </b>Av. Providencia 111, 7500776 Providencia, Región Metropolitana.<br><b>Área: </b>63.000 m2<br><br><b>Arquitectos: </b>Iglesis Prat Arquitectos en colaboración con Mario Paredes & Arquitectos Asociados.<br><b>Ingeniero estructural: </b>René Lagos Engineers"
+                },
+                "a3":{
+                    "text":"La Torre Telefónica, también conocida como Distrito Movistar Chile, es un rascacielos ubicado en Providencia, Santiago de Chile, propiedad de la empresa de telecomunicaciones Movistar y funcionando como su centro de operaciones en el país. Con una altura de 143 metros y 34 pisos, fue el edificio más alto de Chile entre 1996 y 1999. Considerado un hito arquitectónico junto con la Torre Entel, destaca por su diseño moderno y su estratégica ubicación en el Parque Bustamante, marcando un eje visual y urbanístico entre las comunas de Providencia y Santiago. La forma del edificio representa un teléfono móvil de la década de 1990, reflejando su función en el ámbito de las telecomunicaciones."
+                },
+                "i2":{
+                    "img":"telefonica/F2.jpg"
+                },
+                "a4":{
+                    "subTitle":"Torre principal"
+                },
+                "a5":{
+                    "text":"La Torre Telefónica, con una altura total de 143 metros y 32 pisos, destaca por su espiral que alcanza los 132 metros. Además, cuenta con un helipuerto en el nivel 35, lo que la hace visible desde gran parte de la capital. En su interior, dispone de ocho ascensores programables, cuatro de alta velocidad con una velocidad máxima de 6,3 metros por segundo. La torre tiene una superficie de 63.000 metros cuadrados y puede albergar a 2100 personas en plantas libres, además de contar con una central telefónica digital con capacidad para 3.000 líneas."
+                },
+                "a6":{
+                    "subTitle":"Edificio gemelo"
+                },
+                "a7":{
+                    "text":"Adosado a la Torre Principal, conserva la misma fachada de esta, pero solo con 9 pisos de altura. En su primera planta, alberga salas de conferencia que dan hacia el atrio del Edificio Bustamante, además de un punto de atención a clientes y la sala de exposiciones de la Fundación Telefónica denominada Espacio; ambas son accesibles por el extremo oriente del edificio de cara a avenida Providencia."
+                },  
+                "a8":{
+                    "subTitle":"Edificio Bustamante"
+                },
+                "a9":{
+                    "text":"Su acceso, a diferencia del resto del edificio, se encuentra por la avenida General Bustamante, siendo este casi imperceptible a la vista del transeúnte y siendo confundido a menudo como un edificio aparte. Los cinco pisos albergan en su mayoría al área empresas de Movistar. Está apartado del complejo por un atrio interior que alberga al Museo de las Telecomunicaciones, una segunda sala para exposiciones y el auditorium de la compañía, con capacidad para 300 personas. En su entrada, recientemente remodelada, se instalaron jardines de acceso público y una sucursal de la cafetería Starbucks. "
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Alameda con Av. Vicuña Mackenna",
         "Comuna":"Santiago"
     },
     "Salvador":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Providencia con Av. Eliodoro Yáñez",
         "Comuna":"Providencia"
     },
     "Manuel Montt":{
-        "post":{},
-        "linea":["Linea_1"],
+        "post":{
+            "a0":{
+                "a1":{
+                    "text":"Manuel Montt es una estación ferroviaria de la Línea 1 de la red del Metro de Santiago de Chile. Se encuentra subterránea, entre las estaciones Salvador y Pedro de Valdivia de la misma línea. Se ubica entre la Avenida Providencia a la altura del 1760 y la Avenida Nueva Providencia, en la comuna de Providencia."
+                },
+                "a2":{
+                    "text":"Presentando un flujo promedio de 39.000 pasajeros/hora se caracteriza por la presencia del sector universitario, comercial y bohemio en el que se emplaza. Un alto número de usuarios son estudiantes del Liceo José Victorino Lastarria, que está cercano a la estación. La estación posee una afluencia diaria promedio de 36 317 pasajeros."
+                },
+                "a3":{
+                    "text":"Su nombre proviene de la Avenida Manuel Montt, la que se ubica cercana a la estación y que conmemora al Presidente Manuel Montt, quien gobernó Chile entre 1851 y 1861. Junto a Antonio Varas, formó una de las duplas políticas más importantes de la historia de Chile. Según el proyecto original de 1968, esta estación hubiera recibido el nombre de «Tajamar», recordando los tajamares del río Mapocho, construidos durante la Colonia para reencauzar sus aguas. "
+                }
+            },
+            "Tajamar":{
+                "a1":{
+                    "title":"Torres de Tajamar"
+                },
+                "a2":{
+                    "img":"taj/F1.jpg"
+                },
+                "a3":{
+                    "desc":"<b>Fecha: </b>1967. <br> <b>Dirección: </b> Av. Providencia 1100, Santiago, Chile.<br><b>Área: </b> 49.523 m2.<br><br><b>Arquitectos: </b> Luis Prieto Vial, B.V.C.H. ( Carlos Bresciani, Héctor Valdés, Fernando Castillo y Carlos Huidobro)."
+                },
+                "a4":{
+                    "text":"Las Torres de Tajamar, construidas en 1967 en Providencia, forman parte del patrimonio inmobiliario nacional. Diseñadas por el arquitecto Luis Prieto Vial en colaboración con la oficina de arquitectos BVCH, este proyecto innovador destaca por su alta densidad, con 387 departamentos para 2,200 habitantes en menos de una hectárea. Este desarrollo fue crucial para Providencia debido al costo del terreno, obligando a los arquitectos a crear diversas tipologías de torres para viviendas y comercios. Estratégicamente ubicadas, las torres se integran armoniosamente al Parque Balmaceda y al río Mapocho, siendo la entrada al sector oriente de Santiago. Concebidas como esculturas en el paisaje, con transparencias hacia la cordillera, se consideran una puerta al barrio alto y al final de la Avenida Providencia, destacando la visión trascendental de sus creadores, como mencionó Fernando Castillo Velasco en 2008."
+                },
+                "a4.1":{
+                    "img":"taj/F2.jpg"
+                },
+                "a5":{
+                    "text":"El complejo de las Torres de Tajamar consta de cuatro edificios: la Torre A, la más alta con 28 pisos (84 metros), seguida por la Torre C con 19 pisos, la Torre D con 15 pisos y la Torre B con 10 pisos. Entre estos edificios, se encuentra una plazoleta central. El diseño original del proyecto, a cargo de Luis Prieto Vial, fue desarrollado en colaboración con la oficina de arquitectura BVCH y los constructores Bolton, Larraín y Prieto. Inicialmente concebido con una torre principal y tres edificios de menor altura, el proyecto fue modificado por razones económicas, resultando en un conjunto homogéneo que bloquea la vista del paisaje de la cuenca de Santiago. Los dos primeros pisos albergan oficinas y comercios, mientras que los niveles restantes contienen 387 departamentos, proporcionando vivienda a 2200 habitantes en menos de una hectárea, con una superficie total construida de 49,523 m²"
+                },
+                "a5.1":{
+                    "img":"taj/F3.jpg"
+                },
+                "a6":{
+                    "subTitle":"Contexto social"
+                },
+                "a7":{
+                    "text":"La explosión demográfica y la migración campo-ciudad en el siglo pasado generaron una creciente necesidad de viviendas en Santiago. Para abordar este desafío, se optó por construir en altura en lugar de extenderse hacia la periferia, transformando la ciudad en un símbolo de modernidad. Durante el gobierno de Eduardo Frei Montalva, surgieron conjuntos habitacionales como la Villa Juan Antonio Ríos (1948) y la unidad vecinal Portales, destacando la Villa Frei en 1969. Estos conjuntos fomentaron modelos de vida comunitarios, destacando la importancia de los espacios públicos. Inicialmente proyectadas para la élite (ABC1), las Torres de Tajamar ofrecieron innovadores servicios y un estilo de vida vanguardista. A lo largo del tiempo, la demografía ha cambiado, y hoy el conjunto alberga principalmente a personas mayores, estudiantes y familias de clase media, mientras que los espacios públicos sirven como áreas de tránsito para peatones y visitantes, distanciándose de su función inicial como lugares de interacción social."
+                },
+                "a7.1":{
+                    "img":"taj/F5.jpg"
+                },
+                "a8":{
+                    "subTitle":"Contexto urbano"
+                },
+                "a9":{
+                    "text":"Las Torres de Tajamar, precursoras entre los edificios residenciales de gran altura, se erigieron en el terreno previamente ocupado por la fábrica de tubos Grau. Inicialmente criticadas por su ubicación cercana al cauce inestable del río Mapocho, la oficina de arquitectos de Bresciani, Valdés y Castillo Velasco llevó a cabo excavaciones significativas para las fundaciones, garantizando su seguridad. Estas torres se convirtieron en la principal entrada al centro comunal y en un indicador de un destino en desarrollo. Cerca de este punto, se construyeron más tarde las Torres de Carlos Antúnez, aprovechando los últimos terrenos baldíos de la Casa Nacional del Niño. En el ámbito social, se inició la construcción de equipamientos como el Consultorio en Los Jesuitas y el Gimnasio Santa Isabel durante este período. Ubicadas en el centro de la Región Metropolitana, las Torres de Tajamar gozan de una posición privilegiada cerca de Plaza Italia, proporcionando acceso conveniente a comercios y servicios. Situadas junto al río Mapocho, entre las avenidas Andrés Bello y Providencia, son una extensión del parque Providencia, integrando espacios de encuentro en torres. A pesar de los intentos de cerrar su planta baja, que alberga locales comerciales, permanece abierta al público en un tránsito deseado pero no logrado debido a su naturaleza comercial."
+                },
+                "a9.1":{
+                    "img":"taj/F4.jpg"
+                },
+                "a10":{
+                    "text":"El proyecto de las Torres de Tajamar refleja la transición hacia un nuevo urbanismo pragmático, marcado por la especialización de circulaciones, edificios aislados rodeados de jardines y zonificación de funciones urbanas. Eliminando las calles transversales, el conjunto se integra al área verde en lugar del régimen de edificación, fragmentando el área de parques de Santiago. Concebidas como una escultura transparente, las torres sirven como límite del parque hacia el poniente, al mismo tiempo que permiten la percepción del macizo cordillerano, siendo una característica distintiva de la ciudad. La torre norte fue perforada para crear un espacio interior abierto, aumentando la transparencia en el límite que cierra la plaza central. Aunque el conjunto incorpora tres espacios públicos, solo la Plaza Jorge Pratt está en uso general, mientras que las otras dos plazas son utilizadas de manera más limitada. La interrupción en el sistema de áreas verdes y la falta de conectividad peatonal entre el Parque Providencia y el Parque Uruguay, sumado al destino de estacionamientos, generan discontinuidad y dificultades en los flujos urbanos. A pesar de la intención original de vitalizar el comercio de Providencia, la presencia de numerosos negocios comerciales en los primeros pisos ha contribuido al deterioro del entorno, y la idea de cerrar el conjunto se ve obstaculizada por la presencia de 101 locales comerciales."
+                },
+                "a11.1":{
+                    "img":"taj/F7.jpg"
+                },
+                "a11.2":{
+                    "img":"taj/F6.jpg"
+                },
+                "a11":{
+                    "text":"Este proyecto refleja fuertemente las tendencias modernistas extranjeras que marcaron el período posterior a la Segunda Guerra Mundial hasta los años 60, una fase de internacionalización de la arquitectura moderna que influyó significativamente en Chile. La transición hacia la modernización y desarrollo trajo consigo la adopción de modelos del mundo desarrollado, transformando rápidamente el paisaje urbano chileno. Este cambio se llevó a cabo a través de la influencia de arquitectos que viajaron al extranjero, como Sergio Larraín G.M. y Roberto Dávila, quienes aplicaron sus experiencias en Chile a través de publicaciones y obras. La presencia de arquitectos extranjeros en Chile también contribuyó al proceso de cambio, siendo la influencia de Le Corbusier especialmente destacada en la consolidación de nuevas ideas y en la transformación del diseño urbano y habitacional en la década del '50 y principios del '60."
+                },
+                "a12":{"img":"taj/F8.jpg"}
+            }
+        },
+        "status":1,
         "Ubicación":"Av. Nueva Providencia con Av. Manuel Montt",
         "Comuna":"Providencia"
     },
     "Pedro de Valdivia":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Nueva Providencia con Marchant Pereira",
         "Comuna":"Providencia"
     },
     "Los Leones":{
         "post":{},
-        "linea":["Linea_1","Linea_6"],
+        "status":0,
         "Ubicación":"Av. Nueva Providencia con Av. Ricardo Lyon",
         "Comuna":"Providencia"
     },
@@ -162,10 +794,10 @@
                     "title":"MUT"
                 },
                 "a2":{
-                    "img":"mut/F1.jpg"
+                    "img":"mut/F7.jpg"
                 },
                 "a1.1.1":{
-                    "desc":"<strong>Fecha: </strong> 13 de Julio de 2023. <br> <strong>Dirección: </strong> Av. Apoquindo 2730, Santiago de Chile.<br><strong>Extención: </strong> 160.000 m2<br><br><strong>Territoria</strong><br><strong>Arquitectura Conceptual Fase 1: </strong> KPF.<br><strong>Desarrollo de proyecto: </strong>Mobil, Seggiario<br><strong>Diseño Conceptual: </strong>Tony Chil.<br><strong>Diseño Mercado: </strong>Ray Chen.<br><strong>Diseño: </strong>CQ(Agustín Quiroga).<br><strong>Paisajismo: </strong>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
+                    "desc":"<b>Fecha: </b> 13 de Julio de 2023. <br> <b>Dirección: </b> Av. Apoquindo 2730, Santiago de Chile.<br><b>Extención: </b> 160.000 m2<br><br><b>Territoria</b><br><b>Arquitectura Conceptual Fase 1: </b> KPF.<br><b>Desarrollo de proyecto: </b>Mobil, Seggiario<br><b>Diseño Conceptual: </b>Tony Chil.<br><b>Diseño Mercado: </b>Ray Chen.<br><b>Diseño: </b>CQ(Agustín Quiroga).<br><b>Paisajismo: </b>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
                 },
                 "a1.1":{
                     "text":"El proyecto arquitectónico, se sitúa en el emergente centro de negocios de Santiago, Chile, en la confluencia de las comunas de Las Condes y Providencia. Este ambicioso desarrollo, conocido como MUT, abarca la totalidad de la manzana conformada por Apoquindo, Encomenderos, Roger de Flor y el Bosque. Diseñado bajo un novedoso concepto de mercado, MUT fusiona gastronomía, cultura, oficinas y comercios en armonía con jardines, plazas y modos de transporte sostenibles. Su visión se orienta a anticipar el futuro de cómo experimentamos la ciudad, concebida como un campus urbano innovador."
@@ -192,10 +824,13 @@
                     "text":"Dentro del plan de sostenibilidad del proyecto, el equipo de MUT destaca el papel crucial de la tecnología para minimizar el impacto ambiental en términos de energía, agua y residuos. El 100% de la energía utilizada provendrá de fuentes renovables no convencionales como la eólica, hidráulica y solar. Para lograr ahorros energéticos significativos, se implementará la climatización geotérmica, aprovechando la temperatura de las aguas subterráneas sin consumirlas. Además, gracias a perforaciones estratégicas y entradas de luz, el 75% de los espacios interiores se beneficiarán de ventilación y luz natural, lo que se traduce en una reducción del consumo de energía del 32%."
                 },
                 "a7":{
-                    "text":"En relación con el agua, se prioriza la utilización de agua 100% reciclada o reutilizada para el riego de áreas verdes, almacenando aguas lluvia, capturando humedad ambiental y reciclando aguas grises. Este enfoque permite ahorrar 7 millones de litros de agua al año y reduce aproximadamente un 50% del consumo de agua potable sanitaria. En cuanto a los residuos, se implementa un programa de <strong>cero basura</strong>, basado en la valorización de residuos mediante reutilización, reciclaje y transformación. Un biodigestor transformará los residuos orgánicos en biogás, utilizado tanto para cocinar como fertilizante para los jardines, evitando que las 15 toneladas diarias de basura terminen en vertederos."
+                    "text":"En relación con el agua, se prioriza la utilización de agua 100% reciclada o reutilizada para el riego de áreas verdes, almacenando aguas lluvia, capturando humedad ambiental y reciclando aguas grises. Este enfoque permite ahorrar 7 millones de litros de agua al año y reduce aproximadamente un 50% del consumo de agua potable sanitaria. En cuanto a los residuos, se implementa un programa de <b>cero basura</b>, basado en la valorización de residuos mediante reutilización, reciclaje y transformación. Un biodigestor transformará los residuos orgánicos en biogás, utilizado tanto para cocinar como fertilizante para los jardines, evitando que las 15 toneladas diarias de basura terminen en vertederos."
                 },
                 "a7.1":{
                     "img":"mut/F5.jpg"
+                },
+                "a7.2":{
+                    "img":"mut/F1.jpg"
                 },
                 "a8":{
                     "text":"En el marco de un Nuevo Urbanismo y una redefinición de cómo vivimos la ciudad, es crucial cuestionarnos la naturaleza de los proyectos arquitectónicos actuales y futuros. La propuesta innovadora de MUT en áreas verdes, movilidad y tecnología parece señalar el camino adecuado. Al centrarse en la sostenibilidad como medio para mejorar la experiencia urbana, el proyecto sugiere dónde deben estar las prioridades al diseñar la ciudad contemporánea. Existe un potencial significativo para replicar estos principios a mayor escala, desencadenando un desarrollo urbano sostenible."
@@ -214,8 +849,11 @@
                 "a1":{
                     "title":"Gran Torre Santiago"
                 },
+                "a1.1":{
+                    "img":"Costanera/F1.jpg"
+                },
                 "a2":{
-                    "desc":"<strong>Fecha: </strong>2013<br><strong>Altura: </strong>300m<br><strong>Área: </strong> 107.125 m2<br><strong>Dirección: </strong>Av. Andrés Bello 2425, 7510689 Providencia, Región Metropolitana<br><br><strong>Arquitecto: </strong>Cesar Pelli, Watt Internacional y Alemparte Barreda Arquitectos. <br><strong>Ingeniero: </strong>Thornton y Tomasetti.<br><strong>Ingeniero estructural: </strong>René Lagos y Asociados Ing. Civiles Ltda.<br><strong>Constructora: </strong>Salfa Corp."
+                    "desc":"<b>Fecha: </b>2013<br><b>Altura: </b>300m<br><b>Área: </b> 107.125 m2<br><b>Dirección: </b>Av. Andrés Bello 2425, 7510689 Providencia, Región Metropolitana<br><br><b>Arquitecto: </b>Cesar Pelli, Watt Internacional y Alemparte Barreda Arquitectos. <br><b>Ingeniero: </b>Thornton y Tomasetti.<br><b>Ingeniero estructural: </b>René Lagos y Asociados Ing. Civiles Ltda.<br><b>Constructora: </b>Salfa Corp."
                 },
                 "a3":{
                     "text":"La Gran Torre Santiago, originalmente conocida como Torre Gran Costanera, forma parte del Costanera Center, un complejo que aspira a convertirse en una mini ciudad, construyendo en los 47.000m² de terreno disponibles un centro comercial y otras tres torres en las que se ubicarán principalmente oficinas, pero también supermercados, tiendas, restaurantes, 2 hoteles cinco estrellas, estacionamiento, un helipuerto, un parque en altura, un centro médico y espacios de ocio."
@@ -223,17 +861,26 @@
                 "a4":{
                     "text":"El complejo estará formado en el momento de su finalización por cuatro edificios de altura y uno más bajo, 6 plantas, que alberga el centro comercial. La más pequeña de las torres con una altura de 109m, otras dos torres alcanzarán los 160 y 165m respectivamente y el elemento más notable del proyecto, la Gran Torre Santiago, diseño del arquitecto César Pelli, asociado con los arquitectos chilenos Alemparte Barreda Arquitectos y la empresa canadiense Watt Internacional, que alcanza los 300m y sigue la línea utilizada por el arquitecto en el diseño de la Torre de Cristal y las 2 Torres Shanghai IFC. Esta torre se ha convertido en la más alta de Sudamérica y segunda del hemisferio sur detrás de la Torre Q1 en Australia, siendo su inauguración oficial prevista, después de numerosas postergaciones, para el 2014 pese a que el edificio quedó terminado en el 2013."
                 },
+                "a5.1":{
+                    "img":"Costanera/F3.jpg"
+                },
                 "a5":{
                     "subTitle":"Concepto"
                 },
                 "a6":{
                     "text":"Para ser visto delante de las montañas y convertirse en parte de la ciudad, la forma de la torre es simple y clara. Elevándose desde la esquina noroeste del complejo, próximo al Río Mapocho, las 64 plantas de la torre revestida de vidrio tiene una ligera forma cónica, forma delgada que culmina con una escultórica corona de celosía. Es una forma fuerte, capaz de convertirse en un punto de referencia.<br><br>Se trata de un edificio del siglo XXI , tanto a nivel técnico como estético. Está diseñado con sistemas estructurales modernos que revisten de arte la construcción y sistemas mecánicos con capacidad de respuesta al medio ambiente."
                 },
+                "a6.1":{
+                    "img":"Costanera/F2.jpg"
+                },
                 "a7":{
                     "subTitle":"Estructura"
                 },
                 "a8":{
                     "text":"La Gran Torre fue construida para resistir terremotos. Chile, ubicado en el Anillo de Fuego del Pacífico, es especialmente propenso a los terremotos de gran alcance. El edificio aguantó con gran éxito el terremoto de 8,8ºRichter que devastó gran parte del centro y sur de Chile en 2010, sin sufrir daños estructurales. En la parte superior de la torre, los vientos con velocidades de 122km/hora provocan una oscilación de 35cm. La torre se mueve en el eje contrario a la dirección del viento."
+                },
+                "a8.1":{
+                    "img":"Costanera/F5.jpg"
                 },
                 "a9":{
                     "text":"En el interior desarrolla un sistema estructural de planta libre abrazando un corazón de hormigón armado cuyas losas están rodeadas con pilares perimetrales y donde se concentran los servicios del edificio. Sus foques de revestimiento exterior se componen principalmente de vidrio con revestimientos de alto rendimiento que permiten vistas sin ningún tipo de obstáculos desde el suelo hasta el techo, con sombreados solares inteligentes y marcos de aluminio. Muchas características hacen que el edificio sea catalogado como «verde», desde la elección de los materiales, su diseño de fachada exterior y sus sistemas mecánicos y eléctricos."
@@ -255,17 +902,126 @@
                 },
                 "a15":{
                     "text":"Los 50.000m2 del muro cortina que crea la piel que recubre la Gran Torre Santiago, tienen una alta eficacia térmica gracias a su estructura y cámara aislante interior, permitiendo una gran transparencia, entrada de luz natural y ahorro de energía eléctrica. En sud américa no existe hasta la fecha ninguna empresa con capacidad para fabricar esta cantidad de cristales, placas rectangulares, 1.5 x 3.3m, por lo que fue necesario encargarlas a China."
+                },
+                "a16":{
+                    "img":"Costanera/F6.jpg"
+                }
+            },
+            "cepal":{
+                "a1":{
+                    "title":"CEPAL"
+                },
+                "i1":{
+                    "img":"Cepal/F1.jpg"
+                },
+                "a3":{
+                    "desc":"<b>Fecha: </b>1966. <br> <b>Dirección: </b>Dag Hammarskjold 3477, 7630670 Vitacura, Región Metropolitana.<br><b>Área: </b> 11.500 m2<br><br><b>Arquitecto: </b>Emilio Duhart."
+                },
+                "a2":{
+                    "text":"El proyecto fue adjudicado en un concurso de anteproyectos de dos fases restringido a profesionales chilenos. Cuatro de cuarenta trabajos fueron seleccionados por un jurado internacional y se llevaron a la Sede de las Naciones Unidas en Nueva York, donde Dag Hammarskjold, secretario general, seleccionó el proyecto ganador asesorado por los arquitectos norteamericanos Wallace K. Harrison y Philip Johnson."
+                },
+                "a4":{
+                    "text":"La crítica del jurado destacó que el proyecto estaba <em>“en consonancia con el espacio de Santiago, con su valle y sus cordilleras, con su tierra, su clima y su flora, con el temperamento de sus gentes. Un palacio expresado geométricamente frente a la complejidad cósmica de los Andes, con la sobriedad propia del país”</em>."
+                },
+                "i3":{
+                    "img":"Cepal/F3.jpg"
+                },
+                "i4":{
+                    "img":"Cepal/F4.jpg"
+                },
+                "a5":{
+                    "text":"Las cuatro hectáreas que formaban el solar estaban situadas en el borde sur del Rio Mapocho, en la periferia oriental de la ciudad de Santiago. Recientemente, ésta había sido urbanizada con el único propósito de integrar el “Parque de las Américas”, proyecto del prestigioso paisajista brasileño Roberto Burle Marx que nunca llegó a construirse."
+                },
+                "i8":{
+                    "img":"Cepal/F8.jpg"
+                },
+                "a6":{
+                    "text":"La propuesta incorpora los valores geográficos del entorno mediante un volumen neutral con las dimensiones de una manzana del centro histórico: “La silueta del edificio, larga, horizontal y de poca altura, refleja la tradición arquitectónica chilena y la llanura del Valle Central. Los volúmenes escultóricos del centro son un eco de las masas montañosas, el otro elemento específico de la geografía del país”."
+                },
+                "i5":{
+                    "img":"Cepal/F5.jpg"
+                },
+                "i6":{
+                    "img":"Cepal/F6.jpg"
+                },
+                "a7":{
+                    "text":"La diferencia más significativa entre la propuesta de Emilio Duhart y el resto de las finalistas fue, precisamente, que él la ordenó en torno a un patio, mientras que los otros la proyectaron como una pieza aislada y lineal. En un momento en que la mayoría de los arquitectos chilenos seguían alineados con el movimiento moderno más ortodoxo, Emilio Duhart manifestaba en sus proyectos una mayor expresividad plástica, como había aprendido de Le Corbusier. Esta tendencia comunicativa en su práctica profesional le llevó a romper con los principios los CIAM, que había seguido estrictamente desde que, en 1942, fuera alumno de Walter Gropius en Harvard."
+                },
+                "i7":{
+                    "img":"Cepal/F7.jpg"
+                },
+                "i9":{
+                    "img":"Cepal/F9.jpg"
+                },
+                "i2":{
+                    "img":"Cepal/F2.jpg"
+                }
+            },
+            "consorcio":{
+                "a1":{
+                    "title":"Edificio Consorcio Santiago"
+                },
+                "i1":{
+                    "img":"consorsio/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1990. <br> <b>Dirección: </b>Av. El Bosque 130, Piso 7, 7550288 Las Condes, Región Metropolitana.<br><b>Área: </b> 26.720 m2<br><br><b>Arquitectos: </b>Borja Huidobro, Enrique Browne; Enrique Browne, Borja Huidobro."
+                },
+                "a3":{
+                    "text":"El proyecto consta de dos volúmenes largos que forman una galería que alberga los accesos. Un cuerpo, adosado al edificio vecino, tiene tres niveles, mientras que el cuerpo principal cuenta con 17 niveles y una longitud de 75 metros. La fachada poniente del cuerpo principal se curva para alinearse con los ejes de El Bosque y Tobalaba, formando un ángulo agudo que simboliza el inicio de la Avenida El Bosque. El edificio se sectoriza verticalmente, asignando los pisos inferiores al Consorcio y los catorce superiores para alquiler. Ambas áreas tienen accesos y circulaciones verticales independientes, ubicándose los accesos en los extremos de la galería. El acceso al Consorcio se encuentra en el sur, mientras que el acceso a las oficinas de alquiler se sitúa en el norte, a nivel dos, con esta zona balconeando sobre la primera, estableciendo una conexión visual entre ambos accesos."
+                },
+                "i2":{
+                    "img":"consorsio/F9.jpg"
+                },
+                "i3":{
+                    "img":"consorsio/F10.jpg"
+                },
+                "i11":{
+                    "img":"consorsio/F7.jpg"
+                },
+                "a4":{
+                    "subTitle":"Vegetación"
+                },
+                "a5":{
+                    "text":"Para abordar los problemas térmicos y de encandilamiento, se utilizaron medios naturales, como un espejo de agua en el antejardín y árboles para refrescar las veredas. Los dos pisos superiores fueron protegidos por una visera con celosías, reduciendo la carga térmica y la necesidad de climatización. Este enfoque sostenible contribuyó al ahorro energético a lo largo de la vida útil del edificio."
+                },
+                "i4":{
+                    "img":"consorsio/F6.jpg"
+                },
+                "i5":{
+                    "img":"consorsio/F5.jpg"
+                },
+                "i6":{
+                    "img":"consorsio/F8.jpg"
+                },
+                "a6":{
+                    "text":"La clave del diseño del edificio se encuentra en el cuerpo central (pisos 4 al 15), donde se optó por protegerlo con una <em>doble piel vegetal</em> vertical. Se consideraron tres alternativas, pero la elección fue una estructura con trepadoras caducas separada 1,40 metros de la superficie del edificio. Esta solución asegura chimeneas para corrientes de aire ascendentes, jardineras inferiores con riego programado y facilita el mantenimiento. La fachada se dividió en tres franjas horizontales verdes, con pisos recesivos que marcan la separación. La aprobación de la solución vegetal se logró al presentar experiencias anteriores y, una vez aceptada, la empresa brindó apoyo constante en la ejecución y mantenimiento. La solución de <em>doble piel vegetal</em> elevó las superficies verdes, devolviendo a la ciudad la vegetación que ocupaba inicialmente el terreno y mejorando el entorno. Este enfoque no solo proporciona un aspecto cambiante y agradable, sino que también contribuye a oxigenar el barrio, mitigar la contaminación y ofrecer una perspectiva de permanente validez en comparación con los edificios convencionales que tienden a deteriorarse con el tiempo."
+                },
+                "i7":{
+                    "img":"consorsio/F3.jpg"
+                },
+                "i8":{
+                    "img":"consorsio/F4.jpg"
+                },
+                "i9":{
+                    "img":"consorsio/F2.jpg"
                 }
             },
             "Parque Titanium":{
                 "a1":{
                     "title":"Parque Titanium"
                 },
+                "i1":{
+                    "img":"titanium/F1.jpg"
+                },
                 "a2":{
-                    "desc":"<strong>Fecha: </strong>2014<br><strong>Dirección: </strong>Av. Costanera Andrés Bello 2782, Las Condes<br><strong>Área: </strong>137.585 m2<br><br><strong>Arquitecto: </strong> Abraham Senerman L.<br><strong>Jefe proyecto: </strong>Andrés Weil P.<br><strong>Equipo Desarrollo: </strong>Pablo Aceituno, Pablo Bañados, David Butelman, Rodrigo Chamorro, Vicente Faúndez, Pedro Gil, Juan Francisco Piccardo, José Scacci y Omar Zeballos <br><strong>Ingeniero estructural: </strong> Alfonso Larraín V."
+                    "desc":"<b>Fecha: </b>2014<br><b>Dirección: </b>Av. Costanera Andrés Bello 2782, Las Condes<br><b>Área: </b>137.585 m2<br><br><b>Arquitecto: </b> Abraham Senerman L.<br><b>Jefe proyecto: </b>Andrés Weil P.<br><b>Equipo Desarrollo: </b>Pablo Aceituno, Pablo Bañados, David Butelman, Rodrigo Chamorro, Vicente Faúndez, Pedro Gil, Juan Francisco Piccardo, José Scacci y Omar Zeballos <br><b>Ingeniero estructural: </b> Alfonso Larraín V."
                 },
                 "a3":{
                     "text":"Parque Titanium es un conjunto que persigue una arquitectura más eficiente en lo energético y amigable con el medio ambiente. El conjunto recupera un paño urbano decaído, delimitado por el lecho del río Mapocho y la Costanera Sur, para producir una renovación basada en la cooperación público-privada. El complejo, de tres edificios de veintitrés pisos cada uno, descansa sobre un parque público de cuatro hectáreas de extensión, cuyo paisajismo entra en conversación con el río. Las tres torres comparten además un piso zócalo destinado al comercio, sobre el cual se duplica el área de parque gracias a una superficie verde elevada, y bajo el cual se desarrollan cuatro subterráneos comunes a las tres torres, donde también se encuentra un centro de convenciones de gran escala. El conjunto se ha constituido como un modelo, debido a sus estrategias tanto activas como pasivas de buen comportamiento ambiental, entre las cuales figuran la utilización de energía geotérmica asociada a las napas del río, la habilitación de camarines que incentiva el uso de bicicletas en los trabajadores, una planificación de obra que consideró estrategias de prevención de la contaminación, una estructura que utiliza materiales locales (el acero, principalmente), y los interiores más eficientes en lo climático que un edificio normal. Todos estos aspectos aseguraron la certificación LEED Gold v3 de Parque Titanium."
+                },
+                "i5":{
+                    "img":"titanium/F3.jpg"
                 },
                 "a4":{
                     "subTitle":"Materiales"
@@ -273,22 +1029,40 @@
                 "a5":{
                     "text":"Los edificios están construidos principalmente en hormigón armado con un núcleo central rígido y un marco perimetral flexible de columnas circulares unidos por losas postensadas. El cristal es el material de cerramiento predominante en las fachadas, Low E, lo que permite controlar y disminuir el impacto en su interior de los RUV. Cada torre independiente, posee un núcleo de ascensores que distribuye eficientemente la circulación de los usuarios, dejando libre las áreas perimetrales, favoreciendo la iluminación natural de los espacios de oficinas."
                 },
+                "i3":{
+                    "img":"titanium/F2.jpg"
+                },
+                "i4":{
+                    "img":"titanium/F6.jpg"
+                },
                 "a6":{
                     "subTitle":"Geotermia"
                 },
                 "a7":{
                     "text":"La infiltración de aguas subterráneas del río Mapocho, se transformó en una gran oportunidad para el ahorro energético del complejo, ya que permitió proyectar el sistema de climatización utilizando la inercia térmica de la tierra almacenada en el agua subterránea, conocido como geotermia. Esta innovación, que recién se está aplicando en Chile, consiste en la utilización de la energía proveniente de las aguas ubicadas a nivel de los subterráneos, entre los 11 y 15 metros de profundidad, aguas que mantienen una temperatura promedio de 15ºc. Con ello, los edificios, tienen importantes ahorros en su operación."
+                },
+                "i6":{
+                    "img":"titanium/F4.jpg"
+                },
+                "i7":{
+                    "img":"titanium/F5.jpg"
                 }
             },
             "parqueBicentenario":{
                 "a1":{
                     "title":"Parque Bicentenario"
                 },
+                "i1":{
+                    "img":"bicentenario/F1.jpg"
+                },
                 "a2":{
-                    "desc":"<strong>Fecha: </strong>2007-2014.<br><strong>Dirección: </strong>Av. Bicentenario 3236, Vitacura, Región Metropolitana.<br><strong>Área: </strong>27 hectaréas<br><br><strong>Arquitecto: </strong>Teodoro Fernández Larrañaga."
+                    "desc":"<b>Fecha: </b>2007-2014.<br><b>Dirección: </b>Av. Bicentenario 3236, Vitacura, Región Metropolitana.<br><b>Área: </b>27 hectaréas<br><br><b>Arquitecto: </b>Teodoro Fernández Larrañaga."
                 },
                 "a3":{
                     "text":"En 2023 un novedoso proyecto comenzó a tomar forma en el parque. Se trata de la implementación del bosque urbano, que involucra 7 hectáreas, en las que se plantaron mil 460 árboles que nos ayudarán a mitigar los efectos del cambio climático."
+                },
+                "i2":{
+                    "img":"bicentenario/F2.jpg"
                 },
                 "a4":{
                     "text":"Un 80% de estos árboles son nativos, entre los que se encuentran algarrobos, guayacanes, quillay, espinos y huinganes. Estos árboles vienen a complementar a los árboles existentes plantados en el proyecto original del parque. Además, acompañan al río Mapocho como corredor biológico urbano."
@@ -304,37 +1078,87 @@
     },
     "El Golf":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Apoquindo con El Regidor",
         "Comuna":"Las Condes"
     },
     "Alcántara":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Apoquindo con Av. Alcántara",
         "Comuna":"Las Condes"
     },
     "Escuela Militar":{
-        "post":{},
-        "linea":["Linea_1"],
+        "post":{
+            "a1":{
+                "a1":{
+                    "text":"Escuela Militar es una estación ferroviaria que forma parte de la Línea 1 de la red del Metro de Santiago de Chile. Se encuentra subterránea, entre las estaciones Alcántara y Manquehue de la misma línea. Se ubica en el nudo vial formado por la intersección de las avenidas Apoquindo a la altura del 4500 y Américo Vespucio, en la comuna de Las Condes. "
+                }
+            },
+            "cruzDelSur":{
+                "a1":{
+                    "title":"Edificio Cruz del Sur"
+                },
+                "i1":{
+                    "img":"cruzdelsur/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>2009. <br> <b>Dirección: </b>Av. Apoquindo 4501-4549, 7580125 Las Condes, Región Metropolitana.<br><b>Área: </b> 43.129 m2.<br><br><b>Arquitecto: </b>Izquierdo Lehmann; Luis Izquierdo W., Antonia Lehmann S.B.<br><b>Cálculo estructural: </b>Santolaya Ingenieros Consultores.<br><b>Paisajismo: </b>Catalina Phillips, María José Labra."
+                },
+                "a3":{
+                    "text":"El proyecto se trata de una torre de oficinas con una placa comercial situada en el cruce de las avenidas Apoquindo y Américo Vespucio en Santiago. A pesar de la relevancia urbana del lugar, este se caracteriza por un cruce vial en desnivel y varios edificios de diferente altura y calidad. El terreno, producto de la fusión de cinco lotes, se encuentra cerca de la estación de metro Escuela Militar, lo que garantiza un alto flujo diario. La normativa permitía la construcción de una torre de hasta 21 pisos con una superficie edificable de 18,738 m². La planta de la torre, cuadrada y de aproximadamente 1,000 m² de superficie, albergaría un núcleo central de circulaciones verticales. Además, se requería una placa comercial de dos pisos y estacionamientos subterráneos que ocuparían cinco niveles. La normativa, aunque limitaba la volumetría, buscaba asegurar la viabilidad y funcionalidad del proyecto."
+                },
+                "i2":{
+                    "img":"cruzdelsur/F2.jpg"
+                },
+                "a4":{
+                    "subTitle":"Arquitectura"
+                },
+                "a5":{
+                    "text":"Ante la elevada densidad peatonal y la escasez de espacio público en la zona, la primera decisión del proyecto fue despejar al máximo el nivel del suelo, soterrando parte de la superficie comercial y retirando el resto hacia los bordes del terreno. Esto permitió la creación de una plaza interior accesible desde tres frentes. La estructura de la torre se diseñó de manera que solo el fuste con las circulaciones verticales se apoyara en el suelo, evitando columnas adicionales en los estacionamientos subterráneos y optimizando el rendimiento de espacio. Además, al conectar el núcleo central con la estructura soportante de la torre, se radicalizó la concepción de multiplicar y elevar un suelo, destacando como un desafío estructural esencial en este tipo de proyectos arquitectónicos."
+                },
+                "i3":{
+                    "img":"cruzdelsur/F3.jpg"
+                },
+                "i4":{
+                    "img":"cruzdelsur/F4.jpg"
+                },
+                "a6":{
+                    "text":"La reducción en la base del volumen, compensada por una ampliación en los pisos superiores, no solo conserva la superficie total edificada, sino que también mejora la proporción del espacio exterior cubierto y define la silueta del edificio como un hito memorable en Avda. Apoquindo. Esta estrategia disminuye el área sombreada por la base suspendida de la torre, cerrando el ángulo del apuntalamiento diagonal y permitiendo una mayor superficie vendible en pisos altos. Además, al simplificar la estructura portante a un fuste y columnas perimetrales, se logra que las plantas queden libres de pilares interiores. Los ventanales de piso a cielo, retirados 90 cm del borde de las losas, quedan sombreados por un alero continuo y la trama de pilares, optimizando la eficiencia energética en un 25% en comparación con edificios similares en la zona. El costo de construcción resultó inferior al estimado inicialmente, demostrando la eficacia y economía del diseño en la consecución de sus objetivos arquitectónicos."
+                },
+                "i5":{
+                    "img":"cruzdelsur/F5.jpg"
+                },
+                "a7":{
+                    "text":"Las torres, visualizadas desde abajo, destacan la victoria de la estructura sobre la gravedad, evidenciándose aún más a medida que nos aproximamos a la masa elevada. La forma trapezoidal de las fachadas y la retícula de columnas extraplomadas, que sostienen los bordes de las losas, buscan resaltar la naturaleza estática y tangible de la arquitectura como un objeto inmóvil. La distorsión de la retícula y la forma trapezoidal generan una ilusión visual que cambia la percepción del aplomo a medida que el observador se acerca al edificio, creando una experiencia arquitectónica única que conjuga la ponderación gravitatoria de la masa con la condición perspectivada del espacio percibido."
+                },
+                "i6":{
+                    "img":"cruzdelsur/F6.jpg"
+                },
+                "i7":{
+                    "img":"cruzdelsur/F7.jpg"
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Av. Apoquindo con Av. Américo Vespucio",
         "Comuna":"Las Condes"
     },
     "Manquehue":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Apoquindo con Rosario Norte",
         "Comuna":"Las Condes"
     },
     "Hernando de Magallanes":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Apoquindo con Hernando de Magallanes",
         "Comuna":"Las Condes"
     },
     "Los Dominicos":{
         "post":{},
-        "linea":["Linea_1"],
+        "status":0,
         "Ubicación":"Av. Apoquindo con Patagonia y Camino El Alba",
         "Comuna":"Las Condes"
     }
