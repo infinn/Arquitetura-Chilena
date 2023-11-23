@@ -69,7 +69,7 @@ function cambioPost(){
 
     console.log(comuna, ubicacion)
     let divNombre = document.createElement("div");
-    divNombre.innerHTML = '<h1 id="title">'+keyPost[posicion]+'</h1>';
+    divNombre.innerHTML = '<h1 id="title">'+keyPost[posicion]+'<img src="data/L1icono.svg" id="iconoL1"/></h1>';
     divNombre.setAttribute("id","titleMain")
     padrePost.appendChild(divNombre);
 
@@ -122,6 +122,12 @@ function cambioPost(){
                 let articulo = document.createElement("div");
                 articulo.innerHTML = '<p id="desc">'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</p>';
                 articulo.setAttribute("id","text");
+                post.appendChild(articulo);
+                e += 1;
+            }else if(tipo[0] == "desc2"){
+                let articulo = document.createElement("div");
+                articulo.innerHTML = '<div id="desc2">'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</div>';
+                articulo.setAttribute("id","transporte");
                 post.appendChild(articulo);
                 e += 1;
             } else {

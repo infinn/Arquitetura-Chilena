@@ -840,6 +840,9 @@
                 "a2":{
                     "img":"mut/F7.jpg"
                 },
+                "a0":{
+                    "desc2":"<img src='data/Bici.svg' class='svgDesc'/><p> 5 min. </p><img src='data/Bus.svg' class='svgDesc'/><p> 10 min.</p> <img src='data/Caminando.svg' class='svgDesc'/> <p>15 min.</p>"
+                },
                 "a1.1.1":{
                     "desc":"<b>Fecha: </b> 13 de Julio de 2023. <br> <b>Dirección: </b> Av. Apoquindo 2730, Santiago de Chile.<br><b>Extención: </b> 160.000 m2<br><br><b>Territoria</b><br><b>Arquitectura Conceptual Fase 1: </b> KPF.<br><b>Desarrollo de proyecto: </b>Mobil, Seggiario<br><b>Diseño Conceptual: </b>Tony Chil.<br><b>Diseño Mercado: </b>Ray Chen.<br><b>Diseño: </b>CQ(Agustín Quiroga).<br><b>Paisajismo: </b>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
                 },
