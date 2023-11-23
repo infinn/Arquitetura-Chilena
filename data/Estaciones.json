@@ -220,6 +220,50 @@
                 "i10":{
                     "img":"museoMemoria/F8.jpg"
                 }
+            },
+            "FacultadEconomia":{
+                "a1":{
+                    "title":"Edificio Facultad de Administración y Economía"
+                },
+                "i1":{
+                    "img":"facultadEconomia/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>2021. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins, 9170022 Estación Central, Región Metropolitana.<br><b>Área: </b> 13.150 m2<br><br><b>Arquitectos: </b>Marsino Arquitectura."
+                },
+                "a3":{
+                    "text":"La propuesta para el Edificio FAE se centra en la idea de que la arquitectura puede dar forma a los actos humanos, destacando el deambular como la actividad principal que facilita la formación integral de <em>buenos ciudadanos</em>. Se plantea un deambulatorio peripatético circular, concebido como un paseo comunitario, donde los pasillos en rampa no solo conducen a lugares, sino que son lugares en sí mismos. Este diseño, influenciado por la filosofía aristotélica, busca vincular de manera secuenciada los espacios de estudio con los de socialización, desde la plaza de acceso hasta el techo terraza ajardinado, proporcionando oportunidades para la observación del campus, la ciudad y el territorio desde diferentes niveles del edificio."
+                },
+                "i2":{
+                    "img":"facultadEconomia/F2.jpg"
+                },
+                "i5":{
+                    "img":"facultadEconomia/F3.jpg"
+                },
+                "a4":{
+                    "text":"Claude Parent y Paul Virilio proponen que el hombre nuevo adopte la diagonal y el plano oblicuo como base para habitar, abandonando los ejes cartesianos en favor de una consciencia corporal más ajustada a la gravedad y la fricción. La <em>función oblicua</em> se presenta como una alternativa para evolucionar el modo en que habitamos. En la práctica arquitectónica centrada en la educación durante dos décadas, la incorporación de la rampa ha pasado de ser un elemento eficaz para abordar la exclusión a convertirse en un componente transformador del espacio educativo. Funciona como una escenografía performativa que fomenta acciones dinámicas, libres y participativas, a menudo lúdicas e inesperadas, como el tránsito de bicicletas en los Aularios del Campus Juan Gómez Millas de la Universidad de Chile o el desarrollo humano en el Liceo Técnico Profesional de La Florida."
+                },
+                "i3":{
+                    "img":"facultadEconomia/F5.jpg"
+                },
+                "i4":{
+                    "img":"facultadEconomia/F6.jpg"
+                },
+                "a5":{
+                    "text":"La evolución hacia una experiencia arquitectónica consciente del habitante, que denominamos el tránsito del Objeto arquitectónico al Sujeto de la arquitectura, implica abordar proyectualmente lo imprevisto y lo que está más allá de la autoridad del arquitecto, perteneciendo a las cargas potenciales de los habitantes. La rampa y los dispositivos mecánicos de transporte vertical, resaltados por colores vibrantes inspirados en la paleta del muralista chileno Mono Gonzalez, forman parte de una escenografía performativa que fomenta acciones dinámicas, libres, lúdicas e inesperadas, como el tránsito de bicicletas alrededor del patio central."
+                },
+                "i6":{
+                    "img":"facultadEconomia/F4.jpg"
+                },
+                "i7":{
+                    "img":"facultadEconomia/F8.jpg"
+                },
+                "i8":{
+                    "img":"facultadEconomia/F9.jpg"
+                },
+                "i9":{
+                    "img":"facultadEconomia/F7.jpg"
+                }
             }
         },
         "status":1,
@@ -515,7 +559,7 @@
                     "img":"gabrielaMistral/F1.jpg"
                 },
                 "a1":{
-                    "desc":"<b>Fecha: </b>2008. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 227, 8320275 Santiago, Región Metropolitana.<br><br><b>Arquitectos: </b> Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño; Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño. <br><b>Área: </b> 44.000 m2"
+                    "desc":"<b>Fecha: </b>2008. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 227, 8320275 Santiago, Región Metropolitana.<br><b>Área: </b> 44.000 m2<br><br><b>Arquitectos: </b> Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño; Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño. "
                 },
                 "a3":{
                     "text":"Este edificio ha desempeñado un papel destacado en un período reciente de nuestra historia, marcado por la polarización ideológica y la división social. Inicialmente construido como un símbolo del hombre nuevo durante el gobierno de Salvador Allende, después del golpe de estado se convirtió en la sede de gobierno del régimen de Pinochet, personificando el Poder Total. En las últimas tres décadas, el edificio ha permanecido enrejado, cerrado y custodiado debido a requisitos de seguridad, primero como sede de gobierno y luego como Ministerio de Defensa bajo cuatro administraciones. Esta historia ha llevado a que el edificio no sea apreciado ni por unos ni por otros, adquiriendo una biografía algo bipolar"
@@ -1145,8 +1189,58 @@
         "Comuna":"Las Condes"
     },
     "Manquehue":{
-        "post":{},
-        "status":0,
+        "post":{
+            "a1":{
+                "a1":{
+                    "text":"Manquehue es una estación ferroviaria que forma parte de la red del Metro de Santiago de Chile. Se encuentra subterránea, entre las estaciones Escuela Militar y Hernando de Magallanes de la misma línea. Se ubica en Avenida Apoquindo con Manquehue, en la comuna de Las Condes. Fue entregada para su uso al público el 7 de enero de 2010."
+                }
+            },
+            "teatro":{
+                "a1":{
+                    "title":"Teatro y Centro Cultural CorpArtes"
+                },
+                "i1":{
+                    "img":"teatroCultural/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>2015. <br> <b>Dirección: </b>Rosario Nte 660, Las Condes, Región Metropolitana.<br><b>Área: </b>60.000 m2.<br><br><b>Arquitectos: </b> Renzo Zecchetto Architects."
+                },
+                "a3":{
+                    "text":"El Centro Cultural CorpArtes, situado en un vibrante entorno urbano rodeado de imponentes torres de oficinas y un bullicioso paseo peatonal lleno de restaurantes, representa una oportunidad única para unificar activos urbanos dispersos e incorporarlos en un destino cultural integral. Este proyecto combina la construcción de nuevas instalaciones con la renovación y reorganización de espacios existentes. Destacando por su enfoque innovador, el teatro subterráneo aprovecha áreas de estacionamiento desocupadas para respaldar la infraestructura, mientras que la torre del teatro actúa como un distintivo marcador escultórico en el nivel de la calle, destacando anuncios y eventos al aire libre. El revestimiento exterior, compuesto por chapas de acero inoxidable, genera un agradable contraste con el entorno de vidrio circundante, y una amplia plaza abierta no solo recibe a los visitantes, sino que también conecta el bullicioso paseo peatonal con una plaza hundida adornada con esculturas."
+                },
+                "i2":{
+                    "img":"teatroCultural/F3.jpg"
+                },
+                "a4":{
+                    "subTitle":"La Plaza de Esculturas."
+                },
+                "a5":{
+                    "text":"En la ruta hacia el vestíbulo principal, los visitantes descienden a través de un espacio abierto que alberga una destacada colección de esculturas del siglo XX, incluyendo obras de Salvador Dalí, Giorgio de Chirico, Roberto Matta y Auguste Rodin. La plaza hundida proporciona una experiencia visual íntima, con las esculturas estratégicamente ubicadas para atraer la atención de espectadores desde las torres de oficinas, la plaza circundante y el café del jardín inferior."
+                },
+                "i3":{
+                    "img":"teatroCultural/F2.jpg"
+                },
+                "a6":{
+                    "subTitle":"Las Galerías de Arte."
+                },
+                "a7":{
+                    "text":"Las galerías subterráneas rodean la base de una torre de cristal de 25 pisos de oficinas, con una apertura que permite la entrada de luz natural al vestíbulo principal. Estas galerías presentan tres configuraciones distintas, ofreciendo flexibilidad en el diseño de exposiciones, iluminación y eventos. La iluminación está cuidadosamente diseñada para proporcionar una luz uniforme en las paredes de la galería y destacar las esculturas con iluminación de acento. Los pisos, revestidos con madera trozada en pequeños formatos regulares de grano fino, facilitan el reemplazo tras la instalación de obras de arte."
+                },
+                "a8":{
+                    "subTitle":"Teatro de Artes Escénicas"
+                },
+                "a9":{
+                    "text":"El diseño del espacio se orienta hacia un volumen altamente reverberante, especialmente diseñado para conciertos acústicos naturales. Para lograr la calidad acústica deseada en un espacio compacto, se adoptó la estrategia de hundir un nivel los asientos de la orquesta. Asimismo, los espacios auxiliares fueron cuidadosamente acoplados acústicamente al volumen principal del teatro."
+                },
+                "i4":{
+                    "img":"teatroCultural/F4.jpg"
+                },
+                "i5":{
+                    "img":"teatroCultural/F5.jpg"
+                }
+            }
+        },
+        "status":1,
         "Ubicación":"Av. Apoquindo con Rosario Norte",
         "Comuna":"Las Condes"
     },
