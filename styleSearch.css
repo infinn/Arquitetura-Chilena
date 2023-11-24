@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: yellow;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid yellow;
+}
+.main{
+    display: flex;
+    justify-content: right;
+}
+#post{
+    width: 80%;
+}
+#title{
+    width: 60%;
+    margin: 1rem;
+}
+#title h1{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+}
+#foto{
+    width: 40%;
+    margin: 1rem;
+}
+#foto img{
+    width: 100%;
+}

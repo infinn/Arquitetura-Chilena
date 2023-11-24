@@ -333,7 +333,7 @@
                 }
             }
         },
-        "status":1,
+        "status":0,
         "Ubicación":"Alameda con Amunátegui",
         "Comuna":"Santiago"
     },
@@ -424,6 +424,50 @@
                 },
                 "i6":{
                     "img":"catedral/F2.jpg"
+                }
+            },
+            "metroPlazaArmas":{
+                "a1":{
+                    "title":"Edificio Estación Metro Plaza de Armas"
+                },
+                "i1":{
+                    "img":"metroPlazaArmas/F1.jpg"
+                },
+                "a3":{
+                    "desc":"<b>Fecha: </b>2020. <br> <b>Dirección: </b>P.º Puente 598-504, Santiago, Región Metropolitana.<br><b>Área: </b>4.115 m2.<br><br><b>arquitecto: </b>Beals Lyon Arquitectos."
+                },
+                "a4":{
+                    "text":"La inauguración de la primera línea del Metro de Santiago en 1975 marcó el inicio de un proceso de expansión continua con la construcción de cinco líneas adicionales, destinado a unir el centro de la ciudad con barrios periféricos, en un contexto de alta desigualdad y segregación en Santiago, Chile. A pesar de la reciente crisis social relacionada con el aumento en el costo de los boletos, el Metro sigue siendo fundamental como servicio público para conectar áreas marginadas con el centro, representando un símbolo de integración social."
+                },
+                "i2":{
+                    "img":"metroPlazaArmas/F4.jpg"
+                },
+                "a5":{
+                    "text":"Este proyecto se posiciona como un agente de transformación social, tanto en términos físicos como simbólicos, al proponer la construcción de edificios sobre las estaciones del Metro, buscando preservar el tejido urbano, mitigar impactos negativos y asumir un papel activo en la generación de espacio público que se integra de manera continua con la vida de la ciudad y su historia."
+                },
+                "i3":{
+                    "img":"metroPlazaArmas/F2.jpg"
+                },
+                "i4":{
+                    "img":"metroPlazaArmas/F3.jpg"
+                },
+                "a6":{
+                    "subTitle":"Arquitectura"
+                },
+                "a7":{
+                    "text":"El nuevo hall urbano de la estación, a nivel de calle, pretende fusionar la atmósfera subterránea con la superficie, creando una especie de gruta artificial que sirve como entrada al mundo subterráneo. La estructura, compuesta por dos tipos de bóvedas de diferente ancho, se construye mediante la combinación de módulos de encofrado de doble curvatura. "
+                },
+                "i7":{
+                    "img":"metroPlazaArmas/F5.jpg"
+                },
+                "i8":{
+                    "img":"metroPlazaArmas/F6.jpg"
+                },
+                "a8":{
+                    "text":"El sólido zócalo de hormigón proporciona resistencia para soportar las demandas urbanas, mientras que la parte superior se descompone en elementos más delicados, como pilastras de hormigón y una doble piel de vidrio y alabastro. Esta última ofrece una apariencia pétea desde el exterior y permite la entrada de luz natural en la planta libre. Al anochecer, las fachadas de alabastro se iluminan desde el interior, transformando el volumen en una suerte de lámpara urbana que, con un brillo tenue y difuso, anuncia la naturaleza pública y abierta del edificio."
+                },
+                "i9":{
+                    "img":"metroPlazaArmas/F7.jpg"
                 }
             },
             "instituto":{
@@ -524,11 +568,6 @@
                 "i6":{
                     "img":"ed/F3.jpg"
                 }
-            },
-            "metroArte":{
-                "a1":{
-                    "title":"Metro Arte"
-                }
             }
         },
         "linea":["Linea_1","Linea_3"],
@@ -555,7 +594,7 @@
                 "a0":{
                     "title":"Centro Cultural Gabriela Mistral"
                 },
-                "a0.1":{
+                "i1":{
                     "img":"gabrielaMistral/F1.jpg"
                 },
                 "a1":{
@@ -604,16 +643,11 @@
                     "img":"gabrielaMistral/F3.jpg"
                 }
             },
-            "barrioLastarria":{
-                "a1":{
-                    "title":"Barrio Lastarria"
-                }
-            },
             "iglesia":{
                 "a1":{
                     "title":"Iglesia de San Francisco de Borja"
                 },
-                "a1.1":{
+                "i1":{
                     "img":"iglesia/F1.jpg"
                 },
                 "a2":{
@@ -633,20 +667,6 @@
                 },
                 "a6":{
                     "img":"iglesia/F4.jpg"
-                }
-            },
-            "metroArte":{
-                "a1":{
-                    "title":"Metro Arte"
-                },
-                "a2.1":{
-                    "img":"metroArte/universidadCatolica.jpg"
-                },
-                "a2":{
-                    "desc":"<b>Fecha: </b> 2009. <br> <b>Autor: </b> Osvaldo Peña.<br><b>Técnica: </b> Escultura en acero"
-                },
-                "a3":{
-                    "text":"<em>¿Qué viaje hago yo en el Metro? Es un viajo corto, doméstico, diario, rutinario, repetido. Por eso hice un pasajero.</em><br> Para realizar la obra El Viaje, una escultura de metal oscuro, primero tuvo que tomar el lugar, tomar posesión de ese espacio, ocuparlo físicamente. Se desarrolló pensada para instalarse en Pedro de Valdivia, pero paradójicamente la obra tuvo su propio viaje hacia su destino definitivo: Universidad Católica en L1."
                 }
             }
         },
@@ -759,7 +779,7 @@
                 "a1":{
                     "title":"Torres de Tajamar"
                 },
-                "a2":{
+                "i1":{
                     "img":"taj/F1.jpg"
                 },
                 "a3":{
@@ -837,11 +857,16 @@
                 "a1":{
                     "title":"MUT"
                 },
-                "a2":{
+                "i1":{
                     "img":"mut/F7.jpg"
                 },
+                
                 "a0":{
-                    "desc2":"<img src='data/Bici.svg' class='svgDesc'/><p> 5 min. </p><img src='data/Bus.svg' class='svgDesc'/><p> 10 min.</p> <img src='data/Caminando.svg' class='svgDesc'/> <p>15 min.</p>"
+                    "trans":{
+                        "bici":0,
+                        "bus":0,
+                        "walk":1
+                    }
                 },
                 "a1.1.1":{
                     "desc":"<b>Fecha: </b> 13 de Julio de 2023. <br> <b>Dirección: </b> Av. Apoquindo 2730, Santiago de Chile.<br><b>Extención: </b> 160.000 m2<br><br><b>Territoria</b><br><b>Arquitectura Conceptual Fase 1: </b> KPF.<br><b>Desarrollo de proyecto: </b>Mobil, Seggiario<br><b>Diseño Conceptual: </b>Tony Chil.<br><b>Diseño Mercado: </b>Ray Chen.<br><b>Diseño: </b>CQ(Agustín Quiroga).<br><b>Paisajismo: </b>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
@@ -896,8 +921,15 @@
                 "a1":{
                     "title":"Gran Torre Santiago"
                 },
-                "a1.1":{
+                "i1":{
                     "img":"Costanera/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":5
+                    }
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>2013<br><b>Altura: </b>300m<br><b>Área: </b> 107.125 m2<br><b>Dirección: </b>Av. Andrés Bello 2425, 7510689 Providencia, Región Metropolitana<br><br><b>Arquitecto: </b>Cesar Pelli, Watt Internacional y Alemparte Barreda Arquitectos. <br><b>Ingeniero: </b>Thornton y Tomasetti.<br><b>Ingeniero estructural: </b>René Lagos y Asociados Ing. Civiles Ltda.<br><b>Constructora: </b>Salfa Corp."
@@ -960,6 +992,13 @@
                 },
                 "i1":{
                     "img":"Cepal/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":9,
+                        "bus":19,
+                        "walk":25
+                    }
                 },
                 "a3":{
                     "desc":"<b>Fecha: </b>1966. <br> <b>Dirección: </b>Dag Hammarskjold 3477, 7630670 Vitacura, Región Metropolitana.<br><b>Área: </b> 11.500 m2<br><br><b>Arquitecto: </b>Emilio Duhart."

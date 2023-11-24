@@ -20,7 +20,7 @@ function setEstaciones(){
     deleteOptions.forEach(o => o.remove());
     */
     var opDefault = document.createElement("option");
-    opDefault.text = "Estacion";
+    opDefault.text = "Estación";
     opDefault.value = "default";
     select.add(opDefault);
     while(i < keyPost.length){
@@ -59,7 +59,6 @@ function cambioPost(){
     const padrePost = document.getElementById("post");
 
     let estacion = document.getElementById("Estacion").value;
-    console.log(estacion)
     var keyPost = Object.keys(JsonDatos);
     var posicion = keyPost.indexOf(estacion)
 
@@ -67,7 +66,6 @@ function cambioPost(){
     let comuna = estacionDatos["Comuna"];
     let ubicacion = estacionDatos["Ubicación"];
 
-    console.log(comuna, ubicacion)
     let divNombre = document.createElement("div");
     divNombre.innerHTML = '<h1 id="title">'+keyPost[posicion]+'<img src="data/L1icono.svg" id="iconoL1"/></h1>';
     divNombre.setAttribute("id","titleMain")
@@ -81,10 +79,10 @@ function cambioPost(){
 
     let KeysPost = Object.keys(estacionDatos["post"]);
     let i = 0;
-    document.getElementById("Estacion").scrollIntoView();
+    document.getElementById("content").scrollIntoView();
     while (i < keyPost.length){
         let sec = Object.keys(estacionDatos["post"][KeysPost[i]]);
-        console.log(sec);
+        
         let e = 0;
         let post = document.createElement("article");
         /* 
@@ -129,6 +127,15 @@ function cambioPost(){
                 articulo.innerHTML = '<div id="desc2">'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'</div>';
                 articulo.setAttribute("id","transporte");
                 post.appendChild(articulo);
+                e += 1;
+            }else if(tipo[0] == "trans"){
+                let articulo = document.createElement("div");
+                let bici = estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]["bici"];
+                let bus = estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]["bus"];
+                let walk = estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]["walk"];
+                articulo.innerHTML = '<div id="desc2"><img src="data/Bici.svg" class="svgDesc"/><p><b>'+bici+'</b> min.</p><img src="data/Caminando.svg" class="svgDesc"/><p><b>'+walk+'</b> min.</p><img src="data/Bus.svg" class="svgDesc"/> <p><b>'+bus+'</b> min.</p></div>';
+                articulo.setAttribute("id","transporte");
+                post.appendChild(articulo); 
                 e += 1;
             } else {
                 e += 1;

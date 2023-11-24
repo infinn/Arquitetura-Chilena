@@ -1,10 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    
+}
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    background-color: black;
+}
+footer{
+    border-top: 1px solid yellow;
+    color: yellow;
+    font-size: 1rem;
+}
+footer div{
+    margin: 1rem;
 }
 .maps{
     display: flex;
+    background-color: white;
 }
 select{ 
     width: 100%;
@@ -18,19 +35,101 @@ select{
 img{
     width: 60%;
 }
+.mainTitle{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+    
+}
+.topBody{
+    background-color: black;
+}
+.mainTitle div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mainTitle h1{
+    position: absolute;
+    bottom: 0;
+    font-size: 9dvw;
+    z-index: -1;
+    color: yellow;
+    margin: 0;
+}
+#header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    
+}
+#header a{
+    color: yellow;
+    margin: 1rem;
+    font-size: 1rem;
+}
+#descProy{
+    position: relative;
+    z-index: 0;
+    width: 40%;
+    color: white;
+    left: 40%;
+    font-size: 0.9rem;
+    margin-bottom: 50dvh;
+}
+#test{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    left: 10%;
+    padding-bottom: 50dvh;
+}
+#test img{
+    width: 100%;
+    padding: 0.5rem;
+}
+#test1{
+    width: 60%;
+}
+#test2{
+    width: 40%;
+    margin-left: 1rem;
+}
+#header #centrador{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    color: yellow;
+}
+#topright{
+    display: flex;
+    justify-content: right;
+}
 #img{
     display: flex;
     justify-content: right;
     width: 100%;
     z-index: 0;
 }
+.maps{
+    display: flex;
+    position: relative;
+    z-index: 6;
+}
 #post{
     margin: 1.5rem;
+    
 }
 #top{
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 5;
     background-color: white;
 }
 #titulo{
@@ -40,8 +139,12 @@ img{
     top: 0;
 }
 #title{
-    font-weight: 800;
-    font-size: 4.5rem;
+    /*
+    font-family: 'Vina Sans', sans-serif;
+    */
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
     display: flex;
     position: sticky;
     top: 1rem;
@@ -91,6 +194,7 @@ img{
 #desc2{
     font-size: 0.9rem;
     display: flex;
+    width: 40%;
 }
 #desc2 p, img{
     padding: 0.5rem;
@@ -107,7 +211,7 @@ img{
 }
 @media screen and (max-width: 1400px){
     #title{
-        font-size: 3.7rem
+        font-size: 4.4rem
     } 
 }
 @media screen and (max-width: 1000px){
@@ -126,8 +230,9 @@ img{
     #text p{
         width: 60%;
     }
-    #text{
-        justify-content: left;
+    
+    #desc2{
+        width: 60%;
     }
     #title{
         width: 100%;
@@ -161,15 +266,37 @@ img{
         width: 1.5rem;
         height: 1.5rem;
     }
-    @media screen and (max-width: 650px){
-        #text p{
-            width: 100%;
-        }
-        #desc{
-            font-size: 0.8rem;
-        }
-        #contenedorBajada{
-            width: 100%;
-        }
+    
+}
+@media screen and (max-width: 650px){
+    #text p{
+        width: 85%;
+        font-size: 1rem;
+    }
+    #desc{
+        font-size: 0.8rem;
+    }
+    #contenedorBajada{
+        width: 100%;
+    }
+    #descProy{
+        width: 90%;
+        left: 0;
+        margin: 1rem;
+        margin-bottom: 25dvh;
+    }
+    .mainTitle h1{
+        position: absolute;
+        font-size: 4rem;
+        color: yellow;
+        margin: 1rem;
+    }
+    #test{
+        width: 95%;
+        left: 0;
+        padding-bottom: 25dvh;
+    }
+    #desc2{
+        width: 85%;
     }
 }
