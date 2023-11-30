@@ -22,7 +22,6 @@ function setProyectos(){
             i += 1;
         } else{
             let proyectosKeys = Object.keys(JsonDatos[keyPost[i]]["post"]);
-            console.log(proyectosKeys);
             e = 1;
             
             while(e < proyectosKeys.length){
@@ -37,13 +36,13 @@ function setProyectos(){
                 console.log(keyPost[i]);
                 /** estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]] */
                 let titulo = document.createElement("div");
-                titulo.innerHTML = '<div><a><h1>'+nombre+'</h1></a></div><div><p>'+desc+'</p></div><div><p id="estilo"><b>Estilo:</b><em> '+tipo+'</em></p></div>';
+                titulo.innerHTML = '<div><a href="post.html?est='+keyPost[i]+'&post='+proyectosKeys[e]+'"><h1>'+nombre+'</h1></a></div><div><p>'+desc+'</p></div><div><p id="estilo"><b>Estilo:</b><em> '+tipo+'</em></p></div>';
                 titulo.setAttribute("id","title");
                 post.appendChild(titulo);
 
 
                 let foto = document.createElement("div");
-                foto.innerHTML = '<img src="fotos/'+imagen+'">';
+                foto.innerHTML = '<a href="post.html?est='+keyPost[i]+'&post='+proyectosKeys[e]+'"><img src="fotos/'+imagen+'"></a>';
                 foto.setAttribute("id", "foto");
                 post.appendChild(foto);
 

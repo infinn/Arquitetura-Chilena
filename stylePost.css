@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+#main{
+    margin: 1.5rem;
+}
+
+#header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+#header a{
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+#header #centrador{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    color: yellow;
+}
+.cincuenta{
+    width: 50%;
+}
+.cincuenta #derecha{
+    display: flex;
+    justify-content: right;
+}
+#titulo{
+    display: flex;
+    width: 40%;
+    position: sticky;
+    top: 0;
+}
+#text{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+#text p{
+    width: 40%;
+}
+#subTitle{
+    display: flex;
+    justify-content: right;
+}
+#subTitle h2{
+    width: 40%;
+    font-size: 2rem;
+}
+#desc{
+    font-size: 0.9rem;
+    width: 60%;
+}
+#transporte{
+    display: flex;
+    justify-content: right;
+}
+#desc2{
+    font-size: 0.9rem;
+    display: flex;
+    width: 40%;
+}
+#desc2 p, img{
+    padding: 0.5rem;
+}
+#iconoL1{
+    margin: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.svgDesc{
+    width: 2rem;
+    height: 2rem;
+}
+#fuentes{
+    margin: 1rem;
+    display: flex;
+    justify-content: right;
+    font-size: 0.7rem;
+}
+#title{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 40%;
+    z-index: 1;
+}
+
+img{
+    width: 60%;
+}
+
+#img{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1400px){
+    #title{
+        font-size: 4.4rem
+    } 
+}
+@media screen and (max-width: 1000px){
+    body{
+        font-size: 1.3rem;
+    }
+    #img{
+        display: block;
+    }
+    img{
+        width: 100%;
+    }
+    #text p{
+        width: 60%;
+    }
+    
+    #desc2{
+        width: 60%;
+    }
+    #title{
+        width: 100%;
+        font-size: 2rem;
+        justify-content: center;
+        background-color: white;
+        padding: 0.3rem;
+        margin: 0;
+    }
+    #subTitle{
+        justify-content: left;
+    }
+    #subTitle h2{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    #iconoL1{
+        margin: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    #text p{
+        width: 85%;
+        font-size: 1rem;
+    }
+    #desc{
+        font-size: 0.8rem;
+    }
+    #desc2{
+        width: 85%;
+    }
+}

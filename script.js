@@ -80,7 +80,7 @@ function cambioPost(){
     let KeysPost = Object.keys(estacionDatos["post"]);
     let i = 0;
     document.getElementById("content").scrollIntoView();
-    while (i < keyPost.length){
+    while (i < KeysPost.length){
         let sec = Object.keys(estacionDatos["post"][KeysPost[i]]);
         
         let e = 0;
@@ -156,5 +156,15 @@ function cambioPost(){
         padrePost.appendChild(post);
         i += 1;
     };
+    let post = document.createElement("article");
+    let articulo = document.createElement("div");
+    articulo.innerHTML = '<h2 id="title">¿Conoces mas proyectos? ¿Hay algun error?</h2>';
+    articulo.setAttribute("id","title");
+    let desc = document.createElement("div");
+    desc.innerHTML = '<p>Si conoces algún otro proyecto que te gustaría agregar, ponte en contacto con nosotros para poder incluirlo en el futuro. <b><a>Haz clic aquí.</a></b><br><br>Por otro lado, si encuentras algún error, ya sea de redacción o algún dato que no corresponda con la realidad, <b><a>Haz clic aquí.</a><b/></p>';
+    desc.setAttribute("id","text");
+    post.appendChild(articulo);
+    post.appendChild(desc);
     
+    padrePost.appendChild(post);
 };

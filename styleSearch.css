@@ -76,12 +76,13 @@ a {
     background-color: black;
 }
 footer{
-    border-top: 1px solid yellow;
-    color: yellow;
+    background-color: yellow;
+    color: black;
     font-size: 1rem;
+    font-weight: 600;
 }
 footer div{
-    margin: 1rem;
+    padding: 1rem;
 }
 #estilo{
     font-size: 0.8rem;
