@@ -1,6 +1,24 @@
 body{
     background-color: black;
     color: yellow;
+    font-family: 'Montserrat', sans-serif;
+}
+#header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    font-size: 0.8rem;
+}
+#contA div{
+    margin: 1rem;
+}
+#centrador{
+    display: flex;
+    width: 100%;
+}
+#topright{
+    display: flex;
+    justify-content: right;
 }
 .contenedor{
     display: flex;
@@ -10,6 +28,9 @@ body{
 .main{
     display: flex;
     justify-content: right;
+}
+.cincuenta{
+    width: 50%;
 }
 #post{
     width: 80%;
@@ -30,4 +51,87 @@ body{
 }
 #foto img{
     width: 100%;
+}
+a {
+    text-decoration: none;
+    color: yellow;
+}
+.filtro{
+    display: none;
+}
+#Buscador{
+    width: 100%;
+    margin: 1rem;
+    border: none;
+    border-bottom: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    font-size: 1rem;
+}
+#BuscadorContenedor{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+footer{
+    border-top: 1px solid yellow;
+    color: yellow;
+    font-size: 1rem;
+}
+footer div{
+    margin: 1rem;
+}
+#estilo{
+    font-size: 0.8rem;
+    color: rgb(173, 173, 1);
+}
+#mainText{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 8dvw;
+    display: flex;
+    justify-content: center;
+}
+#contador{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10dvh;
+}
+#contador p{
+    width: 50%;
+    
+}
+@media screen and (max-width: 1100px){
+    #post{
+        width: 100%;
+    }
+    .filtro{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px){
+    #post{
+        width: 100%;
+    }
+    .contenedor{
+        display:contents;
+    }
+    #title{
+        width: 100%;
+        border-top: 2px solid yellow;
+        margin: 0;
+    }
+    #foto{
+        width: 100%;
+        margin: 0;
+    }
+    .filtro{
+        display: none;
+    }
+    #contador p{
+        width: 80%;
+        
+    }
 }

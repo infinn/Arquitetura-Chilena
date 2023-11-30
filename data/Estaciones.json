@@ -145,6 +145,11 @@
                 },
                 "a10":{
                     "text":"Lamentablemente, la Unidad Vecinal quedó inacabada, pues la sociedad que la construyó no asumió la responsabilidad de ejecutar los equipamientos culturales y comerciales proyectados. Además, también se desentendió del mantenimiento del conjunto, por lo que éste se ha degradado hasta tal punto que las cubiertas planas ajardinadas de las viviendas unifamiliares han sido sustituidas por cubiertas a dos aguas que interrumpen las pasarelas que las atravesaban, quedando todo el sistema de circulaciones en altura inhabilitado."
+                },
+                "info":{
+                    "resume":"La idea de una Unidad Vecinal humana que facilita la convivencia se refleja en todas las escalas, desde los espaciosos rellanos de los bloques hasta la gran plaza, lugar de reunión para la comunidad entera.",
+                    "tipo":"Brutalista",
+                    "fuentes":["https://www.archdaily.cl/cl/02-84819/clasicos-de-arquitectura-unidad-vecinal-portales-b-v-c-h","https://hiddenarchitecture.net/unidad-vecinal-portales/"]
                 }
             }
         },
@@ -219,6 +224,11 @@
                 },
                 "i10":{
                     "img":"museoMemoria/F8.jpg"
+                },
+                "info":{
+                    "resume":"En su propuesta para el Museo de la Memoria y los Derechos Humanos, los arquitectos conciben un espacio no lineal en el tiempo y universal en la transmisión de conocimientos. El diseño consiste en un paralelepípedo esbelto y rectangular que se apoya de manera apaisada, con su sección más delgada, en sentido Oriente-Poniente sobre una base que simbólicamente representa el fluir de la vida desde la Cordillera al Mar.",
+                    "tipo":"None",
+                    "fuentes":["https://www.archdaily.cl/cl/611010/museo-de-la-memoria-estudio-america","https://mmdh.cl/museo/arquitectura","https://museodelamemoria-my.sharepoint.com/personal/calvarez_mmdh_cl/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcalvarez%5Fmmdh%5Fcl%2FDocuments%2F2022%5FA%5FTI%2FN%5FWeb%5FMMDH%2FArchivos%2FPublicaciones%2Farquitectos%2Epdf&parent=%2Fpersonal%2Fcalvarez%5Fmmdh%5Fcl%2FDocuments%2F2022%5FA%5FTI%2FN%5FWeb%5FMMDH%2FArchivos%2FPublicaciones&ga=1"]
                 }
             },
             "FacultadEconomia":{
@@ -263,6 +273,60 @@
                 },
                 "i9":{
                     "img":"facultadEconomia/F7.jpg"
+                },
+                "info":{
+                    "resume":"La propuesta para el Edificio FAE se centra en la idea de que la arquitectura puede dar forma a los actos humanos, destacando el deambular como la actividad principal que facilita la formación integral de <em>buenos ciudadanos</em>.",
+                    "tipo":"None",
+                    "fuentes":["https://www.archdaily.cl/cl/977812/edificio-facultad-de-administracion-y-economia-universidad-de-santiago-de-chile-marsino-arquitectura"]
+                }
+            },
+            "PabellonParis":{
+                "a1":{
+                    "title":"Pabellón París"
+                },
+                "i1":{
+                    "img":"pabellon/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1889. <br> <b>Dirección: </b>Av Portales 3530, Santiago, Estación Central, Región Metropolitana.<br><b>Área: </b>2.000 m2<br><br><b>Arquitectos: </b>Henri Picq."
+                },
+                "a3":{
+                    "text":"Durante el gobierno de José Manuel Balmaceda, Chile recibió una invitación para participar en la Exposición Universal en París. Bajo la dirección del ministro plenipotenciario chileno en Francia, Carlos Antúnez, se decidió construir un edificio desmontable con materiales como hierro, acero y zinc, representativos de la Revolución Industrial. El arquitecto francés Henri Picq ganó el concurso para diseñar el pabellón, que fue exhibido en 1889 y posteriormente desmontado y trasladado a Chile. En 1894, se rearmó en la Quinta Normal para albergar la Exposición de Minería y Metalurgia. A lo largo de los años, el edificio ha tenido diversos usos, albergando finalmente al Museo Artequin desde 1992, tras la reubicación del Museo Nacional Aeronáutico y del Espacio en 1968."
+                },
+                "i2":{
+                    "img":"pabellon/F2.jpg"
+                },
+                "a4":{
+                    "subTitle":"Arquitectura"
+                },
+                "a5":{
+                    "text":"El Pabellón París, representativo de una transición entre el pasado y la modernidad, fusiona normas neoclásicas con elementos constructivos de la época, como el Art Nouveau. Destaca por su estructura de hierro de dos pisos y cobertura de placas de vidrio con vitrales, presentando una doble altura en el espacio central y una galería perimetral en el segundo piso, aprovechando la luz natural mediante un techo transparente con cinco cúpulas vidriadas. Al incorporar tecnologías de la Revolución Industrial, utilizó elementos prefabricados."
+                },
+                "i4":{
+                    "img":"pabellon/F6.jpg"
+                },
+                "a6":{
+                    "text":"El edificio exhibe una estructura desmontable de metal, compuesta por hierro, acero y zinc, complementada con vitrales y ornamentación de yeso y cemento. Su planta, de forma cuadrada con dimensiones de 10 por 10 metros, se eleva a dos pisos de 10 metros de altura cada uno. La construcción culmina en una imponente cúpula vidriada central, acompañada por otras cuatro cúpulas más pequeñas ubicadas en las esquinas."
+                },
+                "i3":{
+                    "img":"pabellon/F3.jpg"
+                },
+                "i5":{
+                    "img":"pabellon/F4.jpg"
+                },
+                "a7":{
+                    "subTitle":"Situación Actual"
+                },
+                "a8":{
+                    "text":"El edificio, inicialmente destinado a la Subsecretaría de Aviación para albergar el Museo de Aeronáutica, ha experimentado un cambio en su gestión. Desde hace décadas, la administración pasó del Ministerio de Defensa Nacional de Chile a la Municipalidad de Santiago. En la actualidad, la <em>Corporación Espacio para el Arte Artequin</em> exhibe Arte Occidental en el lugar. Además, el edificio forma parte de la Ruta Patrimonial N°30 <em>Santiago, Fragmentos de una Ciudad</em> y constituye el Hito 10 del Circuito Barrio Quinta Normal."
+                },
+                "i6":{
+                    "img":"pabellon/F5.jpg"
+                },
+                "info":{
+                    "resume":"El edificio exhibe una estructura desmontable de metal, compuesta por hierro, acero y zinc, complementada con vitrales y ornamentación de yeso y cemento. Su planta, de forma cuadrada con dimensiones de 10 por 10 metros, se eleva a dos pisos de 10 metros de altura cada uno. La construcción culmina en una imponente cúpula vidriada central, acompañada por otras cuatro cúpulas más pequeñas ubicadas en las esquinas.",
+                    "tipo":"Eclecticismo, Art Nouveau",
+                    "fuentes":["https://www.archdaily.cl/cl/895035/clasicos-de-arquitectura-pabellon-paris-museo-artequin-henri-picq","https://es.wikipedia.org/wiki/Pabell%C3%B3n_Par%C3%ADs","https://patrimonio.bienes.cl/patrimonio/ex-pabellon-de-la-exposicion-de-paris-museo-artequin/"]
                 }
             }
         },
@@ -303,7 +367,7 @@
                     "title":"Palacio de La Moneda"
                 },
                 "a3":{
-                    "desc":"<b>Fecha: </b>1805. <br> <b>Dirección: </b>Moneda S/N, Santiago, Región Metropolitana.<br><b>Extención: </b> 18.720 m2<br><br><b>Arquitectos: </b>  Joaquín Toesca."
+                    "desc":"<b>Fecha: </b>1805. <br> <b>Dirección: </b>Moneda S/N, Santiago, Región Metropolitana.<br><b>Área: </b> 18.720 m2<br><br><b>Arquitectos: </b>  Joaquín Toesca."
                 },
                 "a4":{
                     "text":"El Palacio de la Moneda, originalmente construido a fines del siglo XVIII como la Casa de Moneda del Reino de Chile, se convirtió en 1845 en la sede del poder ejecutivo de la República de Chile. Ubicado en el centro histórico de Santiago, el edificio fue diseñado por el arquitecto Joaquín Toesca, quien incorporó un estilo neoclásico puro con influencias del dórico romano. Además de albergar las instalaciones de la Casa de Moneda, el diseño incluyó espacios para la residencia de la burocracia del reino. Con un carácter emblemático similar a templos y palacios, el Palacio de la Moneda transmitió majestuosidad a los edificios de la administración. La estructura, de dos pisos y composición rectilínea, destaca por patios que proporcionan solemnidad y luz natural. El diseño de Toesca incluyó un <em>eje magistral</em> que atravesaba el edificio de norte a sur, expresado en pórticos monumentales que creaban un efecto ilusionista de fuga. Este palacio histórico ha servido como la residencia y lugar de trabajo del Presidente(a) de la República y alberga importantes oficinas gubernamentales."
@@ -368,6 +432,11 @@
                 },
                 "i3":{
                     "img":"uChile/F3.jpg"
+                },
+                "info":{
+                    "resume":"La construcción del Palacio de la Universidad de Chile, finalizada en 1872, destaca por sus dos pisos que alcanzan los 26 metros de altura en las esquinas y en el acceso principal. La fachada simétrica, modulada por pilastras, presenta una marcada predominancia horizontal, con ventanas de arcos de medio punto en el primer nivel y rectangulares en el segundo, culminando en el escudo de la Universidad diseñado por Nicanor Plaza.",
+                    "tipo":"Neoclásica",
+                    "fuentes":["https://es.wikipedia.org/wiki/Casa_Central_de_la_Universidad_de_Chile","https://www.monumentos.gob.cl/monumentos/monumentos-historicos/edificio-casa-central-universidad-chile"]
                 }
             },
             "catedral":{
@@ -424,6 +493,11 @@
                 },
                 "i6":{
                     "img":"catedral/F2.jpg"
+                },
+                "info":{
+                    "resume":"Pedro de Valdivia, al refundar Santiago de Chile sobre un tambo inca, destinó el templo inca en la Plaza Mayor para la construcción de una iglesia. Durante la construcción, los servicios religiosos se celebraban en la puerta de la casa del gobernador.",
+                    "tipo":"Neoclásica",
+                    "fuentes":["https://es.wikipedia.org/wiki/Catedral_Metropolitana_de_Santiago","https://www.monumentos.gob.cl/monumentos/monumentos-historicos/catedral-santiago"]
                 }
             },
             "metroPlazaArmas":{
@@ -468,6 +542,11 @@
                 },
                 "i9":{
                     "img":"metroPlazaArmas/F7.jpg"
+                },
+                "info":{
+                    "resume":"Este proyecto se posiciona como un agente de transformación social, tanto en términos físicos como simbólicos, al proponer la construcción de edificios sobre las estaciones del Metro, buscando preservar el tejido urbano, mitigar impactos negativos y asumir un papel activo en la generación de espacio público que se integra de manera continua con la vida de la ciudad y su historia.",
+                    "tipo":"Brutalista",
+                    "fuentes":["https://www.archdaily.cl/cl/984940/edificio-estacion-metro-plaza-de-armas-beals-lyon-arquitectos"]
                 }
             },
             "instituto":{
@@ -503,6 +582,11 @@
                 },
                 "i6":{
                     "img":"instituto/F7.jpg"
+                },
+                "info":{
+                    "resume":"La propuesta original era un colegio compuesto por tres franjas programáticas. Un volumen, a lo largo de la primera manzana de Arturo Prat, contiene la totalidad del programa de gran escala y sus servicios: hall de acceso, la dirección y administración, la biblioteca, el teatro de Camara, el Aula Magna, los auditorios y los gimnasios. Este cuerpo se comunicaría con el exterior por el sector que unía la puerta del colegio con el acceso al Aula Magna.",
+                    "tipo":"Modernista",
+                    "fuentes":["https://institutonacional.cl/el-instituto/dependencias/edificio-principal/","https://hiddenarchitecture.net/instituto-nacional-general-jose-miguel-carrera/"]
                 }
             },
             "bolsa":{
@@ -535,6 +619,51 @@
                 },
                 "a7":{
                     "text":"Respecto de su materialidad, tiene una estructura metálica que actúa como esqueleto, envuelto con ladrillo y hormigón, en tanto que la ornamentación exterior se hizo en base a mortero de cemento y malla de metal. También se utilizaron maderas como roble americano en sus puertas, en terminaciones interiores y en detalles como los mosaicos del primer piso."
+                },
+                "info":{
+                    "resume":"El arquitecto chileno Emilio Jéquier fue el responsable del edificio de La Bolsa de Comercio de Santiago, obra ejecutada por el ingeniero Roberto Torretti en terrenos que pertenecían a las Monjas Agustinas. Influenciado por sus estudios en Francia y por el ingeniero y arquitecto galo Gustave Eiffel, Jéquier inició la construcción del inmueble en 1913, pero recién se inau-guró el 25 de diciembre de 1917, debido a que sus materiales fueron adquiridos en Europa y su traslado a Chile se dificultó a causa de la Primera Guerra Mundial.",
+                    "tipo":"Neoclásica, Renacentista",
+                    "fuentes":["https://es.wikipedia.org/wiki/Edificio_de_la_Bolsa_de_Comercio_de_Santiago","https://www.revistaenconcreto.cl/patrimonial-cchc/bolsa-comercio-santiago/"]
+                }
+            },
+            "Tribunales":{
+                "a1":{
+                    "title":"Palacio de los Tribunales de Justicia"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1911. <br> <b>Dirección: </b>Compañía de Jesús 1140, 8340370 Santiago, Región Metropolitana.<br><br><b>Arquitecto: </b>Emilio Doyère."
+                },
+                "i1":{
+                    "img":"tribunales/F1.jpg"
+                },
+                "a3":{
+                    "text":"El Palacio de los Tribunales de Justicia de Santiago de Chile es la sede de la Corte Suprema de Justicia, la Corte de Apelaciones de Santiago y la Corte Marcial del Ejército, Fuerza Aérea y Carabineros. Ubicado en la calle Compañía, entre Morandé y Bandera, frente a la plaza Montt Varas, el edificio fue construido en dos etapas entre 1905 y 1930. En 1976, fue declarado <em>Monumento Histórico Nacional</em> por el Ministerio de Educación de Chile."
+                },
+                "a4":{
+                    "text":"Ocupa un sitio conformado por la demolición de varias propiedades. En la parte occidental se encontraban edificios del Club Hípico y de Francisco Undurraga, adquiridos y demolidos por el Estado en 1906. En la zona oriental, el edificio del Real Tribunal del Consulado, construido por Juan José de Goycolea en 1807, albergó el cabildo abierto de septiembre de 1810, el Congreso Nacional de 1829 a 1877 y la Biblioteca Nacional de 1877 a 1925, cuando fue trasladada antes de su demolición."
+                },
+                "a5":{
+                    "subTitle":"Arquitectura"
+                },
+                "a6":{
+                    "text":"La construcción se dividió en dos etapas, siendo la primera responsable del sector occidental y el ingreso principal, caracterizados por el estilo neoclásico. En 1911, se completó la primera fase, y para comenzar la segunda, que abarcaba el sector oriental, se demolió el antiguo edificio del Consulado de 1807, conservando solo una reja en el acceso por calle Bandera. El Palacio alberga la Corte Suprema, la más antigua de América del Sur, junto con la Corte de Apelaciones, la Corte Marcial y los juzgados de Mayor Cuantía."
+                },
+                "i2":{
+                    "img":"tribunales/F2.jpg"
+                },
+                "a7":{
+                    "text":"Las terminaciones y ornamentación interior del Palacio de los Tribunales de Justicia fueron realizadas por varios contratistas destacados. Entre las obras notables se encuentran las cariátides de cemento con espadas de bronce creadas por el escultor catalán Coll y Pi, la vidriera de Mayer (Munich) representando la justicia con el escudo chileno, las refinadas terminaciones de José Ceppi, incluyendo balaustradas de mármol en el vestíbulo central, y Régulus Prajoux, responsable de las puertas, ventanas y carpintería en general."
+                },
+                "a8":{
+                    "text":"Bernasconi y Dominichetti se encargaron de los estucos, mientras que la firma Lisci y Milani contribuyó al parquet. En cuanto a la estructura del edificio, se construyó con albañilería de ladrillo reforzada, con armadura de techumbre de madera y elementos metálicos. De estilo neoclásico con influencias francesas, el palacio de tres pisos destaca por su fachada principal, simétrica al pórtico de ingreso, que ocupa toda la longitud de la manzana. En el interior, una galería de triple altura, sostenida por una estructura metálica, atraviesa el edificio, creando un amplio espacio que conecta los diferentes recintos."
+                },
+                "i3":{
+                    "img":"tribunales/F3.jpg"
+                },
+                "info":{
+                    "resume":"Las terminaciones y ornamentación interior del Palacio de los Tribunales de Justicia fueron realizadas por varios contratistas destacados. Entre las obras notables se encuentran las cariátides de cemento con espadas de bronce creadas por el escultor catalán Coll y Pi, la vidriera de Mayer (Munich) representando la justicia con el escudo chileno, las refinadas terminaciones de José Ceppi, incluyendo balaustradas de mármol en el vestíbulo central, y Régulus Prajoux, responsable de las puertas, ventanas y carpintería en general.",
+                    "tipo":"Neoclásica",
+                    "fuentes":["https://www.monumentos.gob.cl/monumentos/monumentos-historicos/edificio-palacio-tribunales-justicia","https://es.wikipedia.org/wiki/Palacio_de_los_Tribunales_de_Justicia_de_Santiago"]
                 }
             },
             "EdificioPlazadeArmas":{
@@ -567,6 +696,11 @@
                 },
                 "i6":{
                     "img":"ed/F3.jpg"
+                },
+                "info":{
+                    "resume":"La Torre contiene las unidades residenciales, estableciéndose como el sector privado de la obra, abriéndose a las vistas, e incorporando, por ser una torre aislada, soluciones para un mayor confort dentro de las viviendas, como ventilación cruzada e iluminación natural. Por otra parte la placa, un único gran bloque que solo limita con otras construcciones por su sección este, se encuentra el sistema de galerías, albergando el comercio y canalizando los flujos peatonales de la ciudad.",
+                    "tipo":"Brutalista",
+                    "fuentes":["https://www.archdaily.cl/cl/750526/clasicos-de-arquitectura-edificio-plaza-de-armas","https://www.enterreno.com/moments/edificio-plaza-de-armas-en-1953","http://www.bibliotecanacionaldigital.gob.cl/bnd/629/w3-article-622104.html","https://www.chilearq.com/gallery/architecture/2469/Edificio-Plaza-de-Armas/"]
                 }
             }
         },
@@ -591,13 +725,13 @@
                 }
             },
             "Gabriela Mistral":{
-                "a0":{
+                "a1":{
                     "title":"Centro Cultural Gabriela Mistral"
                 },
                 "i1":{
                     "img":"gabrielaMistral/F1.jpg"
                 },
-                "a1":{
+                "a0":{
                     "desc":"<b>Fecha: </b>2008. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 227, 8320275 Santiago, Región Metropolitana.<br><b>Área: </b> 44.000 m2<br><br><b>Arquitectos: </b> Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño; Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño. "
                 },
                 "a3":{
@@ -641,6 +775,81 @@
                 },
                 "a10":{
                     "img":"gabrielaMistral/F3.jpg"
+                },
+                "info":{
+                    "resume":"Este edificio ha desempeñado un papel destacado en un período reciente de nuestra historia, marcado por la polarización ideológica y la división social. Inicialmente construido como un símbolo del hombre nuevo durante el gobierno de Salvador Allende, después del golpe de estado se convirtió en la sede de gobierno del régimen de Pinochet, personificando el Poder Total.",
+                    "tipo":"Modernista",
+                    "fuentes":["https://es.wikiarquitectura.com/edificio/centro-cultural-gabriela-mistral/","https://www.archdaily.cl/cl/02-52707/centro-cultural-gabriela-mistral-cristian-fernandez-arquitectos-lateral-arquitectura-diseno"]
+                }
+            },
+            "uc":{
+                "a1":{
+                    "title":"Casa Central de la Pontificia U. Católica de Chile"
+                },
+                "i1":{
+                    "img":"uc/F1.jpg"
+                },
+                "a2":{
+                    "desc":"<b>Fecha: </b>1917. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 340, Santiago, Región Metropolitana.<br><b>arquitectos: </b>Emile Jéquier, Manuel Cifuentes."
+                },
+                "a3":{
+                    "text":"Tras su fundación el 21 de junio de 1888, la Universidad Católica de Chile inició su primer año académico el 31 de marzo de 1889, ofreciendo inicialmente cursos de leyes y matemáticas. Sin embargo, un incendio en el Círculo Católico en junio de 1891 destruyó por completo sus primeras instalaciones. Como respuesta, la universidad arrendó una casa en calle Bandera, pero en 1898 adquirió el edificio de la Unión Central en calle Agustinas 1038, transformando su teatro en un Aula Magna. Aunque estas nuevas instalaciones mejoraron la comodidad, el creciente número de alumnos llevó a la necesidad de construir nuevos edificios."
+                },
+                "i2":{
+                    "img":"uc/F2.jpg"
+                },
+                "i3":{
+                    "img":"uc/F3.jpg"
+                },
+                "a4":{
+                    "subTitle":"Palacio Universitario"
+                },
+                "a5":{
+                    "text":"La construcción del Palacio Universitario, contribuyó a la expansión oriental de Santiago y añadió un monumental edificio a los construidos en conmemoración del centenario de la Independencia de Chile, como el Museo de Bellas Artes o la Biblioteca Nacional. Durante esta época, la Universidad Católica atrajo a arquitectos europeos para colaborar en el diseño de una ciudad que reflejara los valores republicanos del país. El italiano Ignacio Cremonesi, vinculado a la Escuela de Arquitectura de la universidad, fue uno de estos arquitectos y diseñó el proyecto original del Palacio Universitario, que incluía instalaciones para varias facultades, un Patio de Honor, una Capilla, un Aula Magna, un patio central y un observatorio astronómico. Sin embargo, solo las instalaciones del Instituto de Humanidades (actual Centro de Extensión UC) se construyeron según su diseño original. A principios del siglo XX, el arquitecto francés Emile Jecquier asumió la responsabilidad de un nuevo diseño, tras el regreso de Cremonesi a Italia."
+                },
+                "i4":{
+                    "img":"uc/F4.jpg"
+                },
+                "i5":{
+                    "img":"uc/F5.jpg"
+                },
+                "a6":{
+                    "text":"Emile Jecquier y su discípulo, Manuel Cifuentes, diseñaron los planos del Palacio Universitario de la Universidad Católica de Chile, adaptándolos al ya construido <em>Instituto de Humanidades</em>. Este proyecto, que mantuvo la fachada unificada, se desarrolló en las cuatro hectáreas de terreno alrededor del esquema clásico de un cuadrado dividido en nueve partes, organizando la circulación a través de claustros y patios centrales. Aunque inicialmente solo se construyeron parcialmente dos patios junto al Instituto que daban a la Alameda, la primera piedra se colocó en 1910 y la construcción se completó en 1917. La nueva sede albergaba una capilla, una biblioteca para 60 mil libros y una sala para actos oficiales. En el segundo piso, las oficinas del rector y prorrector fueron ubicadas y siguen ocupando ese espacio hasta el día de hoy."
+                },
+                "i6":{
+                    "img":"uc/F6.jpg"
+                },
+                "a7":{
+                    "subTitle":"siglo XXI"
+                },
+                "a8":{
+                    "text":"En los primeros años del siglo XXI, amplió su campus con la incorporación de nuevos edificios en los mismos terrenos. Entre ellos se encuentran las Facultades de Ciencias Biológicas, Comunicaciones, Derecho y Medicina. Aunque estas construcciones son modernas, se integran al esquema original basado en claustros. En 2006, se inició la construcción de un nuevo edificio llamado Plaza UC, conocido como Edificio del MBA. Durante su construcción, se descubrió una cava del siglo XIX que pertenecía a Francisco Lira Argomedo. En lugar de mantener la cava en su ubicación original, la universidad decidió exponerla en la superficie, al costado poniente del Centro de Extensión UC."
+                },
+                "a9":{
+                    "subTitle":"Casino Estudiantes"
+                },
+                "a10":{
+                    "text":"Situado en el patio de Derecho del Campus, es un pabellón vidriado de dos pisos con una terraza en la cubierta. Diseñado en contraste con el edificio patrimonial al que se anexa, el casino alberga el sector de comedores. Una doble altura interior conecta el espacio con el corredor que viene desde el norte, mientras que la transparencia del volumen en el primer piso establece una relación directa entre el interior y el exterior, buscando resaltar las cualidades espaciales de un lugar abierto. Desde el segundo y tercer piso, se establecen relaciones visuales significativas con los follajes de los árboles, permitiendo a los estudiantes aprovechar los beneficios en términos de confort térmico y visual, así como disfrutar de las vistas generadas por la presencia de la vegetación."
+                },
+                "i7":{
+                    "img":"uc/F7.jpg"  
+                },
+                "i8":{
+                    "img":"uc/F8.jpg"
+                },
+                "a11":{
+                    "text":"El pabellón está construido principalmente con materiales livianos como acero y vidrio, buscando transmitir una sensación de transparencia y liviandad. Este enfoque tiene como objetivo no competir con el edificio patrimonial existente, sino adosarse de manera respetuosa y sutil. Se han incorporado jardineras y bancas prefabricadas alrededor del pabellón, considerando un uso activo en el perímetro dada la intensidad de uso del patio. En la fachada sur, se encuentra una escalera exterior que proporciona acceso a la terraza de la cubierta."
+                },
+                "i9":{
+                    "img":"uc/F9.jpg"
+                },
+                "i10":{
+                    "img":"uc/F10.jpg"
+                },
+                "info":{
+                    "resume":"La construcción del Palacio Universitario, contribuyó a la expansión oriental de Santiago y añadió un monumental edificio a los construidos en conmemoración del centenario de la Independencia de Chile, como el Museo de Bellas Artes o la Biblioteca Nacional.",
+                    "tipo":"Neoclásica",
+                    "fuentes":["https://es.wikipedia.org/wiki/Casa_Central_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile","https://www.archdaily.cl/cl/898162/casino-estudiantes-casa-central-uc-omn-arquitectos"]
                 }
             },
             "iglesia":{
@@ -667,6 +876,11 @@
                 },
                 "a6":{
                     "img":"iglesia/F4.jpg"
+                },
+                "info":{
+                    "resume":"La iglesia de San Francisco de Borja, ex capilla o iglesia del Sagrado Corazón de Jesús del Hospital San Borja, es un templo católico neogótico de 1876 patrimonial, que está destinado al servicio religioso de Carabineros de Chile.",
+                    "tipo":"Neogótica",
+                    "fuentes":["https://es.wikipedia.org/wiki/Iglesia_de_San_Francisco_de_Borja_(Santiago_de_Chile)","https://patrimonio.bienes.cl/patrimonio/iglesia-san-francisco-de-borja/"]
                 }
             }
         },
@@ -714,6 +928,11 @@
                 },
                 "i5":{
                     "img":"fDerechoUChile/F2.jpg"
+                },
+                "info":{
+                    "resume":"El edificio de la Facultad de Derecho de la Universidad de Chile presenta un diálogo entre la arquitectura neoclásica historicista simplificada y la vanguardia expresada por la simplificación. Características neoclásicas, como machones de hormigón en lugar de pilares, zócalos, arcos de medio punto, remates y una escalinata monumental, coexisten con elementos modernos que reflejan la funcionalidad y uso interior del edificio.",
+                    "tipo":"Clásica, Moderna.",
+                    "fuentes":["https://www.archdaily.cl/cl/02-89428/clasicos-de-arquitectura-facultad-de-derecho-de-la-universidad-de-chile-juan-martinez-gutierrez","https://derecho.uchile.cl/facultad/presentacion/patrimonio-arquitectonico","https://amosantiago.cl/la-historia-del-edificio-de-la-facultad-de-derecho-de-la-u-de-chile-y-su-singular-torre-con-reloj/"]
                 }
             },
             "telefonica":{
@@ -749,6 +968,11 @@
                 },
                 "a9":{
                     "text":"Su acceso, a diferencia del resto del edificio, se encuentra por la avenida General Bustamante, siendo este casi imperceptible a la vista del transeúnte y siendo confundido a menudo como un edificio aparte. Los cinco pisos albergan en su mayoría al área empresas de Movistar. Está apartado del complejo por un atrio interior que alberga al Museo de las Telecomunicaciones, una segunda sala para exposiciones y el auditorium de la compañía, con capacidad para 300 personas. En su entrada, recientemente remodelada, se instalaron jardines de acceso público y una sucursal de la cafetería Starbucks. "
+                },
+                "info":{
+                    "resume":"La Torre Telefónica, también conocida como Distrito Movistar Chile, es un rascacielos ubicado en Providencia, Santiago de Chile, propiedad de la empresa de telecomunicaciones Movistar y funcionando como su centro de operaciones en el país.",
+                    "tipo":"Posmoderna",
+                    "fuentes":["https://es.wikipedia.org/wiki/Torre_Telef%C3%B3nica_(Chile)"]
                 }
             }
         },
@@ -827,7 +1051,14 @@
                 "a11":{
                     "text":"Este proyecto refleja fuertemente las tendencias modernistas extranjeras que marcaron el período posterior a la Segunda Guerra Mundial hasta los años 60, una fase de internacionalización de la arquitectura moderna que influyó significativamente en Chile. La transición hacia la modernización y desarrollo trajo consigo la adopción de modelos del mundo desarrollado, transformando rápidamente el paisaje urbano chileno. Este cambio se llevó a cabo a través de la influencia de arquitectos que viajaron al extranjero, como Sergio Larraín G.M. y Roberto Dávila, quienes aplicaron sus experiencias en Chile a través de publicaciones y obras. La presencia de arquitectos extranjeros en Chile también contribuyó al proceso de cambio, siendo la influencia de Le Corbusier especialmente destacada en la consolidación de nuevas ideas y en la transformación del diseño urbano y habitacional en la década del '50 y principios del '60."
                 },
-                "a12":{"img":"taj/F8.jpg"}
+                "a12":{
+                    "img":"taj/F8.jpg"
+                },
+                "info":{
+                    "resume":"Este proyecto refleja fuertemente las tendencias modernistas extranjeras que marcaron el período posterior a la Segunda Guerra Mundial hasta los años 60, una fase de internacionalización de la arquitectura moderna que influyó significativamente en Chile. La transición hacia la modernización y desarrollo trajo consigo la adopción de modelos del mundo desarrollado, transformando rápidamente el paisaje urbano chileno.",
+                    "tipo":"Modernista",
+                    "fuentes":["https://www.archdaily.cl/cl/02-126059/clasicos-de-arquitectura-torres-de-tajamar-luis-prieto-vial-b-v-c-h","https://es.wikipedia.org/wiki/Torres_de_Tajamar","https://wiki.ead.pucv.cl/Conjunto_Residencial_Torres_de_Tajamar_/_Providencia"]
+                }
             }
         },
         "status":1,
@@ -869,7 +1100,7 @@
                     }
                 },
                 "a1.1.1":{
-                    "desc":"<b>Fecha: </b> 13 de Julio de 2023. <br> <b>Dirección: </b> Av. Apoquindo 2730, Santiago de Chile.<br><b>Extención: </b> 160.000 m2<br><br><b>Territoria</b><br><b>Arquitectura Conceptual Fase 1: </b> KPF.<br><b>Desarrollo de proyecto: </b>Mobil, Seggiario<br><b>Diseño Conceptual: </b>Tony Chil.<br><b>Diseño Mercado: </b>Ray Chen.<br><b>Diseño: </b>CQ(Agustín Quiroga).<br><b>Paisajismo: </b>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
+                    "desc":"<b>Fecha: </b> 13 de Julio de 2023. <br> <b>Dirección: </b> Av. Apoquindo 2730, Santiago de Chile.<br><b>Área: </b> 160.000 m2<br><br><b>Territoria</b><br><b>Arquitectura Conceptual Fase 1: </b> KPF.<br><b>Desarrollo de proyecto: </b>Mobil, Seggiario<br><b>Diseño Conceptual: </b>Tony Chil.<br><b>Diseño Mercado: </b>Ray Chen.<br><b>Diseño: </b>CQ(Agustín Quiroga).<br><b>Paisajismo: </b>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
                 },
                 "a1.1":{
                     "text":"El proyecto arquitectónico, se sitúa en el emergente centro de negocios de Santiago, Chile, en la confluencia de las comunas de Las Condes y Providencia. Este ambicioso desarrollo, conocido como MUT, abarca la totalidad de la manzana conformada por Apoquindo, Encomenderos, Roger de Flor y el Bosque. Diseñado bajo un novedoso concepto de mercado, MUT fusiona gastronomía, cultura, oficinas y comercios en armonía con jardines, plazas y modos de transporte sostenibles. Su visión se orienta a anticipar el futuro de cómo experimentamos la ciudad, concebida como un campus urbano innovador."
@@ -915,6 +1146,11 @@
                 },
                 "a11":{
                     "text":"Esta semana se inauguró la conexión entre el Museo de Transporte Urbano (MUT) y la estación Tobalaba, una importante intersección de las líneas 4 y 1 del metro con un tráfico considerable, alcanzando las 50 mil personas por hora en los horarios pico y recibiendo anualmente a 23 millones de usuarios. La nueva conexión no solo facilita el acceso directo al MUT, sino que también añade tres nuevos accesos a Tobalaba, contribuyendo a aliviar la congestión en la estación. El proyecto, impulsado por el interés del metro en promover la intermodalidad, incorpora 2 mil estacionamientos para bicicletas en el MUT, incentivando la combinación de medios de transporte. Además, se planea extender esta iniciativa a todas las estaciones de la línea de metro en el próximo año. La conexión también incluirá espacios para exhibiciones culturales y vitrinas para artistas, con una inversión total de US$ 17 millones."
+                },
+                "info":{
+                    "resume":"El proyecto incorpora un sólido plan de sostenibilidad articulado en tres ejes fundamentales: plazas y áreas verdes, transporte limpio e innovaciones para el uso eficiente de los recursos naturales, incluyendo un programa de basura cero.",
+                    "tipo":"None",
+                    "fuentes":["https://territoria.cl/proyectos/mut-mercado-urbano-tobalaba/","https://mut.cl/acerca-de/nuestro-proyecto/","https://www.archdaily.cl/cl/976564/sostenibilidad-como-modo-de-vida-mut-el-nuevo-mercado-urbano-en-santiago-de-chile","https://www.arquitecturaydiseno.es/arquitectura/primer-mercado-urbano-chile-es-megaproyecto-que-vuelve-a-origenes_7348","http://arquitecturapaisaje.cl/portfolio/mut-mercado-urbano-tobalaba/"]
                 }
             },
             "Costanera":{
@@ -984,6 +1220,11 @@
                 },
                 "a16":{
                     "img":"Costanera/F6.jpg"
+                },
+                "info":{
+                    "resume":"Para ser visto delante de las montañas y convertirse en parte de la ciudad, la forma de la torre es simple y clara. Elevándose desde la esquina noroeste del complejo, próximo al Río Mapocho, las 64 plantas de la torre revestida de vidrio tiene una ligera forma cónica, forma delgada que culmina con una escultórica corona de celosía. Es una forma fuerte, capaz de convertirse en un punto de referencia.",
+                    "tipo":"Posmoderna",
+                    "fuentes":["https://es.wikipedia.org/wiki/Gran_Torre_Costanera","https://es.wikiarquitectura.com/edificio/gran-torre-santiago-torre-gran-costanera/"]
                 }
             },
             "cepal":{
@@ -1041,6 +1282,11 @@
                 },
                 "i2":{
                     "img":"Cepal/F2.jpg"
+                },
+                "info":{
+                    "resume":"La propuesta incorpora los valores geográficos del entorno mediante un volumen neutral con las dimensiones de una manzana del centro histórico: “La silueta del edificio, larga, horizontal y de poca altura, refleja la tradición arquitectónica chilena y la llanura del Valle Central. Los volúmenes escultóricos del centro son un eco de las masas montañosas, el otro elemento específico de la geografía del país”.",
+                    "tipo":"Brutalista",
+                    "fuentes":["https://www.archdaily.cl/cl/02-55751/clasicos-de-arquitectura-edificio-de-cepal-emilio-duhart","https://www.cepal.org/es/comunicados/edificio-naciones-unidas-chile-cumple-50-anos","https://es.wikipedia.org/wiki/Edificio_de_la_Cepal","https://hiddenarchitecture.net/cepal-building/"]
                 }
             },
             "consorcio":{
@@ -1091,6 +1337,11 @@
                 },
                 "i9":{
                     "img":"consorsio/F2.jpg"
+                },
+                "info":{
+                    "resume":"La clave del diseño del edificio se encuentra en el cuerpo central (pisos 4 al 15), donde se optó por protegerlo con una <em>doble piel vegetal</em> vertical. Se consideraron tres alternativas, pero la elección fue una estructura con trepadoras caducas separada 1,40 metros de la superficie del edificio.",
+                    "tipo":"None",
+                    "fuentes":["https://www.archdaily.cl/cl/02-14392/edificio-consorcio-sede-santiago-enrique-browne-borja-huidobro","https://arqa.com/arquitectura/sustentable/edificio-consorcio-santiago-14-anos-despues.html","https://blog.laminasyaceros.com/blog/edificio-consorcio-de-santiago-un-ejemplo-de-urbanismo-sustentable"]
                 }
             },
             "Parque Titanium":{
@@ -1132,6 +1383,11 @@
                 },
                 "i7":{
                     "img":"titanium/F5.jpg"
+                },
+                "info":{
+                    "resume":"Parque Titanium es un conjunto que persigue una arquitectura más eficiente en lo energético y amigable con el medio ambiente. El conjunto recupera un paño urbano decaído, delimitado por el lecho del río Mapocho y la Costanera Sur, para producir una renovación basada en la cooperación público-privada. El complejo, de tres edificios de veintitrés pisos cada uno, descansa sobre un parque público de cuatro hectáreas de extensión, cuyo paisajismo entra en conversación con el río.",
+                    "tipo":"None",
+                    "fuentes":["https://aslarquitectos.com/portfolio-item/parque-titanium/"]
                 }
             },
             "parqueBicentenario":{
@@ -1155,6 +1411,11 @@
                 },
                 "a5":{
                     "text":"El bosque se encuentra sobre el talud del parque y es acompañado por un sendero con miradores y estares con vistas únicas a la cordillera, el río Mapocho, cerros aledaños, y el parque."
+                },
+                "info":{
+                    "resume":"En 2023 un novedoso proyecto comenzó a tomar forma en el parque. Se trata de la implementación del bosque urbano, que involucra 7 hectáreas, en las que se plantaron mil 460 árboles que nos ayudarán a mitigar los efectos del cambio climático.",
+                    "tipo":"None",
+                    "fuentes":[]
                 }
             }
         },
@@ -1223,6 +1484,11 @@
                 },
                 "i7":{
                     "img":"cruzdelsur/F7.jpg"
+                },
+                "info":{
+                    "resume":"Ante la elevada densidad peatonal y la escasez de espacio público en la zona, la primera decisión del proyecto fue despejar al máximo el nivel del suelo, soterrando parte de la superficie comercial y retirando el resto hacia los bordes del terreno. Esto permitió la creación de una plaza interior accesible desde tres frentes.",
+                    "tipo":"Brutalista",
+                    "fuentes":["https://www.archdaily.cl/cl/733942/edificio-cruz-del-sur-izquierdo-lehmann","https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-69962009000300002","https://www.izquierdolehmann.com/proyectos/luis-izquierdo-w/edificio-cruz-del-sur/"]
                 }
             }
         },
@@ -1279,6 +1545,11 @@
                 },
                 "i5":{
                     "img":"teatroCultural/F5.jpg"
+                },
+                "info":{
+                    "resume":"El Centro Cultural CorpArtes, situado en un vibrante entorno urbano rodeado de imponentes torres de oficinas y un bullicioso paseo peatonal lleno de restaurantes, representa una oportunidad única para unificar activos urbanos dispersos e incorporarlos en un destino cultural integral.",
+                    "tipo":"None",
+                    "fuentes":["https://corpartes.cl/fundacion/centro-cultural-ca660/","https://www.archdaily.cl/cl/879279/teatro-y-centro-cultural-corpartes-renzo-zecchetto-architects"]
                 }
             }
         },

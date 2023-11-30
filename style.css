@@ -70,7 +70,7 @@ img{
 #header a{
     color: yellow;
     margin: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #descProy{
     position: relative;
@@ -208,6 +208,15 @@ img{
 .svgDesc{
     width: 2rem;
     height: 2rem;
+}
+.maps a{
+    color: black;
+}
+#fuentes{
+    margin: 1rem;
+    display: flex;
+    justify-content: right;
+    font-size: 0.7rem;
 }
 @media screen and (max-width: 1400px){
     #title{

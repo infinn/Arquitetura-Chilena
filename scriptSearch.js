@@ -14,7 +14,7 @@ jsonData.onreadystatechange = function(){
 function setProyectos(){
     let keyPost = Object.keys(JsonDatos);
     i = 0;
-    
+    let cont = 0
     const padrePost = document.getElementById("post");
     
     while(i < keyPost.length){
@@ -24,17 +24,20 @@ function setProyectos(){
             let proyectosKeys = Object.keys(JsonDatos[keyPost[i]]["post"]);
             console.log(proyectosKeys);
             e = 1;
+            
             while(e < proyectosKeys.length){
 
                 let nombre = JsonDatos[keyPost[i]]["post"][proyectosKeys[e]]["a1"]["title"];
                 let imagen = JsonDatos[keyPost[i]]["post"][proyectosKeys[e]]["i1"]["img"];
+                let desc = JsonDatos[keyPost[i]]["post"][proyectosKeys[e]]["info"]["resume"];
+                let tipo = JsonDatos[keyPost[i]]["post"][proyectosKeys[e]]["info"]["tipo"];
 
                 let post = document.createElement("article");
 
                 console.log(keyPost[i]);
                 /** estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]] */
                 let titulo = document.createElement("div");
-                titulo.innerHTML = '<div><h1>'+nombre+'</h1></div> <div><p>descripcion</p></div><div><p>Tipo</p></div>';
+                titulo.innerHTML = '<div><a><h1>'+nombre+'</h1></a></div><div><p>'+desc+'</p></div><div><p id="estilo"><b>Estilo:</b><em> '+tipo+'</em></p></div>';
                 titulo.setAttribute("id","title");
                 post.appendChild(titulo);
 
@@ -46,16 +49,28 @@ function setProyectos(){
 
 
                 post.setAttribute("class","contenedor");
-
                 padrePost.appendChild(post);
+                cont += 1;
                 e +=1;
-            }
+            };
             i += 1;
-        }
-    }
+        };
+    };
+    const parrafo = document.getElementById("descContador");
+    parrafo.innerHTML = "Este archivo contiene todos los hitos arquitectónicos de Santiago de Chile que tenemos a disposición. En total, contamos con ¡<b>"+cont+"</b> proyectos!. Puedes realizar búsquedas utilizando la sección a continuación. Utiliza el buscador ingresando el nombre del proyecto para encontrar la información que necesitas."
 }
 
 document.addEventListener("keyup", e=> {
-    e.target.matches("#Buscador")
 
+    if (e.target.matches("#Buscador")){
+
+        if (e.key =="Escape")e.target.value = ""
+
+        document.querySelectorAll(".contenedor").forEach(post =>{
+            
+            post.childNodes[0].childNodes[0].textContent.toLowerCase().includes(e.target.value.toLowerCase())
+            ?post.classList.remove("filtro")
+            :post.classList.add("filtro")
+        });
+    };
 })
