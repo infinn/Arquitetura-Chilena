@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: yellow;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 #header{
     display: flex;
@@ -48,9 +49,14 @@ body{
 #foto{
     width: 40%;
     margin: 1rem;
+    transition: 0.5s;
+    z-index: 1;
 }
 #foto img{
     width: 100%;
+}
+#foto:hover{
+    scale:1.05;
 }
 a {
     text-decoration: none;
@@ -67,6 +73,7 @@ a {
     background-color: black;
     color: yellow;
     font-size: 1rem;
+    
 }
 #BuscadorContenedor{
     width: 100%;
@@ -74,6 +81,7 @@ a {
     position: sticky;
     top: 0;
     background-color: black;
+    z-index: 2;
 }
 footer{
     background-color: yellow;
@@ -134,5 +142,11 @@ footer div{
     #contador p{
         width: 80%;
         
+    }
+    #foto:hover{
+        scale:none;
+    }
+    .main{
+        margin: 1rem;
     }
 }

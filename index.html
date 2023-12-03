@@ -14,39 +14,31 @@
 </head>
 <script src="script.js"></script> 
 <body>
+    <div id="preloader">
+        <div>
+            <h3>
+                CARGANDO
+            </h3>
+        </div>
+    </div>
     <div class="topBody">
-        <div id="header">
-            <div id="centrador">
+        <header id="header">
+            <nav id="centrador">
                 <div class="cincuenta">
                     <a>Logo</a>
                 </div>
-                    <div class="cincuenta" id="topright">
-                        <div>
-                            <div>
-                            <a href="#acerca">Acerca de</a>
-                        </div>
-                        <div>
-                            <a href="#how">Como funciona</a>
-                        </div>
-                        <div>
-                            <a href="#content">Ver arquitectura</a>
-                        </div>
-                        <div>
-                            <a href="search.html">Archivo</a>
-                        </div>
-                    </div>
-                    
+                <div class="cincuenta" id="topright">
+                    <a href="search.html">Archivo</a>
                 </div>
-            </div>
-            
-        </div>
-        <div>
-            <div class="mainTitle">
+            </nav>
+        </header>
+        <main>
+            <section class="mainTitle">
                 <div>
                     <h1>ARQUITECTURA CHILENA</h1>
                 </div>
-            </div>
-            <div id="descProy">
+            </section>
+            <section id="descProy">
                 <h2 id="acerca">
                     Acerca del proyecto
                 </h2>
@@ -55,8 +47,8 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae erat ac diam scelerisque varius. Quisque id urna a leo facilisis vestibulum. Duis luctus volutpat erat, vel sodales quam varius nec. Sed a nunc sit amet ex rutrum dictum eu quis tellus. Fusce pellentesque in libero a consequat. Donec pharetra turpis nec libero consequat aliquam. Nunc commodo, velit et mollis sagittis, sem erat bibendum turpis, a rhoncus libero ante at nisi.
                     Donec arcu massa, efficitur eget porta in, imperdiet sit amet lectus. In dignissim efficitur erat, a fringilla metus rhoncus vulputate. Morbi venenatis nibh vel justo viverra, eu tincidunt mauris mattis. Proin id ante quis leo fringilla tincidunt at sodales diam. Duis aliquam vulputate placerat. Cras neque metus, interdum eu mi vel, tincidunt aliquet nunc. Etiam venenatis neque et nulla tincidunt, vitae rutrum augue faucibus. Proin hendrerit, nisi a ultrices vulputate, arcu felis luctus tortor, vitae finibus ante quam id eros. Nulla faucibus ut dui id hendrerit. Pellentesque iaculis nibh vitae efficitur varius. Etiam pharetra tortor ex, a tincidunt quam imperdiet eget. Sed ut nunc in leo sodales lobortis.sit amet. 
                 </p>
-            </div>
-            <div id="test">
+            </section>
+            <section id="test">
                 <div id="test1">
                     <img src="fotos/Cepal/F1.jpg" alt="CEPAL">
                 </div>
@@ -65,15 +57,14 @@
                     <img src="fotos/Cepal/F7.jpg" alt="CEPAL">
                     <img src="fotos/Cepal/F2.jpg" alt="CEPAL">
                 </div>
-            </div>
-            <div id="test">
+            </section>
+            <section id="test">
                 <div>
                     <img src="fotos/mut/F2.jpg" alt="">
                     <img src="fotos/mut/F5.jpg" alt="">
                 </div>
-            
-            </div>
-            <div id="descProy">
+            </section>
+            <section id="descProy">
                 <h2 id="how">
                     Como funciona
                 </h2>
@@ -81,8 +72,8 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae erat ac diam scelerisque varius. Quisque id urna a leo facilisis vestibulum. Duis luctus volutpat erat, vel sodales quam varius nec. Sed a nunc sit amet ex rutrum dictum eu quis tellus. Fusce pellentesque in libero a consequat. Donec pharetra turpis nec libero consequat aliquam. Nunc commodo, velit et mollis sagittis, sem erat bibendum turpis, a rhoncus libero ante at nisi. 
                 </p>
-            </div>
-            <div id="test">
+            </section>
+            <section id="test">
                 <div id="test1">
                     <img src="fotos/portales/F1.jpg" alt="">
                 </div>
@@ -92,89 +83,55 @@
                     <img src="fotos/portales/F4.jpg" alt="">
                     <img src="fotos/portales/F14.jpg" alt="">
                 </div>
-            </div>
-        </div>
-        
-    </div>
-    <div class="maps">
-        <div id="content">
-            <div id="top">
-                <select name="Estacion" id="Estacion" onchange="cambioPost()">
-                </select>
-            </div>
-            <article id="main">
-                <div id="post">
-                    <div>
-                        <div id="title"><h2 id="title">¿Como funciona?</h2></div>
-                        <div id="text">
-                            <p>
-                                El procedimiento es bastante sencillo; simplemente debes hacer clic en la parte superior donde se indica <b>"Estación Metro Línea 1"</b>. Se desplegará una serie de opciones entre las cuales deberás elegir la estación de metro en la que te encuentres o aquella que desees visitar. (Solo se muestran las estaciones correspondientes a la línea 1 del metro de Santiago; aquellas que no aparezcan es porque no cuentan con hitos cercanos o aún no se han agregado). Una vez seleccionada, se mostrarán los hitos arquitectónicos próximos a la estación, acompañados de fotografías y explicaciones detalladas de cada proyecto. Además, se proporcionará información sobre la dirección, comuna y las indicaciones para llegar desde la estación que hayas seleccionado.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div id="title"><a href="search.html"><h2 id="title">Ver todo</h2></div></a>
-                        <div id="text">
-                            <p>Para explorar todos los hitos arquitectónicos disponibles, <a href="search.html"><b>haz clic aquí</b></a> o en el enlace que indica "ver todo". Serás redirigido a una sección que alberga todos los proyectos archivados, permitiéndote filtrar según el nombre o estilo arquitectónico que prefieras.</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </div>
-    <div id="end">
-        <div id="header">
-            <div id="centrador">
-                <div class="cincuenta">
-                    <a>Logo</a>
-                </div>
-                    <div class="cincuenta" id="topright">
-                        <div>
+            </section>
+            <section class="maps">
+                <div id="content">
+                    <nav id="top">
+                        <select name="Estacion" id="Estacion" onchange="cambioPost()">
+                        </select>
+                    </nav>
+                    <section id="main">
+                        <div id="post">
                             <div>
-                            <a href="#acerca">Acerca de</a>
+                                <div id="title"><h2 id="title">¿Como funciona?</h2></div>
+                                <div id="text">
+                                    <p>
+                                        El procedimiento es bastante sencillo; simplemente debes hacer clic en la parte superior donde se indica <b>"Estación Metro Línea 1"</b>. Se desplegará una serie de opciones entre las cuales deberás elegir la estación de metro en la que te encuentres o aquella que desees visitar. (Solo se muestran las estaciones correspondientes a la línea 1 del metro de Santiago; aquellas que no aparezcan es porque no cuentan con hitos cercanos o aún no se han agregado). Una vez seleccionada, se mostrarán los hitos arquitectónicos próximos a la estación, acompañados de fotografías y explicaciones detalladas de cada proyecto. Además, se proporcionará información sobre la dirección, comuna y las indicaciones para llegar desde la estación que hayas seleccionado.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="title"><a href="search.html"><h2 id="title">Ver todo</h2></div></a>
+                                <div id="text">
+                                    <p>Para explorar todos los hitos arquitectónicos disponibles, <a href="search.html"><b>haz clic aquí</b></a> o en el enlace que indica "ver todo". Serás redirigido a una sección que alberga todos los proyectos archivados, permitiéndote filtrar según el nombre o estilo arquitectónico que prefieras.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <a href="#how">Como funciona</a>
-                        </div>
-                        <div>
-                            <a href="#main">Ver arquitectura</a>
-                        </div>
-                        <div>
-                            <a href="search.html">Archivo</a>
-                        </div>
-                    </div>
-                    
+                    </section>
                 </div>
-            </div>
-            
-        </div>
-        <div class="mainTitle">
-            <div>
-                <h1>COLABOLADORES</h1>
-            </div>
-        </div>
-        <div id="descProy">
-            <h2 id="acerca">
-                Acerca del proyecto
-            </h2>
-            <hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae erat ac diam scelerisque varius. Quisque id urna a leo facilisis vestibulum. Duis luctus volutpat erat, vel sodales quam varius nec. Sed a nunc sit amet ex rutrum dictum eu quis tellus. Fusce pellentesque in libero a consequat. Donec pharetra turpis nec libero consequat aliquam. Nunc commodo, velit et mollis sagittis, sem erat bibendum turpis, a rhoncus libero ante at nisi.
-                Donec arcu massa, efficitur eget porta in, imperdiet sit amet lectus. In dignissim efficitur erat, a fringilla metus rhoncus vulputate. Morbi venenatis nibh vel justo viverra, eu tincidunt mauris mattis. Proin id ante quis leo fringilla tincidunt at sodales diam. Duis aliquam vulputate placerat. Cras neque metus, interdum eu mi vel, tincidunt aliquet nunc. Etiam venenatis neque et nulla tincidunt, vitae rutrum augue faucibus. Proin hendrerit, nisi a ultrices vulputate, arcu felis luctus tortor, vitae finibus ante quam id eros. Nulla faucibus ut dui id hendrerit. Pellentesque iaculis nibh vitae efficitur varius. Etiam pharetra tortor ex, a tincidunt quam imperdiet eget. Sed ut nunc in leo sodales lobortis.sit amet. 
-            </p>
-        </div>
-        <div id="test">
-            <div id="test1">
-                <img src="fotos/Cepal/F1.jpg" alt="CEPAL">
-            </div>
-            <div id="test2">
-                <img src="fotos/Cepal/F5.jpg" alt="CEPAL">
-                <img src="fotos/Cepal/F7.jpg" alt="CEPAL">
-                <img src="fotos/Cepal/F2.jpg" alt="CEPAL">
-            </div>
-        </div>
+            </section>
+            <section id="descProy">
+                <h2 id="acerca">
+                    Acerca del proyecto
+                </h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae erat ac diam scelerisque varius. Quisque id urna a leo facilisis vestibulum. Duis luctus volutpat erat, vel sodales quam varius nec. Sed a nunc sit amet ex rutrum dictum eu quis tellus. Fusce pellentesque in libero a consequat. Donec pharetra turpis nec libero consequat aliquam. Nunc commodo, velit et mollis sagittis, sem erat bibendum turpis, a rhoncus libero ante at nisi.
+                    Donec arcu massa, efficitur eget porta in, imperdiet sit amet lectus. In dignissim efficitur erat, a fringilla metus rhoncus vulputate. Morbi venenatis nibh vel justo viverra, eu tincidunt mauris mattis. Proin id ante quis leo fringilla tincidunt at sodales diam. Duis aliquam vulputate placerat. Cras neque metus, interdum eu mi vel, tincidunt aliquet nunc. Etiam venenatis neque et nulla tincidunt, vitae rutrum augue faucibus. Proin hendrerit, nisi a ultrices vulputate, arcu felis luctus tortor, vitae finibus ante quam id eros. Nulla faucibus ut dui id hendrerit. Pellentesque iaculis nibh vitae efficitur varius. Etiam pharetra tortor ex, a tincidunt quam imperdiet eget. Sed ut nunc in leo sodales lobortis.sit amet. 
+                </p>
+            </section>
+            <section id="test">
+                <div id="test1">
+                    <img src="fotos/Cepal/F1.jpg" alt="CEPAL">
+                </div>
+                <div id="test2">
+                    <img src="fotos/Cepal/F5.jpg" alt="CEPAL">
+                    <img src="fotos/Cepal/F7.jpg" alt="CEPAL">
+                    <img src="fotos/Cepal/F2.jpg" alt="CEPAL">
+                </div>
+            </section>
+        </main>
     </div>
-    
     <footer>
         <div>
             <a>Legal</a>
@@ -183,12 +140,11 @@
             <a>FeedBack</a>
         </div>
         <div>
-            <a>Developer</a>
+            <a href="https://infinn.github.io/" target="_blank" >Developer</a>
         </div>
         <div>
             <p><em>Version: MVP 0.5</em></p>
         </div>
     </footer>
 </body>
-
 </html>

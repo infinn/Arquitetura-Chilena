@@ -42,7 +42,7 @@ function setProyectos(){
 
 
                 let foto = document.createElement("div");
-                foto.innerHTML = '<a href="post.html?est='+keyPost[i]+'&post='+proyectosKeys[e]+'"><img src="fotos/'+imagen+'"></a>';
+                foto.innerHTML = '<a href="post.html?est='+keyPost[i]+'&post='+proyectosKeys[e]+'"><img src="fotos/'+imagen+'" alt="'+nombre+'"></a>';
                 foto.setAttribute("id", "foto");
                 post.appendChild(foto);
 
