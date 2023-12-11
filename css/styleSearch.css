@@ -4,23 +4,39 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-#header{
+/*
+    ======= header ==========
+*/
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+    z-index: 3;
+    background-color: black;
+    border-bottom: solid yellow 1px;
+}
+header a{
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: yellow;
+}
+header #centrador{
+    padding: 1rem;
+    width: 100%;
     display: flex;
     position: sticky;
     top: 0;
-    font-size: 0.8rem;
+    color: yellow;
 }
-#contA div{
-    margin: 1rem;
-}
-#centrador{
-    display: flex;
-    width: 100%;
-}
-#topright{
+#contA{
     display: flex;
     justify-content: right;
 }
+/*
+    ===== X header X ========
+*/
 .contenedor{
     display: flex;
     width: 100%;
@@ -73,44 +89,71 @@ a {
     background-color: black;
     color: yellow;
     font-size: 1rem;
-    
 }
 #BuscadorContenedor{
     width: 100%;
     display: flex;
     position: sticky;
-    top: 0;
+    top: 3rem;
     background-color: black;
     z-index: 2;
 }
+/* ========= footer =======*/
 footer{
     background-color: yellow;
-    color: black;
     font-size: 1rem;
     font-weight: 600;
+    padding-top: 1rem;
+}
+footer a{
+    color: black;
 }
 footer div{
     padding: 1rem;
 }
+footer p{
+    font-size: 0.8rem;
+    color: gray;
+}
+/* ========= footer =======*/
 #estilo{
     font-size: 0.8rem;
     color: rgb(173, 173, 1);
 }
 #mainText{
+    justify-content: bottom;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    font-size: 8dvw;
     display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
     justify-content: center;
+}
+#mainText h2{
+    position: absolute;
+    bottom: 0;
+    font-size: 8dvw;
+    margin: 0;
+    z-index: -1;
 }
 #contador{
     display: flex;
     justify-content: center;
-    margin-bottom: 10dvh;
+    padding-bottom: 50dvh;
+    color: white;
 }
-#contador p{
+#contador div{
     width: 50%;
-    
+}
+#proyectos{
+    display: block;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 50dvh;
+    border-bottom: solid 1px yellow;
 }
 @media screen and (max-width: 1100px){
     #post{
@@ -139,7 +182,7 @@ footer div{
     .filtro{
         display: none;
     }
-    #contador p{
+    #contador div{
         width: 80%;
         
     }

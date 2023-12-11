@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+main{
+    padding: 1rem;
+    display: flex;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: black;
+    color: yellow;
+}
+img{
+    width: 100%;
+}
+.recorridos{
+    margin: 1rem;
+    width: 30%;
+    border:  1px solid yellow;
+}
+#llevame{
+    display: flex;
+    border: 1px solid yellow;
+    cursor: pointer;
+    justify-content: center;
+}
+#contenido{
+    padding: 1rem;
+    justify-content: right;
+}
+#texto{
+    width: 100%;
+}
+#texto h1{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 4dvw;
+    margin: 0;
+}
+#boton{
+    width: 50%;
+}
+#fecha{
+    font-size: 0.8rem;
+    margin: 0;
+}

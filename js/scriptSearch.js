@@ -71,5 +71,6 @@ document.addEventListener("keyup", e=> {
             ?post.classList.remove("filtro")
             :post.classList.add("filtro")
         });
+        
     };
 })

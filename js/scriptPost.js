@@ -77,15 +77,6 @@ function setProyectos(){
                     articulo.setAttribute("id","transporte");
                     post.appendChild(articulo);
                     i += 1;
-                }   else if(tipo[0] == "trans"){
-                    let articulo = document.createElement("div");
-                    let bici = estacionDatos["post"][postId][KeysPost[i]][tipo[0]]["bici"];
-                    let bus = estacionDatos["post"][postId][KeysPost[i]][tipo[0]]["bus"];
-                    let walk = estacionDatos["post"][postId][KeysPost[i]][tipo[0]]["walk"];
-                    articulo.innerHTML = '<div id="desc2"><img src="data/Bici.svg" class="svgDesc"/><p><b>'+bici+'</b> min.</p><img src="data/Caminando.svg" class="svgDesc"/><p><b>'+walk+'</b> min.</p><img src="data/Bus.svg" class="svgDesc"/> <p><b>'+bus+'</b> min.</p></div>';
-                    articulo.setAttribute("id","transporte");
-                    post.appendChild(articulo); 
-                    i += 1;
                 }   else if(tipo[0] == "resume"){
                     let fuentes = estacionDatos["post"][postId][KeysPost[i]]["fuentes"];
                     let a = 0;

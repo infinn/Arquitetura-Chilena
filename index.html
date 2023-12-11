@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Vina+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<script src="script.js"></script> 
+<script src="js/script.js"></script> 
 <body>
     <div id="preloader">
         <div>
@@ -22,13 +22,17 @@
         </div>
     </div>
     <div class="topBody">
-        <header id="header">
+        <header>
             <nav id="centrador">
                 <div class="cincuenta">
-                    <a>Logo</a>
+                    <a  href="index.html">Logo</a>
                 </div>
                 <div class="cincuenta" id="topright">
-                    <a href="search.html">Archivo</a>
+                    <div id="contA">
+                        <div>
+                            <a href="Buscar.html">Archivo</a>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -50,18 +54,20 @@
             </section>
             <section id="test">
                 <div id="test1">
-                    <img src="fotos/Cepal/F1.jpg" alt="CEPAL">
+                    
+                    <a href="post.html?est=Tobalaba&post=cepal"><img src="fotos/Cepal/F1.jpg" alt="CEPAL"></a>
                 </div>
                 <div id="test2">
-                    <img src="fotos/Cepal/F5.jpg" alt="CEPAL">
-                    <img src="fotos/Cepal/F7.jpg" alt="CEPAL">
-                    <img src="fotos/Cepal/F2.jpg" alt="CEPAL">
+                    <a href="post.html?est=Tobalaba&post=cepal"><img src="fotos/Cepal/F5.jpg" alt="CEPAL"></a>
+                    <a href="post.html?est=Tobalaba&post=cepal"><img src="fotos/Cepal/F7.jpg" alt="CEPAL"></a>
+                    <a href="post.html?est=Tobalaba&post=cepal"><img src="fotos/Cepal/F2.jpg" alt="CEPAL"></a>
+                    
                 </div>
             </section>
             <section id="test">
                 <div>
-                    <img src="fotos/mut/F2.jpg" alt="">
-                    <img src="fotos/mut/F5.jpg" alt="">
+                    <a href="post.html?est=Tobalaba&post=MUT"><img src="fotos/mut/F2.jpg" alt="MUT"></a>
+                    <a href="post.html?est=Tobalaba&post=MUT"><img src="fotos/mut/F5.jpg" alt="MUT"></a>
                 </div>
             </section>
             <section id="descProy">
@@ -75,13 +81,13 @@
             </section>
             <section id="test">
                 <div id="test1">
-                    <img src="fotos/portales/F1.jpg" alt="">
+                    <a href="post.html?est=San Alberto Hurtado&post=diegoPortales"><img src="fotos/portales/F1.jpg" alt="Unidad Vecinal Portales"></a>
                 </div>
                 <div id="test2">
-                    <img src="fotos/portales/F5.jpg" alt="">
-                    <img src="fotos/portales/F7.jpg" alt="">
-                    <img src="fotos/portales/F4.jpg" alt="">
-                    <img src="fotos/portales/F14.jpg" alt="">
+                    <a href="post.html?est=San Alberto Hurtado&post=diegoPortales"><img src="fotos/portales/F5.jpg" alt="Unidad Vecinal Portales"></a>
+                    <a href="post.html?est=San Alberto Hurtado&post=diegoPortales"><img src="fotos/portales/F7.jpg" alt="Unidad Vecinal Portales"></a>
+                    <a href="post.html?est=San Alberto Hurtado&post=diegoPortales"><img src="fotos/portales/F4.jpg" alt="Unidad Vecinal Portales"></a>
+                    <a href="post.html?est=San Alberto Hurtado&post=diegoPortales"><img src="fotos/portales/F14.jpg" alt="Unidad Vecinal Portales"></a>
                 </div>
             </section>
             <section class="maps">
@@ -101,9 +107,9 @@
                                 </div>
                             </div>
                             <div>
-                                <div id="title"><a href="search.html"><h2 id="title">Ver todo</h2></div></a>
+                                <div id="title"><a href="Buscar.html"><h2 id="title">Ver todo</h2></div></a>
                                 <div id="text">
-                                    <p>Para explorar todos los hitos arquitectónicos disponibles, <a href="search.html"><b>haz clic aquí</b></a> o en el enlace que indica "ver todo". Serás redirigido a una sección que alberga todos los proyectos archivados, permitiéndote filtrar según el nombre o estilo arquitectónico que prefieras.</p>
+                                    <p>Para explorar todos los hitos arquitectónicos disponibles, <a href="Buscar.html"><b>haz clic aquí</b></a> o en el enlace que indica "ver todo". Serás redirigido a una sección que alberga todos los proyectos archivados, permitiéndote filtrar según el nombre o estilo arquitectónico que prefieras.</p>
                                 </div>
                             </div>
                         </div>
@@ -133,17 +139,19 @@
         </main>
     </div>
     <footer>
+        <nav>
+            <div>
+                <a>FeedBack</a>
+            </div>
+            <div>
+                <a href="https://infinn.github.io/" target="_blank" >Desarrollado por InFinn</a>
+            </div>
+            <div>
+                <a>Github</a>
+            </div>
+        </nav>
         <div>
-            <a>Legal</a>
-        </div>
-        <div>
-            <a>FeedBack</a>
-        </div>
-        <div>
-            <a href="https://infinn.github.io/" target="_blank" >Developer</a>
-        </div>
-        <div>
-            <p><em>Version: MVP 0.5</em></p>
+            <p>Version: MVP 0.5</p>
         </div>
     </footer>
 </body>
