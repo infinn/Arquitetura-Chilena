@@ -158,6 +158,26 @@ footer p{
     font-size: 0.8rem;
     color: gray;
 }
+#mapa{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+#mapa a{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border: solid 1px black;
+    transition: 0.5s;
+}
+#mapa p{
+    font-size: 1rem;
+    font-weight: 800;
+}
+#mapa a:hover{
+    background-color: black;
+    color: yellow;
+}
 /* ========= footer =======*/
 
 @media screen and (max-width: 1400px){
@@ -203,7 +223,9 @@ footer p{
         width: 1.5rem;
         height: 1.5rem;
     }
-    
+    #mapa a{
+        width: 60%;
+    }
 }
 @media screen and (max-width: 800px){
     #text p{
@@ -221,5 +243,8 @@ footer p{
     }
     #title{
         padding: 0;
+    }
+    #mapa a{
+        width: 85%;
     }
 }

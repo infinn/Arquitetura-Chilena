@@ -60,7 +60,7 @@ function setProyectos(){
                     post.appendChild(articulo);
                     i += 1;
                 }   else if(tipo[0] == "subTitle"){
-                let articulo = document.createElement("div");
+                    let articulo = document.createElement("div");
                     articulo.innerHTML = '<h2>'+estacionDatos["post"][postId][KeysPost[i]][tipo[0]]+'</h2>';
                     articulo.setAttribute("id","subTitle");
                     post.appendChild(articulo);
@@ -87,9 +87,15 @@ function setProyectos(){
                         articulo.setAttribute("id","fuentes");
                         post.appendChild(articulo); 
                         a += 1;
-                        }
-                        i += 1;
-                } else {
+                        };
+                    i += 1;
+                }   else if(tipo[0] == "ubi"){
+                    let articulo = document.createElement("div");
+                    articulo.innerHTML = '<a href="'+estacionDatos["post"][postId][KeysPost[i]][tipo[0]]+'" target="_blank"><div><p>Mapa</p></div></a>';
+                    articulo.setAttribute("id","mapa");
+                    post.appendChild(articulo);
+                    i += 1;
+                }   else {
                     i += 1;
                 };
             };

@@ -83,9 +83,11 @@ window.onscroll = function() {
     }
 };
 function scroll() {
-    let p = document.getElementById("scroll");
-    p.style.opacity = "1";
-    checkScroll = false;
+    if(window.scrollY < 200){
+        let p = document.getElementById("scroll");
+        p.style.opacity = "1";
+        checkScroll = false;
+    };
 };
 window.onload = function(){
     setTimeout(() => {
