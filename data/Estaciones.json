@@ -54,7 +54,6 @@
                     "text":"Autor: Niños Taller Teletón guiado por Jorge Artus<br>Fecha: 2008<br>Fue el primer niño símbolo de la Teletón y hoy es un pintor de un estilo muy definido y de una incansable capacidad de gestión. Fue Artus quien movilizó a todas las personas que fue necesario para conseguir un espacio en una estación de Metro para crear una obra. Cuando finalmente lo consiguió, desistió de su idea original y prefirió invitar a los niños del Taller de Arte de la Teletón a crear estos cuatro murales ubicados en la estación Ecuador, la que lleva precisamente hasta el Instituto de Rehabilitación Infantil de Santiago."
                 }
             }
-            
         },
         "status":0,
         "Ubicación":"Alameda con Purísima",
@@ -73,6 +72,16 @@
                 },
                 "i1":{
                     "img":"portales/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":6,
+                        "bus":14,
+                        "walk":14
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/K5xroq1mBuijAXCR9"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1968. <br> <b>Dirección: </b>9170459 Estación Central, Región Metropolitana.<br><br><b>Arquitectos: </b>BVCH (Bresciani, Valdés, Castillo, Huidobro)."
@@ -177,6 +186,16 @@
                 "i1":{
                     "img":"museoMemoria/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":7,
+                        "bus":8,
+                        "walk":20
+                    }
+                },
+                "a.0.1":{
+                    "ubi":"https://maps.app.goo.gl/SiHXQgMKE2eHWjrE8"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>2009. <br> <b>Dirección: </b>Av. Matucana 501, 8500000 Santiago, Región Metropolitana.<br><b>Área: </b>10.900 m2<br><br><b>Arquitectos: </b>Mario Figueroa, Lucas Fehr y Carlos Dias."
                 },
@@ -238,6 +257,16 @@
                 "i1":{
                     "img":"facultadEconomia/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":1
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/GRDSNvZf9kpruRV66"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>2021. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins, 9170022 Estación Central, Región Metropolitana.<br><b>Área: </b> 13.150 m2<br><br><b>Arquitectos: </b>Marsino Arquitectura."
                 },
@@ -286,6 +315,16 @@
                 },
                 "i1":{
                     "img":"pabellon/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":8,
+                        "bus":15,
+                        "walk":20
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/53e8LTj4bCBkbAw19"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1889. <br> <b>Dirección: </b>Av Portales 3530, Santiago, Estación Central, Región Metropolitana.<br><b>Área: </b>2.000 m2<br><br><b>Arquitectos: </b>Henri Picq."
@@ -418,6 +457,16 @@
                 "i1":{
                     "img":"uChile/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":1
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/nmvVwfsmTQvzu52b9"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>1872. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 1058, Santiago, Región Metropolitana.<br><br><b>Arquitectos: </b>Lucien Hénault(1857 - 1863) Fermín Vivaceta(1863 - 1872)."
                 },
@@ -445,6 +494,16 @@
                 },
                 "i1":{
                     "img":"catedral/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":2,
+                        "bus":8,
+                        "walk":10
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/3EDyp24ptMJuyj3J8"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1800. <br> <b>Dirección: </b>Pl. de Armas 498, 8320341 Santiago, Región Metropolitana.<br><br><b>Arquitectos: </b>Matías Vásquez de Acuña, Joaquín Toesca, Ignacio Cremonesi."
@@ -507,6 +566,16 @@
                 "i1":{
                     "img":"metroPlazaArmas/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":3,
+                        "bus":8,
+                        "walk":11
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/fJx5iMVb4mDmfVvq8"
+                },
                 "a3":{
                     "desc":"<b>Fecha: </b>2020. <br> <b>Dirección: </b>P.º Puente 598-504, Santiago, Región Metropolitana.<br><b>Área: </b>4.115 m2.<br><br><b>arquitecto: </b>Beals Lyon Arquitectos."
                 },
@@ -556,6 +625,16 @@
                 "i1":{
                     "img":"instituto/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":2
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/FVsRAS5k2aK5h5Nb7"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>1962. <br> <b>Dirección: </b>Arturo Prat 33, 8330109 Santiago, Región Metropolitana.<br><b>Área: </b> 40.000 m2<br><br><b>Arquitecto: </b> José Llambías Merchant."
                 },
@@ -596,6 +675,16 @@
                 "i1":{
                     "img":"bolsa/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":3,
+                        "walk":3
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/iAEg9QHWV4hcGH67A"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>1917. <br> <b>Dirección: </b>La Bolsa 64, Santiago, Región Metropolitana.<br><br><b>Arquitecto: </b>Emile Jéquier."
                 },
@@ -632,6 +721,16 @@
                 },
                 "i1":{
                     "img":"tribunales/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":2,
+                        "bus":10,
+                        "walk":10
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/7PiwagyrSpzqsS9h6"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1911. <br> <b>Dirección: </b>Compañía de Jesús 1140, 8340370 Santiago, Región Metropolitana.<br><br><b>Arquitecto: </b>Emilio Doyère."
@@ -672,6 +771,16 @@
                 },
                 "i1":{
                     "img":"ed/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":3,
+                        "bus":10,
+                        "walk":11
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/ioSJvtyoWtfoSCwk6"
                 },
                 "a3":{
                     "text":"En un comienzo, se contaba con un terreno de aproximadamente tres cuartos del que se usó finalmente. Sería un edificio de 12 pisos donde los 4 primeros, insertos en un volumen horizontal, estarían destinados a comercio, mientras que los niveles superiores, dispuestos en una torre vertical, serían destinados a vivienda."
@@ -731,6 +840,16 @@
                 "i1":{
                     "img":"gabrielaMistral/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":3,
+                        "bus":2,
+                        "walk":3
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/K9hj1BxAUxCo5V62A"
+                },
                 "a0":{
                     "desc":"<b>Fecha: </b>2008. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 227, 8320275 Santiago, Región Metropolitana.<br><b>Área: </b> 44.000 m2<br><br><b>Arquitectos: </b> Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño; Cristián Fernández Arquitectos, Lateral Arquitectura & Diseño. "
                 },
@@ -788,6 +907,16 @@
                 },
                 "i1":{
                     "img":"uc/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":1
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/htj9XjSKwrjABZwN7"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1917. <br> <b>Dirección: </b>Av Alameda Libertador Bernardo O'Higgins 340, Santiago, Región Metropolitana.<br><b>arquitectos: </b>Emile Jéquier, Manuel Cifuentes."
@@ -859,6 +988,16 @@
                 "i1":{
                     "img":"iglesia/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":2,
+                        "bus":5,
+                        "walk":6
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/KPg1bNHqc6txz16WA"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>1876. <br> <b>Dirección: </b>Carabineros de Chile 160, 8330016 Santiago, Región Metropolitana.<br><br><b>Arquitecto: </b> Hovender Henry (o G. Hovenden Henry) o constructores franceses."
                 },
@@ -905,6 +1044,16 @@
                 "i1":{
                     "img":"fDerechoUChile/F1.jpg"
                 },
+                "a.0":{
+                    "trans":{
+                        "bici":2,
+                        "bus":6,
+                        "walk":7
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/kgHSvWGax52NbQDY8"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>1938. <br> <b>Dirección: </b>Pío Nono 1, 7520421 Providencia, Región Metropolitana.<br><br><b>Arquitecto: </b>Juan Martínez Gutiérrez."
                 },
@@ -941,6 +1090,16 @@
                 },
                 "i1":{
                     "img":"telefonica/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":1
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/bN7qoVpAqHUz3PqK8"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1996. <br> <b>Dirección: </b>Av. Providencia 111, 7500776 Providencia, Región Metropolitana.<br><b>Área: </b>63.000 m2<br><br><b>Arquitectos: </b>Iglesis Prat Arquitectos en colaboración con Mario Paredes & Arquitectos Asociados.<br><b>Ingeniero estructural: </b>René Lagos Engineers"
@@ -1005,6 +1164,16 @@
                 },
                 "i1":{
                     "img":"taj/F1.jpg"
+                },
+                "a.0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":2,
+                        "walk":5
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/NUybAQ17KJJgCk8f6"
                 },
                 "a3":{
                     "desc":"<b>Fecha: </b>1967. <br> <b>Dirección: </b> Av. Providencia 1100, Santiago, Chile.<br><b>Área: </b> 49.523 m2.<br><br><b>Arquitectos: </b> Luis Prieto Vial, B.V.C.H. ( Carlos Bresciani, Héctor Valdés, Fernando Castillo y Carlos Huidobro)."
@@ -1099,6 +1268,9 @@
                         "walk":1
                     }
                 },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/SwoSHutjXgnKTVBQA"
+                },
                 "a1.1.1":{
                     "desc":"<b>Fecha: </b> 13 de Julio de 2023. <br> <b>Dirección: </b> Av. Apoquindo 2730, Santiago de Chile.<br><b>Área: </b> 160.000 m2<br><br><b>Territoria</b><br><b>Arquitectura Conceptual Fase 1: </b> KPF.<br><b>Desarrollo de proyecto: </b>Mobil, Seggiario<br><b>Diseño Conceptual: </b>Tony Chil.<br><b>Diseño Mercado: </b>Ray Chen.<br><b>Diseño: </b>CQ(Agustín Quiroga).<br><b>Paisajismo: </b>Jaude Livingstone (Javiera Jaude y Paula Livingstone)."
                 },
@@ -1166,6 +1338,9 @@
                         "bus":0,
                         "walk":5
                     }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/okXnFi7CaWjwxmVE6"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>2013<br><b>Altura: </b>300m<br><b>Área: </b> 107.125 m2<br><b>Dirección: </b>Av. Andrés Bello 2425, 7510689 Providencia, Región Metropolitana<br><br><b>Arquitecto: </b>Cesar Pelli, Watt Internacional y Alemparte Barreda Arquitectos. <br><b>Ingeniero: </b>Thornton y Tomasetti.<br><b>Ingeniero estructural: </b>René Lagos y Asociados Ing. Civiles Ltda.<br><b>Constructora: </b>Salfa Corp."
@@ -1241,6 +1416,9 @@
                         "walk":25
                     }
                 },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/XLpYcm9fsMiVjzk2A"
+                },
                 "a3":{
                     "desc":"<b>Fecha: </b>1966. <br> <b>Dirección: </b>Dag Hammarskjold 3477, 7630670 Vitacura, Región Metropolitana.<br><b>Área: </b> 11.500 m2<br><br><b>Arquitecto: </b>Emilio Duhart."
                 },
@@ -1295,6 +1473,16 @@
                 },
                 "i1":{
                     "img":"consorsio/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":2,
+                        "bus":4,
+                        "walk":5
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/UPAyrrhuFMKuiD4z9"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>1990. <br> <b>Dirección: </b>Av. El Bosque 130, Piso 7, 7550288 Las Condes, Región Metropolitana.<br><b>Área: </b> 26.720 m2<br><br><b>Arquitectos: </b>Borja Huidobro, Enrique Browne; Enrique Browne, Borja Huidobro."
@@ -1351,6 +1539,16 @@
                 "i1":{
                     "img":"titanium/F1.jpg"
                 },
+                "a0":{
+                    "trans":{
+                        "bici":5,
+                        "bus":18,
+                        "walk":12
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/wyRBokiRfywrVEwaA"
+                },
                 "a2":{
                     "desc":"<b>Fecha: </b>2014<br><b>Dirección: </b>Av. Costanera Andrés Bello 2782, Las Condes<br><b>Área: </b>137.585 m2<br><br><b>Arquitecto: </b> Abraham Senerman L.<br><b>Jefe proyecto: </b>Andrés Weil P.<br><b>Equipo Desarrollo: </b>Pablo Aceituno, Pablo Bañados, David Butelman, Rodrigo Chamorro, Vicente Faúndez, Pedro Gil, Juan Francisco Piccardo, José Scacci y Omar Zeballos <br><b>Ingeniero estructural: </b> Alfonso Larraín V."
                 },
@@ -1396,6 +1594,16 @@
                 },
                 "i1":{
                     "img":"bicentenario/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":13,
+                        "bus":29,
+                        "walk":35
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/ozP7J4an3ptu52t87"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>2007-2014.<br><b>Dirección: </b>Av. Bicentenario 3236, Vitacura, Región Metropolitana.<br><b>Área: </b>27 hectaréas<br><br><b>Arquitecto: </b>Teodoro Fernández Larrañaga."
@@ -1448,6 +1656,16 @@
                 },
                 "i1":{
                     "img":"cruzdelsur/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":1,
+                        "bus":0,
+                        "walk":1
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/Z4uFUuScN7bQdg7v7"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>2009. <br> <b>Dirección: </b>Av. Apoquindo 4501-4549, 7580125 Las Condes, Región Metropolitana.<br><b>Área: </b> 43.129 m2.<br><br><b>Arquitecto: </b>Izquierdo Lehmann; Luis Izquierdo W., Antonia Lehmann S.B.<br><b>Cálculo estructural: </b>Santolaya Ingenieros Consultores.<br><b>Paisajismo: </b>Catalina Phillips, María José Labra."
@@ -1509,6 +1727,16 @@
                 },
                 "i1":{
                     "img":"teatroCultural/F1.jpg"
+                },
+                "a0":{
+                    "trans":{
+                        "bici":4,
+                        "bus":10,
+                        "walk":10
+                    }
+                },
+                "a0.1":{
+                    "ubi":"https://maps.app.goo.gl/zDhe5HBuWJMnyuno6"
                 },
                 "a2":{
                     "desc":"<b>Fecha: </b>2015. <br> <b>Dirección: </b>Rosario Nte 660, Las Condes, Región Metropolitana.<br><b>Área: </b>60.000 m2.<br><br><b>Arquitectos: </b> Renzo Zecchetto Architects."

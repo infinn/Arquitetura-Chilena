@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: black;
+}
+/* ========= footer =======*/
+footer{
+    background-color: yellow;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    user-select:none;
+}
+footer div{
+    padding: 1rem;
+}
+footer p{
+    font-size: 0.8rem;
+    color: gray;
+}
+/* ========= footer =======*/
+
+/*
+    ======= header ==========
+*/
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    user-select:none;
+    top: 0;
+    z-index: 3;
+    background-color: black;
+    border-bottom: solid yellow 1px;
+}
+header a{
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: yellow;
+}
+header #centrador{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    color: yellow;
+}
+#contA{
+    display: flex;
+    justify-content: right;
+}
+.cincuenta{
+    width: 50%;
+}
+/*
+    ===== X header X ========
+*/
+main{
+    display: block;
+    margin-top: 5rem;
+    color: yellow;
+}
+main section{
+    margin: 1rem;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 0.5rem;
+}
+form{
+    display: block;
+    width: 50%;
+    font-size: 1rem;
+}
+input, label, select, textarea{
+    margin: 1rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 800px){
+    form{
+        width: 80%;
+    }
+}

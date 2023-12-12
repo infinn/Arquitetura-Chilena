@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post</title>
+    <title>FeedBack</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Vina+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/stylePost.css">
+    
+    <link rel="stylesheet" href="css/styleFeedback.css">
 </head>
-<script src="js/scriptPost.js"></script> 
 <body>
     <header>
         <nav id="centrador">
@@ -27,18 +27,38 @@
             </div>
         </nav>
     </header>
-    <article id="main">
-        <h3 id="error">
-            404 NOT FOUND
-        </h3>
-    </article>
-    <div id="end">
-        <a href="Buscar.html#proyectos"><h2>mas proyectos</h2></a>
-    </div>
+    <main>
+        <section>
+            <div>
+                <h1>FeedBack</h1>
+            </div>
+        </section>
+        <section>
+            <form>
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="firstname" placeholder="Daniel...">
+            
+                <label for="lname">Correo</label>
+                <input type="text" id="lname" name="lastname" placeholder="ejemplo@ejemplo.cl">
+            
+                <label for="country">Contribucion</label>
+                <select id="country" name="country">
+                  <option value="australia">Error en post</option>
+                  <option value="canada">Peticion de cambio</option>
+                  <option value="usa">Otro</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="[1] Error en post -> Escriba el nombre del post junto con el error y las fuentes [2] Peticion de cambio -> Escriba el nombre del post junto tu peticion" style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+    </main>
     <footer>
         <nav>
             <div>
-                <a href="feedback.html">FeedBack</a>
+                <a>FeedBack</a>
             </div>
             <div>
                 <a href="https://infinn.github.io/" target="_blank" >Desarrollado por InFinn</a>
@@ -47,6 +67,7 @@
                 <a href="https://github.com/infinn/Arquitetura-Chilena" target="_blank">Github</a>
             </div>
         </nav>
+        
         <div>
             <p>Version: 1.0</p>
         </div>

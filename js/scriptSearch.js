@@ -73,4 +73,23 @@ document.addEventListener("keyup", e=> {
         });
         
     };
-})
+});
+let checkScroll = true;
+window.onscroll = function() {
+    if(window.scrollY > 200 && !checkScroll){
+        let p = document.getElementById("scroll");
+        p.style.opacity = "0";
+        checkScroll = true
+    }
+};
+function scroll() {
+    let p = document.getElementById("scroll");
+    p.style.opacity = "1";
+    checkScroll = false;
+};
+window.onload = function(){
+    setTimeout(() => {
+        scroll()
+    }, "2000");
+      
+}

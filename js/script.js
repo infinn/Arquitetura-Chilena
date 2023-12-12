@@ -149,7 +149,13 @@ function cambioPost(){
                         a += 1;
                     }
                     e += 1;
-            } else {
+            }   else if(tipo[0] == "ubi"){
+                    let articulo = document.createElement("div");
+                    articulo.innerHTML = '<a href="'+estacionDatos["post"][KeysPost[i]][sec[e]][tipo[0]]+'" target="_blank"><div><p>Mapa</p></div></a>';
+                    articulo.setAttribute("id","mapa");
+                    post.appendChild(articulo);
+                    e += 1;
+            }   else {
                 e += 1;
             };
         };
@@ -161,10 +167,29 @@ function cambioPost(){
     articulo.innerHTML = '<h2 id="title">¿Conoces mas proyectos? ¿Hay algun error?</h2>';
     articulo.setAttribute("id","title");
     let desc = document.createElement("div");
-    desc.innerHTML = '<p>Si conoces algún otro proyecto que te gustaría agregar, ponte en contacto con nosotros para poder incluirlo en el futuro. <b><a>Haz clic aquí.</a></b><br><br>Por otro lado, si encuentras algún error, ya sea de redacción o algún dato que no corresponda con la realidad, <b><a>Haz clic aquí.</a><b/></p>';
+    desc.innerHTML = '<p>Si conoces algún otro proyecto que te gustaría agregar, ponte en contacto con nosotros para poder incluirlo en el futuro. <b><a href="feedback.html">Haz clic aquí.</a></b><br><br>Por otro lado, si encuentras algún error, ya sea de redacción o algún dato que no corresponda con la realidad, <b><a href="feedback.html">Haz clic aquí.</a><b/></p>';
     desc.setAttribute("id","text");
     post.appendChild(articulo);
     post.appendChild(desc);
     
     padrePost.appendChild(post);
 };
+let checkScroll = true;
+window.onscroll = function() {
+    if(window.scrollY > 200 && !checkScroll){
+        let p = document.getElementById("scroll");
+        p.style.opacity = "0";
+        checkScroll = true
+    }
+};
+function scroll() {
+    let p = document.getElementById("scroll");
+    p.style.opacity = "1";
+    checkScroll = false;
+};
+window.onload = function(){
+    setTimeout(() => {
+        scroll()
+    }, "2000");
+      
+}

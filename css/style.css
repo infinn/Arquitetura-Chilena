@@ -18,6 +18,7 @@ footer{
     font-size: 1rem;
     font-weight: 600;
     padding-top: 1rem;
+    user-select:none;
 }
 footer div{
     padding: 1rem;
@@ -60,9 +61,10 @@ select{
     background-color: rgb(243, 241, 241);
     border: none;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 800;
     border-bottom: solid black 1px;
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 img{
     width: 60%;
@@ -74,6 +76,8 @@ img{
     top: 0;
     width: 100%;
     height: 100dvh;
+    user-select:none;
+    transition: opacity 1s ease-out;
 }
 .mainTitle div{
     display: flex;
@@ -88,6 +92,26 @@ img{
     color: yellow;
     margin: 0;
 }
+/* scroll msg */
+.mainTitle P{
+    position: absolute;
+    top: 40dvh;
+    font-size: 5dvw;
+    z-index: -1;
+    color: yellow;
+    margin: 0;
+    transition: 1s;
+    opacity: 0;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% {translate: 0px 0px;}
+    50% {translate: 0px 10px;}
+    100% {translate: 0px 0px;}
+}
+/* scroll msg */
 /*
     ======= header ==========
 */
@@ -95,7 +119,7 @@ header{
     display: flex;
     position: fixed;
     width: 100%;
-    
+    user-select:none;
     top: 0;
     z-index: 3;
     background-color: black;
@@ -258,6 +282,26 @@ header #centrador{
     justify-content: right;
     font-size: 0.7rem;
 }
+#mapa{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+#mapa a{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border: solid 1px black;
+    transition: 0.5s;
+}
+#mapa p{
+    font-size: 1rem;
+    font-weight: 800;
+}
+#mapa a:hover{
+    background-color: black;
+    color: yellow;
+}
 @media screen and (max-width: 1400px){
     #title{
         font-size: 4.4rem
@@ -288,7 +332,7 @@ header #centrador{
         font-size: 2rem;
         top: 3.2rem;
         justify-content: center;
-        background-color: white;
+        background-color: rgb(243, 241, 241);
         padding: 0.3rem;
         margin: 0;
     }
@@ -315,7 +359,9 @@ header #centrador{
         width: 1.5rem;
         height: 1.5rem;
     }
-    
+    #mapa a{
+        width: 60%;
+    }
 }
 @media screen and (max-width: 800px){
     #text p{
@@ -347,5 +393,11 @@ header #centrador{
     }
     #test img{
         padding: 0;
+    }
+    #mapa a{
+        width: 85%;
+    }
+    .mainTitle P{
+        font-size: 12dvw;
     }
 }

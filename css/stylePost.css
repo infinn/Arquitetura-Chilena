@@ -15,7 +15,7 @@ header{
     display: flex;
     position: fixed;
     width: 100%;
-    
+    user-select:none;
     top: 0;
     z-index: 3;
     background-color: black;
@@ -133,7 +133,7 @@ img{
     text-transform: uppercase;
     font-size: 6dvw;
     background-color: black; 
-    
+    user-select:none;
 }
 #end a{
     color: yellow;
@@ -149,6 +149,7 @@ footer{
     font-size: 1rem;
     font-weight: 600;
     padding-top: 1rem;
+    user-select:none;
 }
 footer div{
     padding: 1rem;

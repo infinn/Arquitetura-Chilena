@@ -11,7 +11,7 @@ header{
     display: flex;
     position: fixed;
     width: 100%;
-    
+    user-select:none;
     top: 0;
     z-index: 3;
     background-color: black;
@@ -89,6 +89,7 @@ a {
     background-color: black;
     color: yellow;
     font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 #BuscadorContenedor{
     width: 100%;
@@ -104,6 +105,7 @@ footer{
     font-size: 1rem;
     font-weight: 600;
     padding-top: 1rem;
+    user-select:none;
 }
 footer a{
     color: black;
@@ -130,6 +132,9 @@ footer p{
     width: 100%;
     height: 100dvh;
     justify-content: center;
+    user-select:none;
+    z-index: 0;
+    transition: opacity 1s ease-out;
 }
 #mainText h2{
     position: absolute;
@@ -143,8 +148,10 @@ footer p{
     justify-content: center;
     padding-bottom: 50dvh;
     color: white;
+    z-index: 2;
 }
 #contador div{
+    position: relative;
     width: 50%;
 }
 #proyectos{
@@ -155,6 +162,26 @@ footer p{
     margin-bottom: 50dvh;
     border-bottom: solid 1px yellow;
 }
+/* scroll msg */
+#mainText p{
+    position: absolute;
+    top: 40dvh;
+    font-size: 5dvw;
+    z-index: -1;
+    color: yellow;
+    margin: 0;
+    transition: 1s;
+    opacity: 0;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% {translate: 0px 0px;}
+    50% {translate: 0px 10px;}
+    100% {translate: 0px 0px;}
+}
+/* scroll msg */
 @media screen and (max-width: 1100px){
     #post{
         width: 100%;
@@ -191,5 +218,11 @@ footer p{
     }
     .main{
         margin: 1rem;
+    }
+    #mainText p{
+        font-size: 12dvw;
+    }
+    #mainText h2{
+        font-size: 12dvw;
     }
 }
