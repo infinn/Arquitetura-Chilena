@@ -192,6 +192,6 @@ function scroll() {
 window.onload = function(){
     setTimeout(() => {
         scroll()
-    }, "2000");
+    }, "3500");
       
 }
